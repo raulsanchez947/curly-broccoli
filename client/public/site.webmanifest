@@ -1,7 +1,7 @@
 {
-  "name": "Mimo app",
-  "short_name": "",
-  "description": "",
+  "name": "Apartment Help & Resources",
+  "short_name": "Apartment Help",
+  "description": "Find resources and get advice for apartment hunting",
   "start_url": "/",
   "scope": "/",
   "icons": [
@@ -20,5 +20,5 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "categories": ["productivity", "utilities"]
+  "categories": ["lifestyle", "utilities"]
 }
