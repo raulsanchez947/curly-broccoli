@@ -1,14 +1,20 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import { createServer } from 'http';
 import { setupStaticServing } from './static-serve.js';
+import { setupChat } from './chat.js';
 
 dotenv.config();
 
 const app = express();
+const httpServer = createServer(app);
 
 // Body parsing middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Setup chat with socket.io
+setupChat(httpServer);
 
 // example endpoint
 // app.get('/api/hello', (req: express.Request, res: express.Response) => {
@@ -21,7 +27,7 @@ export async function startServer(port) {
     if (process.env.NODE_ENV === 'production') {
       setupStaticServing(app);
     }
-    app.listen(port, () => {
+    httpServer.listen(port, () => {
       console.log(`API Server running on port ${port}`);
     });
   } catch (err) {

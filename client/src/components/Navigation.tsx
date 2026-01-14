@@ -10,17 +10,20 @@ function Navigation() {
           <Link to="/" className="text-xl font-bold text-blue-600">
             Apartment Help
           </Link>
-          <div className="flex gap-4">
-            <Button variant="ghost" asChild>
-              <Link to="/">Home</Link>
-            </Button>
-            <Button variant="ghost" asChild>
-              <Link to="/resources">Resources</Link>
-            </Button>
-            <Button variant="ghost" asChild>
-              <Link to="/advice">Advice</Link>
-            </Button>
-          </div>
+           <div className="flex gap-4">
+             <Button variant="ghost" asChild>
+               <Link to="/">Home</Link>
+             </Button>
+             <Button variant="ghost" asChild>
+               <Link to="/resources">Resources</Link>
+             </Button>
+             <Button variant="ghost" asChild>
+               <Link to="/advice">Advice</Link>
+             </Button>
+             <Button variant="ghost" asChild>
+               <Link to="/chat">Chat</Link>
+             </Button>
+           </div>
         </div>
       </div>
     </nav>

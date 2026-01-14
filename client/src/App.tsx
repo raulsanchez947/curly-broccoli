@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import HomePage from './pages/HomePage';
 import ResourcesPage from './pages/ResourcesPage';
 import AdvicePage from './pages/AdvicePage';
+import ChatPage from './pages/ChatPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/resources" element={<ResourcesPage />} />
           <Route path="/advice" element={<AdvicePage />} />
+          <Route path="/chat" element={<ChatPage />} />
         </Routes>
       </div>
     </Router>
