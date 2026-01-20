@@ -3,6 +3,8 @@ import dotenv from 'dotenv';
 import { createServer } from 'http';
 import { setupStaticServing } from './static-serve.js';
 import { setupChat } from './chat.js';
+import { initDatabase } from './database.js';
+import { setupAuth } from './auth.js';
 
 dotenv.config();
 
@@ -12,6 +14,9 @@ const httpServer = createServer(app);
 // Body parsing middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Setup authentication routes
+setupAuth(app);
 
 // Setup chat with socket.io
 setupChat(httpServer);
@@ -27,6 +32,9 @@ export async function startServer(port) {
     if (process.env.NODE_ENV === 'production') {
       setupStaticServing(app);
     }
+    // Initialize database before starting the server
+    await initDatabase();
+
     httpServer.listen(port, () => {
       console.log(`API Server running on port ${port}`);
     });
