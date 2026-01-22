@@ -1,0 +1,48 @@
+[2026-01-22T19:25:41.598Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T19:25:41.727Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=false
+[2026-01-22T19:27:36.621Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T19:27:36.856Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=false
+[2026-01-22T19:29:02.838Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T19:29:02.849Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=false
+[2026-01-22T22:17:29.534Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T22:17:29.673Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=true
+[2026-01-22T22:17:29.857Z] passwordCompare=true
+[2026-01-22T22:17:38.456Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T22:17:38.471Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=true
+[2026-01-22T22:17:38.644Z] passwordCompare=false
+[2026-01-22T22:17:41.383Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T22:17:41.397Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=true
+[2026-01-22T22:17:41.571Z] passwordCompare=false
+[2026-01-22T22:34:27.986Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T22:34:28.125Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=true
+[2026-01-22T22:34:28.318Z] passwordCompare=true
+[2026-01-22T22:46:22.265Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T22:46:22.315Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=true
+[2026-01-22T22:46:22.414Z] passwordCompare=true
+[2026-01-22T22:47:05.931Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T22:47:05.941Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=true
+[2026-01-22T22:47:06.068Z] passwordCompare=true
+[2026-01-22T22:47:27.508Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T22:47:27.512Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=true
+[2026-01-22T22:47:27.626Z] passwordCompare=true
+[2026-01-22T22:50:41.787Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T22:50:41.793Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=true
+[2026-01-22T22:50:41.905Z] passwordCompare=true
+[2026-01-22T22:50:42.467Z] /api/contacts session=null cookie=next-auth.csrf-token=5758fa460bf2902ffde67f7bd4967d6812f9caccc49e4286081935915c63d8c2%7C5d1c172e81e89557cadd3d00c58577716b491a99aa7664334cc63a9d4e332d3a; next-auth.callback-url=http%3A%2F%2Flocalhost%3A3000; next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..P_j7bwsprRy670bd.utb-1SM21SwnhLhngn7fFckYSKPz-m6D3-wUcOuN6tmGDKbDZa5BU-YTHM9AZdEtgPMd3Sf6UuY135Qh83Ud7YyNhXcpIo3xJokabC2jTzgKV_iCSJoXF5u4OynqJn1I6zODqQw_IEP5cW1OWHcmr2eTYYGPrZ9qIZ1ScCz7Nsn-JM4euixw_xPFlr0nW3MaLhvrvPzHjDBQggmMx52NHalshAigUXXMLI_b.QBvo-3qpetKnhbtF6DyS6w
+[2026-01-22T22:50:58.158Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T22:50:58.164Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=true
+[2026-01-22T22:50:58.273Z] passwordCompare=true
+[2026-01-22T22:52:02.021Z] authOptions.secret=dev_secret_change_me
+[2026-01-22T22:52:02.056Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T22:52:02.064Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=true
+[2026-01-22T22:52:02.216Z] passwordCompare=true
+[2026-01-22T22:52:27.075Z] authOptions.secret=dev_secret_change_me
+[2026-01-22T22:52:27.076Z] authOptions.session=undefined
+[2026-01-22T22:52:48.755Z] authOptions.secret=dev_secret_change_me
+[2026-01-22T22:52:48.756Z] authOptions.session={"strategy":"jwt"}
+[2026-01-22T22:52:49.021Z] authorize called for raulsanchez947@gmail.com
+[2026-01-22T22:52:49.030Z] foundUser=true id=cmkm6v7yl0000ns1yndqzdsmc hasPassword=true
+[2026-01-22T22:52:49.134Z] passwordCompare=true
+[2026-01-22T22:52:49.493Z] authOptions.secret=dev_secret_change_me
+[2026-01-22T22:52:49.494Z] authOptions.session={"strategy":"jwt"}
+[2026-01-22T22:52:49.510Z] /api/contacts session={"user":{"name":"Raul Sanchez","email":"raulsanchez947@gmail.com","username":null,"mfaEnabled":false},"expires":"2026-02-21T22:52:49.503Z"} cookie=next-auth.csrf-token=69a44fa8e257a00abfa0cafaf2d3d7350e303e4f5bd565f7ff54176999536987%7C678d09ea77ae82c650ae305e96648c810193f1cb7aebbe6fc7e9f3cbf3991ade; next-auth.callback-url=http%3A%2F%2Flocalhost%3A3000; next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..QI8DUNf4WqnhMVdy.__KL4CpMraCJt5TYpHLxfU2Ip5grxED8ecYVD7uwtdTpHO96Sg-n8IYmaxEEq_U-ArUQsA0_5bpUUBRsd6PN7gsZrwGcjXbqPZ8DPFFgCXx6amFFSTwsAWi9T8yczdCSbRx39lNXt1MikqmaYOAZa8KSD3aQ-GuAoeC-Wy_yJidqE5D0Po7YWfvDYjE-nwQRfWiJcCNJweRBGJGG98OEJbH7IApLWsqpjpl9.n58UyZAtAcm4xdvRUAOJ4g

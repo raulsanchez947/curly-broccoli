@@ -1,0 +1,165 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Account {
+  id                 String  @id @default(cuid())
+  userId             String
+  type               String
+  provider           String
+  providerAccountId  String
+  refresh_token      String?
+  access_token       String?
+  expires_at         Int?
+  token_type         String?
+  scope              String?
+  id_token           String?
+  session_state      String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  username      String?   @unique
+  // optional password hash for credential sign-in
+  passwordHash  String?
+  // optional phone number for sign-in
+  phone         String?   @unique
+  // reactions
+  reactions MessageReaction[]
+  email         String?   @unique
+  isAdmin       Boolean   @default(false)
+  emailVerified DateTime?
+  image         String?
+  accounts      Account[]
+  sessions      Session[]
+  posts         Post[]
+  messages      Message[]
+  conversationParticipants ConversationParticipant[]
+  messageReads MessageRead[]
+  // contacts: users this user has added
+  owner_contacts Contact[] @relation("owner_contacts")
+  // contacts where this user is the target
+  contact_of Contact[] @relation("contact_of")
+  mfaEnabled Boolean @default(false)
+  mfaSecret String?
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Post {
+  id        String  @id @default(cuid())
+  title     String
+  content   String
+  reported  Boolean @default(false)
+  authorId  String?
+  createdAt DateTime @default(now())
+
+  author User? @relation(fields: [authorId], references: [id], onDelete: Cascade)
+}
+
+model Message {
+  id        String   @id @default(cuid())
+  content   String
+  authorId  String?
+  conversationId String?
+  createdAt DateTime @default(now())
+  author User? @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  conversation Conversation? @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+
+  // read receipts
+  reads MessageRead[]
+  // reactions and attachments
+  reactions MessageReaction[]
+  attachments MessageAttachment[]
+}
+
+model Conversation {
+  id        String @id @default(cuid())
+  createdAt DateTime @default(now())
+  participants ConversationParticipant[]
+  messages  Message[]
+}
+
+model ConversationParticipant {
+  id String @id @default(cuid())
+  conversationId String
+  userId String
+  joinedAt DateTime @default(now())
+
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([conversationId, userId])
+}
+
+model MessageRead {
+  id String @id @default(cuid())
+  messageId String
+  userId String
+  seenAt DateTime @default(now())
+
+  message Message @relation(fields: [messageId], references: [id], onDelete: Cascade)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([messageId, userId])
+}
+
+model MessageReaction {
+  id String @id @default(cuid())
+  messageId String
+  userId String
+  type String
+  createdAt DateTime @default(now())
+
+  message Message @relation(fields: [messageId], references: [id], onDelete: Cascade)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([messageId, userId, type])
+}
+
+model MessageAttachment {
+  id String @id @default(cuid())
+  messageId String
+  url String
+  filename String
+  mimeType String
+
+  message Message @relation(fields: [messageId], references: [id], onDelete: Cascade)
+}
+
+model Contact {
+  id String @id @default(cuid())
+  ownerId String
+  contactId String
+  createdAt DateTime @default(now())
+
+  owner User @relation("owner_contacts", fields: [ownerId], references: [id], onDelete: Cascade)
+  contact User @relation("contact_of", fields: [contactId], references: [id], onDelete: Cascade)
+
+  @@unique([ownerId, contactId])
+}
