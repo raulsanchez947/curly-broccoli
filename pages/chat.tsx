@@ -1,200 +1,13 @@
-import { useEffect, useState, useRef } from 'react'
-import { useSession, signIn } from 'next-auth/react'
-import { io, Socket } from 'socket.io-client'
-
-type Message = {
-  id: string
-  content: string
-  createdAt: string
-  author?: { id?: string; name?: string | null; email?: string | null }
-  conversationId?: string
-  reactions?: any[]
-  attachments?: { id: string; url: string; filename: string; mimeType: string }[]
-}
-
-type User = { id: string; name?: string | null; email?: string | null; isAdmin?: boolean }
+import Link from 'next/link'
 
 export default function Chat(){
-  const { data: session, status } = useSession()
-  const [input, setInput] = useState('')
-  const [messages, setMessages] = useState<Message[]>([])
-  const [users, setUsers] = useState<User[]>([])
-  const [contacts, setContacts] = useState<{ id: string; user: User }[]>([])
-  const [showManageContacts, setShowManageContacts] = useState(false)
-  const [conversations, setConversations] = useState<any[]>([])
-  const [selected, setSelected] = useState<string | null>(null)
-  const [totalMessages, setTotalMessages] = useState<number>(0)
-  const [loadingOlder, setLoadingOlder] = useState(false)
-  const fileInputRef = useRef<HTMLInputElement | null>(null)
-  const socketRef = useRef<Socket | null>(null)
-
-  async function loadUsers(){
-    const res = await fetch('/api/users', { credentials: 'same-origin' })
-    if(res.ok) setUsers(await res.json())
-  }
-
-  async function loadContacts(){
-    const res = await fetch('/api/contacts', { credentials: 'same-origin' })
-    if(res.ok) setContacts(await res.json())
-  }
-
-  useEffect(()=>{ if(selected){
-    // when opening a conversation, mark messages read
-    (async ()=>{
-      const res = await fetch(`/api/conversations/${selected}`, { credentials: 'same-origin' })
-      if(res.ok){
-        const conv = await res.json()
-        const ids = (conv.messages || []).map((m:any)=>m.id)
-        if(ids.length) socketRef.current?.emit('read', { conversationId: selected, messageIds: ids })
-        // reload conversations list to reflect unread counts
-        loadConversations()
-      }
-    })()
-  } }, [selected])
-
-  async function loadConversations(){
-    const res = await fetch('/api/conversations', { credentials: 'same-origin' })
-    if(res.ok){
-      const convs = await res.json()
-      convs.sort((a:any,b:any)=>{
-        const ta = a.lastMessage?.createdAt ? new Date(a.lastMessage.createdAt).getTime() : 0
-        const tb = b.lastMessage?.createdAt ? new Date(b.lastMessage.createdAt).getTime() : 0
-        return tb - ta
-      })
-      setConversations(convs)
-    }
-  }
-
-  async function loadConversation(convId?: string, opts: { limit?: number, skip?: number, prepend?: boolean } = {}){
-    if(!convId) { setMessages([]); setTotalMessages(0); return }
-    const limit = opts?.limit ?? 25
-    let skip: number
-    if(typeof opts?.skip === 'number') skip = opts!.skip
-    else {
-      // fetch total count quickly
-      const head = await fetch(`/api/conversations/${convId}?limit=1&skip=0`, { credentials: 'same-origin' })
-      if(!head.ok) { setMessages([]); setTotalMessages(0); return }
-      const headJson = await head.json()
-      const total = headJson.totalMessages || 0
-      skip = Math.max(0, total - limit)
-    }
-    const res = await fetch(`/api/conversations/${convId}?limit=${limit}&skip=${skip}`, { credentials: 'same-origin' })
-    if(res.ok){
-      const conv = await res.json()
-      const msgs = conv.messages || []
-      setTotalMessages(conv.totalMessages || 0)
-      if(opts?.prepend) setMessages(prev => [...msgs, ...prev])
-      else setMessages(msgs)
-    }
-  }
-  async function loadOlder(){
-    if(!selected) return
-    setLoadingOlder(true)
-    const limit = 25
-    const current = messages.length
-    const total = totalMessages
-    const nextSkip = Math.max(0, total - (current + limit))
-    // if no more older messages, nothing to do
-    if(nextSkip >= total) { setLoadingOlder(false); return }
-    await loadConversation(selected, { limit, skip: nextSkip, prepend: true })
-    setLoadingOlder(false)
-  }
-
-  useEffect(()=>{
-    console.log('chat useSession status', status, session)
-    const allowAnon = process.env.NEXT_PUBLIC_ALLOW_ANON_SOCKETS === 'true' || process.env.NODE_ENV !== 'production'
-    if(status === 'loading') return
-    if(!session?.user?.email && !allowAnon) return
-
-    loadUsers()
-    loadContacts()
-    loadConversations()
-    loadConversation(selected || undefined)
-
-    socketRef.current = io(window.location.origin, { transports: ['websocket'], path: '/socket.io', withCredentials: true, reconnectionAttempts: 5, timeout: 20000 })
-    socketRef.current.on('connect', () => console.log('socket connected', socketRef.current?.id))
-    socketRef.current.on('message', (m: Message) => {
-      // append message if it belongs to the currently opened conversation
-      if(!selected) return
-      if(m && m.conversationId === selected) {
-        setMessages((prev)=>[...prev, m])
-        setConversations(prev => prev.map(c => c.id === selected ? { ...c, lastMessage: m, unreadCount: c.unreadCount || 0 } : c))
-        setTotalMessages(t => t + 1)
-      }
-    })
-    socketRef.current.on('typing', (data: any) => console.log('typing', data))
-    socketRef.current.on('reactions', (data: any) => {
-      // update reactions for message
-      const { messageId, reactions } = data || {}
-      setMessages(prev => prev.map(m => m.id === messageId ? { ...m, reactions } : m))
-    })
-    socketRef.current.on('conversationUnread', (data: any) => {
-      const { conversationId, unreadCount } = data || {}
-      setConversations(prev => prev.map(c => c.id === conversationId ? { ...c, unreadCount } : c))
-    })
-    socketRef.current.on('connect_error', (err) => console.error('socket connect error', err))
-    return () => { socketRef.current?.disconnect() }
-  }, [status, selected])
-
-  async function send(e?: any){
-    e?.preventDefault()
-    if(!input) return
-    if(status === 'unauthenticated'){ signIn(); return }
-    if(!selected){ alert('Select a conversation (conversation id) to message'); return }
-    // ensure we've joined the conversation room
-    socketRef.current?.emit('sendMessage', { conversationId: selected, content: input })
-    // optimistically increment unread for other participants (server will correct)
-    setConversations(prev => prev.map(c => c.id === selected ? { ...c, lastMessage: { content: input, createdAt: new Date().toISOString() }, unreadCount: 0 } : c))
-    setInput('')
-  }
-
-  async function toggleReaction(messageId: string, type = '❤️'){
-    const res = await fetch(`/api/messages/${messageId}/reactions`, { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type }) })
-    if(res.ok){
-      const j = await res.json()
-      setMessages(prev => prev.map(m => m.id === messageId ? { ...m, reactions: j.reactions } : m))
-    }
-  }
-
-  async function uploadAttachment(file?: File){
-    if(!selected) return alert('Open a conversation first')
-    if(!file) return
-    const reader = new FileReader()
-    reader.onload = async () => {
-      const dataUrl = reader.result as string
-      const base64 = dataUrl.split(',')[1]
-      const res = await fetch(`/api/conversations/${selected}/attachments`, { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ filename: file.name, mimeType: file.type, data: base64, content: '' }) })
-      if(!res.ok) return alert('upload failed')
-      // server will broadcast new message; no further action required
-    }
-    reader.readAsDataURL(file)
-  }
-
-  async function addContact(contactId: string){
-    const res = await fetch('/api/contacts', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ contactId }) })
-    if(res.ok){ await loadContacts(); setShowManageContacts(false) }
-    else { const j = await res.json().catch(()=>null); alert(j?.error || 'Failed to add contact') }
-  }
-
-  async function removeContact(contactId: string){
-    const res = await fetch(`/api/contacts?contactId=${contactId}`, { method: 'DELETE', credentials: 'same-origin' })
-    if(res.ok || res.status === 204) await loadContacts()
-  }
-
   return (
-    <div>
-      <h1 className="text-2xl font-bold">Messages</h1>
-      <p className="mt-2">Direct messages — pick a user and send an instant message. Use the admin toggle to message admins.</p>
-
-      <div className="mt-4 flex gap-4">
-        <div className="w-64 bg-white border p-3 rounded">
-          <div className="flex items-center justify-between">
-            <h3 className="font-semibold">Contacts</h3>
-            <button onClick={()=>{ setShowManageContacts(true); loadUsers(); }} className="text-sm text-blue-600">Manage</button>
-          </div>
-          <ul className="mt-2 space-y-1">
-            {contacts.length === 0 && <li className="text-sm text-gray-500">No contacts yet — click Manage to add people.</li>}
-            {contacts.map(c => (
+    <main className="container mx-auto p-8">
+      <h1 className="text-2xl font-bold mb-4">Chat Removed</h1>
+      <p className="mb-4">The realtime chat has been removed. Use the <Link href="/contact"><a className="text-blue-600">Contact</a></Link> form to reach out, or view <Link href="/landlords"><a className="text-blue-600">Landlord resources</a></Link>.</p>
+    </main>
+  )
+}
               <li key={c.id}>
                   <button onClick={async ()=>{ 
                   if(selected) socketRef.current?.emit('leaveConversation', selected)
@@ -227,6 +40,12 @@ export default function Chat(){
                     <button onClick={()=>toggleReaction(m.id)} className="text-sm">❤️</button>
                     <div className="text-xs text-gray-500">{m.reactions?.length || 0}</div>
                   </div>
+                  {m.readBy && m.readBy.length > 0 && (
+                    // show seen indicator for messages authored by the current user when others have read
+                    (m.author?.id && currentUserId && m.author.id === currentUserId && (m.readBy || []).some(rid => rid !== m.author?.id)) ? (
+                      <div className="text-xs text-green-600 mt-1">Seen</div>
+                    ) : null
+                  )}
                   {m.attachments?.map(a=> (
                     <div key={a.id} className="mt-2">
                       {a.mimeType.startsWith('image/') ? (

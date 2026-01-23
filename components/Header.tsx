@@ -38,8 +38,8 @@ export default function Header() {
               <a href="/resources#voucher" className="block px-3 py-2 hover:bg-gray-50">Housing voucher tips</a>
             </div>
           </div>
-          <Link href="/community">Community</Link>
-          <Link href="/chat">Chat</Link>
+          <Link href="/landlords">Landlords</Link>
+          <Link href="/contact">Contact</Link>
 
           {session ? (
             <>
@@ -56,8 +56,8 @@ export default function Header() {
             </>
           ) : (
             <div className="flex items-center gap-2">
-              <Link href={{ pathname: '/auth/signin', query: { callbackUrl: typeof window !== 'undefined' ? window.location.href : '/' } }} className="inline-flex items-center px-3 py-1.5 border rounded text-sm bg-gray-900 text-white hover:bg-black">Log in</Link>
-              <Link href={{ pathname: '/auth/signin', query: { mode: 'register', callbackUrl: typeof window !== 'undefined' ? window.location.href : '/' } }} className="inline-flex items-center px-3 py-1.5 border rounded text-sm bg-white text-gray-900 hover:bg-gray-50">Register</Link>
+              <Link href="/auth/signin" className="inline-flex items-center px-3 py-1.5 border rounded text-sm bg-gray-900 text-white hover:bg-black">Log in</Link>
+              <Link href={{ pathname: '/auth/signin', query: { mode: 'register' } }} className="inline-flex items-center px-3 py-1.5 border rounded text-sm bg-white text-gray-900 hover:bg-gray-50">Register</Link>
             </div>
           )}
         </nav>

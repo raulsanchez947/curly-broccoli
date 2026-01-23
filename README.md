@@ -71,22 +71,7 @@ node scripts/create-dev-user.mjs
 node scripts/api-tests.mjs
 ```
 
-Real-time chat (Socket.IO)
-
-- I added a `server.js` that runs Next.js with Socket.IO and persists/broadcasts messages.
-- Install the socket packages:
-
-```bash
-npm install socket.io socket.io-client express
-```
-
-- Start the app with the real-time server:
-
-```bash
-npm run dev:server
-```
-
-- The chat UI (`/chat`) now uses Socket.IO and will receive messages in real-time. The server validates NextAuth sessions if `NEXTAUTH_SECRET` is set and will attach the authenticated user to messages.
+Note: The previous real-time chat (Socket.IO) has been retired in this branch. The app now uses a contact form for messages and a landlord resources page. If you need realtime features restored, the server and client must be re-enabled and Socket.IO packages added.
 
 Security note: the `DEV_AUTH` credentials provider is intended for local development only. Do not enable it in production or commit real credentials.
 
