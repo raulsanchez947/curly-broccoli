@@ -149,7 +149,8 @@ export default function Resources(){
         <p className="mt-3">Templates and legal resources to help with leases, safety, and tenant rights.</p>
 
         <div className="mt-4">
-          <input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search resources..." className="p-2 border rounded w-full max-w-md" />
+          <label htmlFor="resources-query" className="sr-only">Search resources</label>
+          <input id="resources-query" name="query" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search resources..." className="p-2 border rounded w-full max-w-md" />
         </div>
 
         <section className="mt-6 grid gap-4 md:grid-cols-2">

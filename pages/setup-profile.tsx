@@ -51,11 +51,11 @@ export default function SetupProfile(){
     <div className="p-6">
       <h2 className="text-xl font-semibold">Welcome — finish setting up your account</h2>
       <div className="mt-4">
-        <label className="block text-sm">Choose a username</label>
-        <input value={username} onChange={e=>setUsername(e.target.value)} className="border p-2 mt-1" />
+        <label className="block text-sm" htmlFor="setup-username">Choose a username</label>
+        <input id="setup-username" name="username" value={username} onChange={e=>setUsername(e.target.value)} className="border p-2 mt-1" />
         <div className="mt-2">
-          <label className="block text-sm">Choose a password (optional)</label>
-          <input type="password" value={password} onChange={e=>setPassword(e.target.value)} className="border p-2 mt-1" />
+          <label className="block text-sm" htmlFor="setup-password">Choose a password (optional)</label>
+          <input id="setup-password" name="password" type="password" value={password} onChange={e=>setPassword(e.target.value)} className="border p-2 mt-1" />
         </div>
         <div className="mt-2">
           <button onClick={saveUsername} className="px-3 py-1 bg-blue-600 text-white rounded">Save username</button>
@@ -77,7 +77,7 @@ export default function SetupProfile(){
                 <div>Scan this QR with your authenticator app:</div>
                 <img src={qr} alt="qr" className="my-2" />
                 <div className="text-xs text-gray-500">Or use secret: {secret}</div>
-                <input value={token} onChange={e=>setToken(e.target.value)} placeholder="Enter code from app" className="border p-1 mt-2" />
+                <input id="mfa-token" name="mfa-token" value={token} onChange={e=>setToken(e.target.value)} placeholder="Enter code from app" className="border p-1 mt-2" />
                 <div className="mt-2"><button onClick={confirmMfa} className="px-3 py-1 bg-blue-600 text-white rounded">Confirm</button></div>
               </div>
             )}

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { signIn } from 'next-auth/react'
 import { useRouter } from 'next/router'
 
@@ -8,6 +8,9 @@ export default function SignIn(){
   const [password, setPassword] = useState('')
   const [username, setUsername] = useState('')
   const router = useRouter()
+  useEffect(()=>{
+    if(router.query?.mode === 'register') setMode('register')
+  },[router.query])
 
   async function handleSignIn(e:any){
     e?.preventDefault()
@@ -43,20 +46,20 @@ export default function SignIn(){
       </div>
 
       <form onSubmit={mode==='signin'? handleSignIn : handleRegister}>
-        <label className="block text-sm">Email or phone</label>
-        <input value={identifier} onChange={e=>setIdentifier(e.target.value)} className="border p-2 w-full mt-1 mb-3" />
+        <label className="block text-sm" htmlFor="identifier">Email or phone</label>
+        <input id="identifier" name="identifier" value={identifier} onChange={e=>setIdentifier(e.target.value)} className="border p-2 w-full mt-1 mb-3" />
         {mode==='register' && (
           <>
-            <label className="block text-sm">Choose a username (optional)</label>
-            <input value={username} onChange={e=>setUsername(e.target.value)} className="border p-2 w-full mt-1 mb-3" />
+            <label className="block text-sm" htmlFor="username">Choose a username (optional)</label>
+            <input id="username" name="username" value={username} onChange={e=>setUsername(e.target.value)} className="border p-2 w-full mt-1 mb-3" />
           </>
         )}
-        <label className="block text-sm">Password</label>
-        <input type="password" value={password} onChange={e=>setPassword(e.target.value)} className="border p-2 w-full mt-1 mb-3" />
+        <label className="block text-sm" htmlFor="password">Password</label>
+        <input id="password" name="password" type="password" value={password} onChange={e=>setPassword(e.target.value)} className="border p-2 w-full mt-1 mb-3" />
         <div className="flex gap-2">
           <button type="submit" className="px-4 py-2 bg-blue-600 text-white rounded">{mode==='signin'? 'Sign in' : 'Register'}</button>
-          <button type="button" onClick={()=>signIn('google', { callbackUrl: window.location.href })} className="px-4 py-2 bg-gray-100 rounded">Continue with Google</button>
-          <button type="button" onClick={()=>signIn('github', { callbackUrl: window.location.href })} className="px-4 py-2 bg-gray-100 rounded">Continue with GitHub</button>
+          <button type="button" onClick={()=>signIn('google', { callbackUrl: (router.query?.callbackUrl as string) || window.location.origin })} className="px-4 py-2 bg-gray-100 rounded">Continue with Google</button>
+          <button type="button" onClick={()=>signIn('github', { callbackUrl: (router.query?.callbackUrl as string) || window.location.origin })} className="px-4 py-2 bg-gray-100 rounded">Continue with GitHub</button>
         </div>
       </form>
     </div>

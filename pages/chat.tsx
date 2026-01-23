@@ -241,8 +241,9 @@ export default function Chat(){
           </div>
 
           <form onSubmit={send} className="flex gap-2 items-center">
-            <input value={input} onChange={e=>setInput(e.target.value)} className="flex-1 p-2 border rounded" placeholder={session ? "Write a message..." : "Sign in to message"} />
-            <input ref={el => { fileInputRef.current = el }} type="file" className="ml-2" onChange={e=>{ if(e.target.files && e.target.files[0]) uploadAttachment(e.target.files[0]) }} />
+            <label htmlFor="message-input" className="sr-only">Message</label>
+            <input id="message-input" name="message" value={input} onChange={e=>setInput(e.target.value)} className="flex-1 p-2 border rounded" placeholder={session ? "Write a message..." : "Sign in to message"} />
+            <input id="attachment" name="attachment" ref={el => { fileInputRef.current = el }} type="file" className="ml-2" onChange={e=>{ if(e.target.files && e.target.files[0]) uploadAttachment(e.target.files[0]) }} />
             <button type="submit" className="px-4 py-2 bg-blue-600 text-white rounded">Send</button>
           </form>
         </div>

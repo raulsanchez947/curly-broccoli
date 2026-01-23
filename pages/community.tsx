@@ -48,8 +48,10 @@ export default function Community(){
       <p className="mt-2">Share advice and ask questions.</p>
 
       <form onSubmit={submit} className="mt-4 space-y-2">
-        <input value={title} onChange={e=>setTitle(e.target.value)} placeholder="Title" className="w-full p-2 border rounded" />
-        <textarea value={content} onChange={e=>setContent(e.target.value)} placeholder="Your advice or question" className="w-full p-2 border rounded" />
+        <label htmlFor="post-title" className="sr-only">Post title</label>
+        <input id="post-title" name="title" value={title} onChange={e=>setTitle(e.target.value)} placeholder="Title" className="w-full p-2 border rounded" />
+        <label htmlFor="post-content" className="sr-only">Post content</label>
+        <textarea id="post-content" name="content" value={content} onChange={e=>setContent(e.target.value)} placeholder="Your advice or question" className="w-full p-2 border rounded" />
         <button className="px-4 py-2 bg-blue-600 text-white rounded">Post</button>
       </form>
 
