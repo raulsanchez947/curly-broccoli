@@ -18,6 +18,20 @@ Required steps (high level):
    - This repo contains a GitHub Actions workflow `.github/workflows/prisma-migrate.yml` that will run `npx prisma migrate deploy` on pushes to `main` using `secrets.DATABASE_URL`.
    - Add `DATABASE_URL` as a GitHub secret if you want migrations run via Actions. Alternatively, run `npx prisma migrate deploy` manually from a machine with `DATABASE_URL` set after provisioning DB.
 
+   5. Recommended local prep (before pushing):
+
+   - Create a branch for deploy prep and commit changes:
+   ```bash
+   git checkout -b vercel-ready
+   git add .
+   git commit -m "chore: vercel deploy prep"
+   ```
+
+   - Use the included PowerShell helper to run migrations locally after provisioning DB (or run `npx prisma migrate deploy` directly):
+   ```powershell
+   ./scripts/prisma-deploy-local.ps1 -DatabaseUrl "postgres://..."
+   ```
+
 5. Build & deploy:
    - Vercel will run `npm run build` by default (Next.js build). After the build completes the site will be live on your Vercel URL.
 
