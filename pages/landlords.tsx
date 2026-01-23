@@ -87,7 +87,7 @@ Thank you,
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">Need Help?</h2>
-        <p>If you'd like, we can provide downloadable landlord packet checklists or a sample W-9 and ACH form to speed submissions. You can also <Link href="/contact"><a className="text-blue-600">contact us</a></Link> for assistance.</p>
+        <p>If you'd like, we can provide downloadable landlord packet checklists or a sample W-9 and ACH form to speed submissions. You can also <Link href="/contact" className="text-blue-600">contact us</Link> for assistance.</p>
       </section>
     </main>
   )
