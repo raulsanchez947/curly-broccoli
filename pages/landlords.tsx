@@ -39,50 +39,64 @@ export default function Landlords() {
         <h2 className="text-xl font-semibold mb-2">Program Quick Guides</h2>
 
         <article className="mb-6">
-          <h3 className="font-semibold">NYC — CityFHEPS / HPD Section 8 / NYCHA Section 8</h3>
-          <p className="mb-2">Agencies: NYC Human Resources Administration (HRA) handles CityFHEPS; NYC Department of Housing Preservation and Development (HPD) and NYCHA manage different voucher programs. Each program has its own landlord packet and inspection rules.</p>
-          <p className="mb-2">Landlord packet tips:</p>
+          <h3 className="font-semibold">CityFHEPS/FHEPS (HRA)</h3>
+          <p className="mb-2">Administered by NYC Human Resources Administration (HRA). CityFHEPS has a landlord enrollment process separate from HPD/NYCHA.</p>
+          <p className="mb-2">Documents commonly required:</p>
           <ul className="list-disc pl-6 mb-2">
-            <li>Download the landlord packet from the program's official page (HRA/HPD/NYCHA).</li>
-            <li>Include W-9, lease template, and complete unit description.</li>
-            <li>Expect a property inspection; ensure all safety items are addressed.</li>
-            <li>For CityFHEPS specifically, payments are routed via HRA — confirm bank/ACH details and vendor enrollment requirements.</li>
+            <li>Completed CityFHEPS landlord packet (download from HRA)</li>
+            <li>W-9 and vendor/bank ACH enrollment form</li>
+            <li>Signed lease template or sample lease</li>
+            <li>Proof of ownership or management agreement</li>
+            <li>Unit description and photos</li>
+            <li>Certificate of insurance (if requested)</li>
           </ul>
-          <p className="text-sm text-gray-600">Official starting points: <a className="text-blue-600" href="https://www.nyc.gov/" target="_blank" rel="noreferrer">NYC.gov</a>, HRA pages, HPD resources, NYCHA landlord pages.</p>
+          <p className="text-sm text-gray-600">Payments for CityFHEPS are routed via HRA — confirm vendor setup and ACH enrollment on the HRA site.</p>
         </article>
 
         <article className="mb-6">
-          <h3 className="font-semibold">FHEPS / State Programs (example regions)</h3>
-          <p className="mb-2">Some cities and states (e.g., Boston, other municipalities) have FHEPS-style or state-administered voucher programs. Check your local housing authority for program names and landlord packet requirements.</p>
+          <h3 className="font-semibold">HPD Section 8</h3>
+          <p className="mb-2">HPD's Section 8 program has its own landlord enrollment and inspection requirements.</p>
+          <p className="mb-2">Documents commonly required:</p>
           <ul className="list-disc pl-6 mb-2">
-            <li>Follow the agency's Landlord Packet checklist strictly.</li>
-            <li>Many programs provide PDFs for landlord enrollment and vendor payment setup.</li>
+            <li>HPD landlord packet / enrollment form</li>
+            <li>W-9 and vendor payment form</li>
+            <li>Signed lease template and tenant application</li>
+            <li>Unit description, photos, and lead-based paint disclosures (if applicable)</li>
           </ul>
+          <p className="text-sm text-gray-600">Refer to HPD's landlord resources for inspection checklists and vendor enrollment steps.</p>
         </article>
 
         <article className="mb-6">
-          <h3 className="font-semibold">Other Local Vouchers (SOTA, Section 8 variants)</h3>
-          <p className="mb-2">Different cities/states have variations of Section 8 and local vouchers. Always find the official portal for enrollments and packet submission instructions.</p>
+          <h3 className="font-semibold">NYCHA Section 8 (distinct process)</h3>
+          <p className="mb-2">NYCHA's Section 8 process is separate and has additional requirements. Important: NYCHA requires a PIN letter for landlords and the landlord enrollment/certification must be completed online through NYCHA's portal.</p>
+          <p className="mb-2">Documents commonly required:</p>
+          <ul className="list-disc pl-6 mb-2">
+            <li>NYCHA landlord enrollment (online only) — follow NYCHA portal steps</li>
+            <li>PIN letter (issued to tenant) — required for NYCHA Section 8 actions</li>
+            <li>W-9 and bank/ACH payment setup</li>
+            <li>Signed lease template including required NYCHA clauses</li>
+            <li>Unit photos and inspection readiness documentation</li>
+          </ul>
+          <p className="text-sm text-gray-600">NYCHA's PIN-letter requirement means landlords must receive and use that letter when interacting with the NYCHA online systems; this cannot be completed by paper submission.</p>
         </article>
+
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">Sample Email Template for Submitting a Landlord Packet</h2>
-        <pre className="bg-gray-100 p-4 rounded text-sm">
-From: [owner@example.com]
-To: [agency@example.gov]
-Subject: Landlord Packet — [Tenant Name] — [Property Address]
+        <h2 className="text-2xl font-semibold mb-2">Submitting the HPD landlord packet by email</h2>
+        <p className="mb-2">To submit the HPD landlord packet, email the completed packet and attachments to <a className="text-blue-600" href="mailto:S8landlords@hpd.nyc.gov">S8landlords@hpd.nyc.gov</a>. Below is a sample email template you can use — copy, fill in the details, attach the required PDFs, and send.</p>
+        <pre className="bg-gray-100 p-4 rounded text-sm whitespace-pre-wrap">From: [owner@example.com]
+To: S8landlords@hpd.nyc.gov
+Subject: Landlord Packet — [Tenant Name] — [Property Address] - [Voucher Number]
 
 Hello,
 
-Please find attached the landlord packet for tenant [Tenant Name] for the unit at [Property Address]. Attached are: W-9, lease template, unit photos, and vendor payment form.
+Please find attached the landlord packet for tenant [Tenant Name] for the unit at [Property Address]. Attached are the lease, landlord packet, and a preliminary lease.
 
-Please confirm receipt and advise on next steps and inspection scheduling.
-
+Please confirm receipt.
 Thank you,
 [Owner Name]
-[Phone]
-        </pre>
+[Phone]</pre>
       </section>
 
       <section className="mb-8">
