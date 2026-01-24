@@ -1,26 +1,28 @@
 import Link from 'next/link'
 import { useSession, signIn, signOut } from 'next-auth/react'
 import { useEffect, useState } from 'react'
-import { useRouter } from 'next/router'
 
 export default function Header() {
   const { data: session } = useSession()
-  const router = useRouter()
   const [checkingAdmin, setCheckingAdmin] = useState(false)
+  const [isAdmin, setIsAdmin] = useState(false)
   const userEmail = (session as any)?.user?.email
 
   useEffect(()=>{
-    if(!userEmail) return
-    // check admin status, if admin redirect to /admin
+    if(!userEmail) {
+      setIsAdmin(false)
+      return
+    }
     let mounted = true
     setCheckingAdmin(true)
     fetch('/api/me', { credentials: 'same-origin' }).then(r=>r.json()).then(data=>{
       if(!mounted) return
+      setIsAdmin(!!data?.isAdmin)
       setCheckingAdmin(false)
-      if(data?.isAdmin && router.pathname !== '/admin'){
-        router.replace('/admin')
-      }
-    }).catch(()=>setCheckingAdmin(false))
+    }).catch(()=>{
+      setIsAdmin(false)
+      setCheckingAdmin(false)
+    })
     return ()=>{ mounted = false }
   },[userEmail])
 
@@ -52,6 +54,7 @@ export default function Header() {
                   </svg>
                 )}
               </span>
+              {isAdmin && <Link href="/admin" className="ml-3 text-sm text-red-600">Admin</Link>}
               <button onClick={() => signOut()} className="ml-3 text-sm text-blue-600">Sign out</button>
             </>
           ) : (
