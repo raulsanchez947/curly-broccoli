@@ -1,16 +1,16 @@
 import { NextApiRequest, NextApiResponse } from 'next'
-import { getServerSession } from 'next-auth'
+import { getServerSession, Session } from 'next-auth'
 import { authOptions } from './auth/[...nextauth]'
 import { prisma } from '../../lib/prisma'
 import fs from 'fs'
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const session = await getServerSession(req, res, authOptions as any)
+  const session = await getServerSession(req, res, authOptions as any) as Session | null
   console.log('API /api/contacts session:', session)
   console.log('API /api/contacts cookies:', req.headers.cookie)
   console.log('API /api/contacts authOptions secret?', !!(authOptions as any).secret)
   try{ fs.appendFileSync('./nextauth-debug.log', `[${new Date().toISOString()}] /api/contacts session=${JSON.stringify(session)} cookie=${req.headers.cookie}\n`) }catch(e){}
-  if(!session?.user?.email) return res.status(401).json({ error: 'Unauthorized' })
+  if(!session || !session.user || !session.user.email) return res.status(401).json({ error: 'Unauthorized' })
 
   const me = await prisma.user.findUnique({ where: { email: (session.user as any).email } })
   if(!me) return res.status(404).json({ error: 'User not found' })
