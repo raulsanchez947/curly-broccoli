@@ -6,7 +6,7 @@ export default function InstagramChatRedirect() {
 
 export const getServerSideProps: GetServerSideProps = async () => ({
   redirect: {
-    destination: '/chat',
+    destination: '/contact',
     permanent: false,
   },
 })

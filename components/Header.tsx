@@ -29,7 +29,7 @@ export default function Header() {
       <div className="container mx-auto p-4 flex justify-between items-center">
         <Link href="/" className="font-bold text-xl">Apartment Advisor</Link>
         <nav className="space-x-4 flex items-center">
-          <Link href="/guides">Guides</Link>
+          <Link href="/guides" className="font-medium">Guides</Link>
           <div className="relative group">
             <Link href="/resources">Resources</Link>
             <div className="absolute mt-2 bg-white border rounded shadow-sm hidden group-hover:block" style={{ minWidth: 200 }}>
@@ -38,8 +38,8 @@ export default function Header() {
               <a href="/resources#voucher" className="block px-3 py-2 hover:bg-gray-50">Housing voucher tips</a>
             </div>
           </div>
-          <Link href="/landlords">Landlords</Link>
-          <Link href="/contact">Contact</Link>
+          <Link href="/landlords" className="font-medium">Landlords</Link>
+          <Link href="/contact" className="font-medium bg-indigo-50 px-3 py-1 rounded">Contact</Link>
 
           {session ? (
             <>
