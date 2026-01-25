@@ -16,33 +16,28 @@ export default function SignIn(){
     e?.preventDefault()
     const res = await signIn('credentials', { redirect: false, identifier, password })
     if(res?.ok) router.replace('/')
-    else alert(res?.error || 'Sign-in failed')
+    else alert('Sign-in failed')
   }
 
   async function handleRegister(e:any){
     e?.preventDefault()
     if(!username) { alert('Please choose a username'); return }
+    if(!identifier) { alert('Please enter an email or phone'); return }
+    if(!password) { alert('Please enter a password'); return }
     const body: any = { password, username }
     // detect if identifier is phone or email
     if(identifier.includes('@')) body.email = identifier
     else body.phone = identifier
-    try{
-      const r = await fetch('/api/auth/register', { method: 'POST', headers: { 'Content-Type':'application/json' }, body: JSON.stringify(body) })
-      if(r.ok){
-        // after registering, sign in
-        const res = await signIn('credentials', { redirect: false, identifier, password })
-        if(res?.ok) router.replace('/')
-        else alert('Registered but sign-in failed')
-        return
-      }
-      // parse structured error info from server if available
-      let json: any = null
-      try{ json = await r.json() }catch(err){ /* ignore */ }
-      const msg = json?.error || json?.message || `Registration failed (status ${r.status})`
+    const r = await fetch('/api/auth/register', { method: 'POST', headers: { 'Content-Type':'application/json' }, body: JSON.stringify(body) })
+    if(r.ok){
+      // after registering, sign in
+      const res = await signIn('credentials', { redirect: false, identifier, password })
+      if(res?.ok) router.replace('/')
+      else alert('Registered but sign-in failed')
+    }else{
+      const j = await r.json().catch(()=>null)
+      const msg = j?.error || j?.message || j?.details || JSON.stringify(j) || 'Registration failed'
       alert(msg)
-    }catch(err:any){
-      console.error('register request failed', err)
-      alert(err?.message || 'Registration request failed')
     }
   }
 
