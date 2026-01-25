@@ -46,6 +46,9 @@ export default function Guides(){
 
   return (
     <div>
+      <div className="mb-6">
+        <img src="https://source.unsplash.com/1200x480/?apartment,neighborhood" alt="Guides hero - apartments" className="w-full rounded-lg shadow-md object-cover h-48" />
+      </div>
       <h1 className="text-2xl font-bold">Guides</h1>
       <p className="mt-3">Practical, interactive guides to find apartments, negotiate rent, and move in smoothly.</p>
 

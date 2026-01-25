@@ -13,33 +13,54 @@ export default function Home() {
             </div>
           </div>
           <div className="hidden md:block">
-            <svg width="220" height="140" viewBox="0 0 220 140" fill="none" xmlns="http://www.w3.org/2000/svg" className="rounded-lg shadow-xl">
-              <rect width="220" height="140" rx="12" fill="white" />
-              <g transform="translate(12,12)">
-                <rect width="196" height="116" rx="8" fill="#eef2ff" />
-                <circle cx="36" cy="36" r="28" fill="#c7d2fe" />
-                <rect x="76" y="18" width="96" height="16" rx="6" fill="#a78bfa" />
-                <rect x="76" y="42" width="120" height="10" rx="5" fill="#ddd6fe" />
-                <rect x="0" y="76" width="196" height="18" rx="6" fill="#f1f5f9" />
-              </g>
-            </svg>
+            <img
+              src="https://source.unsplash.com/900x540/?apartment,house"
+              alt="Apartments and housing"
+              className="rounded-lg shadow-xl object-cover w-[520px] h-40"
+            />
           </div>
         </div>
       </div>
 
       <section className="mt-8 grid gap-6 md:grid-cols-3">
-        <div className="p-6 bg-white border rounded-lg shadow hover:shadow-lg transition-shadow transform hover:-translate-y-1">
-          <h2 className="font-semibold text-lg">Guides</h2>
-          <p className="mt-2 text-sm">Search strategy, budgeting, moving checklists.</p>
-        </div>
-        <div className="p-6 bg-white border rounded-lg shadow hover:shadow-lg transition-shadow transform hover:-translate-y-1">
-          <h2 className="font-semibold text-lg">Resources</h2>
-          <p className="mt-2 text-sm">Sample leases, tenant rights, lease-break steps.</p>
-        </div>
-        <div className="p-6 bg-white border rounded-lg shadow hover:shadow-lg transition-shadow transform hover:-translate-y-1">
-          <h2 className="font-semibold text-lg">Community Help</h2>
-          <p className="mt-2 text-sm">Connect via Contact — find local support and expert tips.</p>
-        </div>
+        <a href="/guides" className="block p-6 bg-white border rounded-lg shadow hover:shadow-lg transition-shadow transform hover:-translate-y-1">
+          <div className="flex items-start gap-4">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0">
+              <path d="M3 11.5L12 4l9 7.5v6.5a1 1 0 0 1-1 1h-4v-6H8v6H4a1 1 0 0 1-1-1v-6.5z" fill="#7c3aed" />
+            </svg>
+            <div>
+              <h2 className="font-semibold text-lg">Guides</h2>
+              <p className="mt-2 text-sm">Search strategy, budgeting, moving checklists.</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="/resources" className="block p-6 bg-white border rounded-lg shadow hover:shadow-lg transition-shadow transform hover:-translate-y-1">
+          <div className="flex items-start gap-4">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0">
+              <rect x="3" y="5" width="18" height="14" rx="2" fill="#60a5fa" />
+              <path d="M7 9h10v2H7z" fill="#fff" />
+              <path d="M7 13h6v2H7z" fill="#fff" />
+            </svg>
+            <div>
+              <h2 className="font-semibold text-lg">Resources</h2>
+              <p className="mt-2 text-sm">Sample leases, tenant rights, lease-break steps.</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="/community" className="block p-6 bg-white border rounded-lg shadow hover:shadow-lg transition-shadow transform hover:-translate-y-1">
+          <div className="flex items-start gap-4">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0">
+              <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="#10b981" />
+              <path d="M4 20a8 8 0 0 1 16 0v0H4z" fill="#34d399" />
+            </svg>
+            <div>
+              <h2 className="font-semibold text-lg">Community Help</h2>
+              <p className="mt-2 text-sm">Connect via Contact — find local support and expert tips.</p>
+            </div>
+          </div>
+        </a>
       </section>
     </div>
   )
