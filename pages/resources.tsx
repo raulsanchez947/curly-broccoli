@@ -1,5 +1,78 @@
 import { useState } from 'react'
 
+function TenantCalculator(){
+  const [gross, setGross] = useState<number | ''>('')
+  const [deductions, setDeductions] = useState<number | ''>('')
+  const [paymentStandard, setPaymentStandard] = useState<number | ''>('')
+  const [contractRent, setContractRent] = useState<number | ''>('')
+  const [utilityAllowance, setUtilityAllowance] = useState<number | ''>('')
+
+  const g = Number(gross || 0)
+  const d = Number(deductions || 0)
+  const adj = Math.max(0, g - d)
+  const tenantShare = Math.round(adj * 0.3)
+  const ps = Number(paymentStandard || 0)
+  const cr = Number(contractRent || 0)
+  const ua = Number(utilityAllowance || 0)
+  const applicableRent = cr > 0 ? cr : ps
+  const rentPortion = Math.max(0, applicableRent - ua)
+  const subsidy = Math.max(0, Math.min(ps || applicableRent, rentPortion) - tenantShare)
+
+  return (
+    <div className="space-y-2 text-sm">
+      <div className="grid grid-cols-2 gap-2">
+        <input type="number" placeholder="Gross monthly income" value={gross as any} onChange={e=>setGross(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
+        <input type="number" placeholder="Deductions (monthly)" value={deductions as any} onChange={e=>setDeductions(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
+        <input type="number" placeholder="Payment standard (monthly)" value={paymentStandard as any} onChange={e=>setPaymentStandard(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
+        <input type="number" placeholder="Utility allowance (monthly)" value={utilityAllowance as any} onChange={e=>setUtilityAllowance(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
+        <input type="number" placeholder="Contract rent (optional)" value={contractRent as any} onChange={e=>setContractRent(e.target.value?Number(e.target.value):'')} className="p-2 border rounded col-span-2" />
+      </div>
+
+      <div className="bg-gray-50 p-2 rounded">
+        <div><strong>Adjusted monthly income:</strong> ${adj.toFixed(0)}</div>
+        <div><strong>Estimated tenant share (30%):</strong> ${tenantShare}</div>
+        <div><strong>Rent portion (rent minus utilities):</strong> ${rentPortion.toFixed(0)}</div>
+        <div><strong>Estimated subsidy (approx):</strong> ${subsidy.toFixed(0)}</div>
+        <div className="text-xs text-gray-600 mt-1">Notes: This is an estimate. PHAs apply local deductions and rules. If contract rent &lt; payment standard, subsidy uses contract rent.</div>
+      </div>
+    </div>
+  )
+}
+
+function LandlordCalculator(){
+  const [paymentStandard, setPaymentStandard] = useState<number | ''>('')
+  const [utilityAllowance, setUtilityAllowance] = useState<number | ''>('')
+  const [contractRent, setContractRent] = useState<number | ''>('')
+  const [tenantShare, setTenantShare] = useState<number | ''>('')
+
+  const ps = Number(paymentStandard || 0)
+  const ua = Number(utilityAllowance || 0)
+  const cr = Number(contractRent || 0)
+  const ts = Number(tenantShare || 0)
+  const rentPortion = Math.max(0, cr - ua)
+  const coveredByVoucher = Math.min(ps || rentPortion, rentPortion)
+  const subsidy = Math.max(0, coveredByVoucher - ts)
+
+  return (
+    <div className="space-y-2 text-sm">
+      <div className="grid grid-cols-2 gap-2">
+        <input type="number" placeholder="Payment standard (monthly)" value={paymentStandard as any} onChange={e=>setPaymentStandard(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
+        <input type="number" placeholder="Utility allowance (monthly)" value={utilityAllowance as any} onChange={e=>setUtilityAllowance(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
+        <input type="number" placeholder="Contract rent (monthly)" value={contractRent as any} onChange={e=>setContractRent(e.target.value?Number(e.target.value):'')} className="p-2 border rounded col-span-2" />
+        <input type="number" placeholder="Estimated tenant share (monthly)" value={tenantShare as any} onChange={e=>setTenantShare(e.target.value?Number(e.target.value):'')} className="p-2 border rounded col-span-2" />
+      </div>
+
+      <div className="bg-gray-50 p-2 rounded">
+        <div><strong>Rent portion (contract rent − utility allowance):</strong> ${rentPortion.toFixed(0)}</div>
+        <div><strong>Payment standard:</strong> ${ps.toFixed(0)}</div>
+        <div><strong>Covered by voucher (max):</strong> ${coveredByVoucher.toFixed(0)}</div>
+        <div><strong>Estimated subsidy to landlord:</strong> ${subsidy.toFixed(0)}</div>
+        <div className="text-xs text-gray-600 mt-1">If rent portion &le; payment standard, the voucher can cover up to that amount (less tenant share). Utility allowance is subtracted from total rent for subsidy calculations in many PHAs.</div>
+      </div>
+    </div>
+  )
+}
+
 function Card({title, children, link}:{title:string, children:any, link?:string}){
   const [open, setOpen] = useState(false)
   return (
@@ -100,6 +173,19 @@ export default function Resources(){
               <li>Search listings for landlords who accept vouchers, and ask landlords directly whether they accept Section 8.</li>
               <li>Use NYC resources and local housing navigators — some listings and lotteries on NYC Housing Connect indicate voucher-friendly options.</li>
             </ul>
+
+            <h4 className="font-semibold mt-2">Apartment search tips for voucher holders</h4>
+            <div className="text-sm space-y-2">
+              <p><strong>Target neighborhoods:</strong> pick 2–3 areas and expand radius; be flexible on unit size when possible.</p>
+              <p><strong>Prepare materials:</strong> have a package with voucher docs, ID, proof of income, references, and a short cover note explaining voucher portability and timeliness.</p>
+              <p><strong>Use direct scripts:</strong> when contacting landlords, be brief and clear — see sample below.</p>
+            </div>
+
+            <h4 className="font-semibold mt-2">Sample script to speak with landlords</h4>
+            <div className="bg-gray-50 p-3 rounded text-sm">
+              <p>Hi — my name is [First Last]. I have a Housing Choice Voucher and steady income. The voucher covers a portion of rent through the housing authority and I can provide all documentation and references. Are you open to renting to a tenant with a voucher? I can move quickly and provide the required paperwork.</p>
+              <p className="mt-2"><em>Tip:</em> If the landlord is unsure, offer to share the PHA contact or the landlord packet from your agency.</p>
+            </div>
           </div>
         )
       },
