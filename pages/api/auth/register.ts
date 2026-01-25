@@ -4,17 +4,12 @@ import { prisma } from '../../../lib/prisma'
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse){
   if(req.method !== 'POST') return res.status(405).end()
-  let { email, phone, password, username } = req.body || {}
-  email = typeof email === 'string' ? email.trim() : undefined
-  phone = typeof phone === 'string' ? phone.trim() : undefined
-  username = typeof username === 'string' ? username.trim() : undefined
+  const { email, phone, password, username } = req.body || {}
   if(!password) return res.status(400).json({ error: 'password required' })
-  if(typeof password === 'string' && password.length < 6) return res.status(400).json({ error: 'password must be at least 6 characters' })
   if(!email && !phone) return res.status(400).json({ error: 'email or phone required' })
   if(!username) return res.status(400).json({ error: 'username required' })
 
   try{
-    console.log('register payload', { email, phone, username: username ? '[redacted]' : null })
     // Build safe OR filter only with provided identifiers
     const or: any[] = []
     if(email) or.push({ email })
