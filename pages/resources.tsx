@@ -72,7 +72,7 @@ function LandlordCalculator(){
   )
 }
 
-function Card({title, children, link}:{title:string, children:any, link?:string}){
+function Card({title, children, link, defaultOpen}:{title:string, children:any, link?:string, defaultOpen?:boolean}){
   return (
     <div className="bg-white border rounded">
       <div className="w-full text-left p-4 flex justify-between items-center">
