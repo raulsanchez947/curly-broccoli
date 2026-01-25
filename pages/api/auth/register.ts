@@ -33,6 +33,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       const target = e?.meta?.target || 'unique field'
       return res.status(409).json({ error: `Unique constraint failed: ${target}` })
     }
+    // In non-production, return the error message to aid debugging
+    if(process.env.NODE_ENV !== 'production'){
+      return res.status(500).json({ error: 'Failed to create user', details: e?.message || String(e) })
+    }
     return res.status(500).json({ error: 'Failed to create user' })
   }
 }
