@@ -23,4 +23,4 @@ jobs:
       - name: 'notify vercel'
         uses: 'vercel/repository-dispatch/actions/status@v1'
         with:
-          name: Vercel - curly-broccoli: lint
+          name: "Vercel - curly-broccoli: lint"

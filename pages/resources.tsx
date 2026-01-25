@@ -147,7 +147,7 @@ export default function Resources(){
       <div>
         <div className="mb-6">
           <div className="w-full rounded-lg shadow-md bg-white p-1 overflow-hidden">
-            <img src="/images/hero-resources.jpg" alt="Resources hero" className="w-full h-48 md:h-64 object-cover rounded" />
+            <img src="/images/hero-guides-wikimedia.jpg" alt="Resources hero" className="w-full h-48 md:h-64 object-cover rounded" />
           </div>
         </div>
         <h1 className="text-2xl font-bold">Resources</h1>

@@ -14,7 +14,7 @@ export default function Home() {
           </div>
           <div className="hidden md:block">
             <div className="w-full md:w-[520px] h-40 md:h-56 rounded-lg shadow-xl bg-white p-1 overflow-hidden">
-              <img src="/images/hero-home.jpg" alt="Apartments and housing" className="w-full h-full object-cover" />
+              <img src="/images/hero-home-wikimedia.jpg" alt="Apartments and housing" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
