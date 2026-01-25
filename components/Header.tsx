@@ -32,6 +32,7 @@ export default function Header() {
         <Link href="/" className="font-bold text-xl">Apartment Advisor</Link>
         <nav className="space-x-4 flex items-center">
           <Link href="/guides" className="font-medium">Guides</Link>
+          <Link href="/chat" className="font-medium">Chat</Link>
           <div className="relative group">
             <Link href="/resources">Resources</Link>
             <div className="absolute mt-2 bg-white border rounded shadow-sm hidden group-hover:block" style={{ minWidth: 200 }}>

@@ -13,6 +13,8 @@
     "prisma:migrate": "prisma migrate dev --name init",
     "make-admin": "node scripts/make-admin.js",
     "seed": "node scripts/seed.js"
+    ,"chat:dev": "cd rauls-chatbot && pnpm install && pnpm dev"
+    ,"chat:build": "cd rauls-chatbot && pnpm install && pnpm build"
   },
   "dependencies": {
     "@aws-sdk/rds-signer": "^3.975.0",
