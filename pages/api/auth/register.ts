@@ -10,7 +10,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   if(!username) return res.status(400).json({ error: 'username required' })
 
   try{
-    const exists = await prisma.user.findFirst({ where: { OR: [{ email }, { phone }] } })
+    // Build safe OR filter only with provided identifiers
+    const or: any[] = []
+    if(email) or.push({ email })
+    if(phone) or.push({ phone })
+    const exists = or.length ? await prisma.user.findFirst({ where: { OR: or } }) : null
     // ensure username is not taken
     const nameTaken = await prisma.user.findUnique({ where: { username } })
     if(nameTaken) return res.status(409).json({ error: 'username taken' })
@@ -33,10 +37,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       const target = e?.meta?.target || 'unique field'
       return res.status(409).json({ error: `Unique constraint failed: ${target}` })
     }
-    // In non-production, return the error message to aid debugging
-    if(process.env.NODE_ENV !== 'production'){
-      return res.status(500).json({ error: 'Failed to create user', details: e?.message || String(e) })
-    }
-    return res.status(500).json({ error: 'Failed to create user' })
+    // Return structured error info to aid debugging (limited exposure)
+    const body: any = { error: 'Failed to create user' }
+    if(e?.code) body.code = e.code
+    if(e?.message) body.message = e.message
+    return res.status(500).json(body)
   }
 }
