@@ -57,7 +57,7 @@ export default function Community(){
   return (
     <div>
       <h1 className="text-2xl font-bold">Community</h1>
-      <p className="mt-2">Public posts — others can reply to help answer questions. Posts are shared when a backend is available; otherwise a local fallback may be used.</p>
+      <p className="mt-2">Public posts — others can reply to help answer questions.</p>
 
       <div className="mt-6 grid gap-6 md:grid-cols-2">
         <div>
