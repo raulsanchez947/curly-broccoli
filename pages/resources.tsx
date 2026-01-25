@@ -146,7 +146,9 @@ export default function Resources(){
     return (
       <div>
         <div className="mb-6">
-          <img src="https://source.unsplash.com/1200x480/?lease,tenant,apartment" alt="Resources hero" className="w-full rounded-lg shadow-md object-cover h-48" />
+          <div className="w-full rounded-lg shadow-md bg-white p-1 overflow-hidden">
+            <img src="/images/hero-resources.jpg" alt="Resources hero" className="w-full h-48 md:h-64 object-cover rounded" />
+          </div>
         </div>
         <h1 className="text-2xl font-bold">Resources</h1>
         <p className="mt-3">Templates and legal resources to help with leases, safety, and tenant rights.</p>

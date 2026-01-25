@@ -41,7 +41,7 @@ export default function Header() {
             </div>
           </div>
           <Link href="/landlords" className="font-medium">Landlords</Link>
-          <Link href="/contact" className="font-medium bg-indigo-50 px-3 py-1 rounded">Contact</Link>
+          <Link href="/contact" className="font-medium bg-brand/10 text-brand px-3 py-1 rounded">Contact</Link>
 
           {session ? (
             <>
@@ -54,12 +54,12 @@ export default function Header() {
                   </svg>
                 )}
               </span>
-              {isAdmin && <Link href="/admin" className="ml-3 text-sm text-red-600">Admin</Link>}
-              <button onClick={() => signOut()} className="ml-3 text-sm text-blue-600">Sign out</button>
+              {isAdmin && <Link href="/admin" className="ml-3 text-sm text-brand">Admin</Link>}
+              <button onClick={() => signOut()} className="ml-3 text-sm text-brand">Sign out</button>
             </>
           ) : (
             <div className="flex items-center gap-2">
-              <Link href="/auth/signin" className="inline-flex items-center px-3 py-1.5 border rounded text-sm bg-gray-900 text-white hover:bg-black">Log in</Link>
+              <Link href="/auth/signin" className="inline-flex items-center px-3 py-1.5 border rounded text-sm bg-brand text-white hover:brightness-95">Log in</Link>
               <Link href={{ pathname: '/auth/signin', query: { mode: 'register' } }} className="inline-flex items-center px-3 py-1.5 border rounded text-sm bg-white text-gray-900 hover:bg-gray-50">Register</Link>
             </div>
           )}
