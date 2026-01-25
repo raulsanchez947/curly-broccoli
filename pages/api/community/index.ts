@@ -27,7 +27,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     if(req.method === 'GET'){
       const snap = await postsRef.orderBy('createdAt', 'desc').get()
-      const items = snap.docs.map(d => ({ id: d.id, ...d.data() }))
+      const items = snap.docs.map((d: any) => ({ id: d.id, ...(d.data() as any) }))
       return res.status(200).json(items)
     }
 
