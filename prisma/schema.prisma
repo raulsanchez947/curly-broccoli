@@ -3,8 +3,11 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  // Switched to PostgreSQL for serverless deployments (Neon, Supabase, etc.)
+  provider = "postgresql"
   url      = env("DATABASE_URL")
+  // Optional: set a shadow database URL for migrations in CI or locally
+  // shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
 }
 
 model Account {
