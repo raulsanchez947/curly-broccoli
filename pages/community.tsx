@@ -1,46 +1,63 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useSession } from 'next-auth/react'
 
-type Post = {
-  id: string
-  title: string
-  content: string
-  author?: string
-}
+type Reply = { id: string; author?: string | null; content: string; createdAt: number }
+type Post = { id: string; title: string; content: string; author?: string | null; createdAt: number; replies?: Reply[] }
 
 export default function Community(){
   const { data: session } = useSession()
   const [title, setTitle] = useState('')
   const [content, setContent] = useState('')
-  const [previews, setPreviews] = useState<Post[]>([])
+  const [posts, setPosts] = useState<Post[]>([])
   const [status, setStatus] = useState<string | null>(null)
 
-  function handleSubmit(e: React.FormEvent){
+  async function load(){
+    try{
+      const r = await fetch('/api/community')
+      if(!r.ok) throw new Error('Failed')
+      const data = await r.json()
+      setPosts(data)
+    }catch(e){
+      setStatus('Unable to load shared posts; working offline.')
+    }
+  }
+
+  useEffect(()=>{ load() }, [])
+
+  async function handleSubmit(e: React.FormEvent){
     e.preventDefault()
-    if(!title.trim() || !content.trim()){
-      setStatus('Please provide a title and message.')
-      return
+    if(!title.trim() || !content.trim()){ setStatus('Please provide a title and message.'); return }
+    setStatus('Posting...')
+    try{
+      const r = await fetch('/api/community', { method: 'POST', headers: { 'content-type':'application/json' }, body: JSON.stringify({ title, content, author: session?.user?.name }) })
+      if(!r.ok) throw new Error('failed')
+      const saved = await r.json()
+      setPosts(p => [saved, ...p])
+      setTitle('')
+      setContent('')
+      setStatus('Posted — visible to others.')
+      setTimeout(()=>setStatus(null), 3000)
+    }catch(e){
+      setStatus('Failed to post; try again later.')
     }
+  }
 
-    const p: Post = {
-      id: String(Date.now()),
-      title: title.trim(),
-      content: content.trim(),
-      author: session?.user?.name ?? 'You'
+  async function addReply(postId:string, replyContent:string){
+    if(!replyContent.trim()) return
+    try{
+      const r = await fetch(`/api/community/${postId}/reply`, { method: 'POST', headers: { 'content-type':'application/json' }, body: JSON.stringify({ content: replyContent, author: session?.user?.name }) })
+      if(!r.ok) throw new Error('reply failed')
+      const reply = await r.json()
+      setPosts(ps => ps.map(p => p.id === postId ? { ...p, replies: [...(p.replies||[]), reply] } : p))
+    }catch(e){
+      setStatus('Failed to send reply.')
     }
-
-    // Add to local preview only; do NOT persist or call any API
-    setPreviews(prev => [p, ...prev])
-    setTitle('')
-    setContent('')
-    setStatus('This is a local preview only — your post was NOT saved.')
-    setTimeout(()=>setStatus(null), 4000)
   }
 
   return (
     <div>
       <h1 className="text-2xl font-bold">Community</h1>
-      <p className="mt-2">Share tips and local help — posts below are client-side previews only and are not saved to the server.</p>
+      <p className="mt-2">Public posts — others can reply to help answer questions. Posts are shared when a backend is available; otherwise a local fallback may be used.</p>
 
       <div className="mt-6 grid gap-6 md:grid-cols-2">
         <div>
@@ -56,34 +73,54 @@ export default function Community(){
             </label>
 
             <div className="flex items-center gap-3">
-              <button type="submit" className="px-4 py-2 bg-brand text-white rounded">Preview post</button>
+              <button type="submit" className="px-4 py-2 bg-brand text-white rounded">Post</button>
               <a href="/contact" className="text-sm text-gray-600 underline">Contact us for help</a>
             </div>
             {status && <div className="text-sm text-gray-700 mt-2">{status}</div>}
           </form>
-
-          <div className="mt-4 text-xs text-gray-500">Note: Submitting creates a preview only in your browser; nothing is sent to the server.</div>
         </div>
 
         <div>
-          <div className="bg-white border rounded p-4">
-            <h3 className="font-semibold">Recent previews</h3>
-            {previews.length === 0 ? (
-              <p className="text-sm text-gray-500 mt-2">No posts yet — your previews will appear here.</p>
-            ) : (
-              <ul className="space-y-3 mt-3">
-                {previews.map(p => (
-                  <li key={p.id} className="border rounded p-3">
-                    <div className="text-sm text-gray-600">{p.author}</div>
-                    <div className="font-semibold">{p.title}</div>
-                    <div className="text-sm mt-1 whitespace-pre-wrap">{p.content}</div>
-                  </li>
-                ))}
-              </ul>
-            )}
+          <div className="space-y-4">
+            {posts.length === 0 ? (
+              <div className="bg-white border rounded p-4 text-sm text-gray-500">No posts yet.</div>
+            ) : posts.map(post => (
+              <article key={post.id} className="bg-white border rounded p-4">
+                <div className="text-sm text-gray-600">{post.author || 'Anonymous'}</div>
+                <h3 className="font-semibold">{post.title}</h3>
+                <div className="text-sm mt-2 whitespace-pre-wrap">{post.content}</div>
+                <div className="mt-3">
+                  <ReplyList post={post} onReply={(text)=>addReply(post.id, text)} />
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </div>
+    </div>
+  )
+}
+
+function ReplyList({ post, onReply }:{ post:Post, onReply:(s:string)=>void }){
+  const [text, setText] = useState('')
+  return (
+    <div className="mt-3">
+      <div className="text-sm font-medium">Replies</div>
+      <div className="mt-2 space-y-2">
+        {(!post.replies || post.replies.length === 0) ? (
+          <div className="text-sm text-gray-500">No replies yet.</div>
+        ) : post.replies.map(r => (
+          <div key={r.id} className="border rounded p-2 text-sm">
+            <div className="text-xs text-gray-600">{r.author || 'Anonymous'}</div>
+            <div className="mt-1 whitespace-pre-wrap">{r.content}</div>
+          </div>
+        ))}
+      </div>
+
+      <form onSubmit={(e)=>{ e.preventDefault(); onReply(text); setText('') }} className="mt-3 flex gap-2">
+        <input value={text} onChange={e=>setText(e.target.value)} placeholder="Write a reply..." className="flex-1 border rounded p-2 text-sm" />
+        <button type="submit" className="px-3 py-1 bg-gray-100 rounded text-sm">Reply</button>
+      </form>
     </div>
   )
 }
