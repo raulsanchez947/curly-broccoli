@@ -22,7 +22,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   // Try to use Firebase Admin if available
   try{
     // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const { firestoreAdmin } = require('../../../../lib/firebaseAdmin')
+    const { firestoreAdmin } = require('../../../lib/firebaseAdmin')
     const postsRef = firestoreAdmin.collection('community_posts')
 
     if(req.method === 'GET'){
