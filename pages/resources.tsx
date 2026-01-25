@@ -2,15 +2,14 @@ import { useState } from 'react'
 
 function TenantCalculator(){
   const [gross, setGross] = useState<number | ''>('')
-  const [deductions, setDeductions] = useState<number | ''>('')
   const [paymentStandard, setPaymentStandard] = useState<number | ''>('')
   const [contractRent, setContractRent] = useState<number | ''>('')
   const [utilityAllowance, setUtilityAllowance] = useState<number | ''>('')
 
+  // gross is treated as ANNUAL gross income for this calculator
   const g = Number(gross || 0)
-  const d = Number(deductions || 0)
-  const adj = Math.max(0, g - d)
-  const tenantShare = Math.round(adj * 0.3)
+  const adjMonthly = Math.max(0, g / 12)
+  const tenantShare = Math.round(adjMonthly * 0.3)
   const ps = Number(paymentStandard || 0)
   const cr = Number(contractRent || 0)
   const ua = Number(utilityAllowance || 0)
@@ -21,16 +20,16 @@ function TenantCalculator(){
   return (
     <div className="space-y-2 text-sm">
       <div className="grid grid-cols-2 gap-2">
-        <input type="number" placeholder="Gross monthly income" value={gross as any} onChange={e=>setGross(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
-        <input type="number" placeholder="Deductions (monthly)" value={deductions as any} onChange={e=>setDeductions(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
+        <input type="number" placeholder="Gross annual income" value={gross as any} onChange={e=>setGross(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
+        <div className="p-2 text-sm text-gray-600">(annual)</div>
         <input type="number" placeholder="Payment standard (monthly)" value={paymentStandard as any} onChange={e=>setPaymentStandard(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
         <input type="number" placeholder="Utility allowance (monthly)" value={utilityAllowance as any} onChange={e=>setUtilityAllowance(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
         <input type="number" placeholder="Contract rent (optional)" value={contractRent as any} onChange={e=>setContractRent(e.target.value?Number(e.target.value):'')} className="p-2 border rounded col-span-2" />
       </div>
 
       <div className="bg-gray-50 p-2 rounded">
-        <div><strong>Adjusted monthly income:</strong> ${adj.toFixed(0)}</div>
-        <div><strong>Estimated tenant share (30%):</strong> ${tenantShare}</div>
+        <div><strong>Adjusted monthly income:</strong> ${adjMonthly.toFixed(0)}</div>
+        <div><strong>Estimated tenant share (30% monthly):</strong> ${tenantShare}</div>
         <div><strong>Rent portion (rent minus utilities):</strong> ${rentPortion.toFixed(0)}</div>
         <div><strong>Estimated subsidy (approx):</strong> ${subsidy.toFixed(0)}</div>
         <div className="text-xs text-gray-600 mt-1">Notes: This is an estimate. PHAs apply local deductions and rules. If contract rent &lt; payment standard, subsidy uses contract rent.</div>
@@ -74,14 +73,12 @@ function LandlordCalculator(){
 }
 
 function Card({title, children, link}:{title:string, children:any, link?:string}){
-  const [open, setOpen] = useState(false)
   return (
     <div className="bg-white border rounded">
-      <button onClick={()=>setOpen(o=>!o)} className="w-full text-left p-4 flex justify-between items-center">
+      <div className="w-full text-left p-4 flex justify-between items-center">
         <span className="font-semibold">{title}</span>
-        <span className="text-sm text-gray-500">{open ? '−' : '+'}</span>
-      </button>
-      {open && <div className="p-4 border-t text-sm">{children}{link && <div className="mt-2"><a className="text-blue-600 underline" href={link} target="_blank" rel="noreferrer">Open resource</a></div>}</div>}
+      </div>
+      <div className="p-4 border-t text-sm">{children}{link && <div className="mt-2"><a className="text-blue-600 underline" href={link} target="_blank" rel="noreferrer">Open resource</a></div>}</div>
     </div>
   )
 }
@@ -193,16 +190,18 @@ export default function Resources(){
         id: 'section8-calc',
         title: 'How to Calculate Section 8 Rent (Estimate)',
         body: (
-          <div className="text-sm space-y-2">
-            <p>Section 8 (Housing Choice Voucher) participant rent is typically calculated based on the tenant's portion of rent after applying income-based payment standards. Exact formulas vary by Public Housing Agency (PHA), but a common approach:</p>
-            <ol className="list-decimal list-inside mt-2">
-              <li><strong>Determine gross annual income:</strong> Add up all household gross pay (before taxes) and other countable income. For monthly, divide annual by 12.</li>
-              <li><strong>Apply deductions:</strong> PHAs apply allowable deductions (dependents, medical expenses for elderly/disabled, childcare, etc.). This yields adjusted income.</li>
-              <li><strong>Calculate tenant payment:</strong> Tenant share is commonly 30% of adjusted monthly income (some PHAs use 30% of gross income or a minimum rent). Example: adjusted monthly income $2,000 → tenant portion = $600.</li>
-              <li><strong>Compare to Payment Standard:</strong> The PHA has a payment standard (approximate market rent for unit size). Subsidy = payment standard − tenant share. If contract rent is lower than payment standard, subsidy adjusts to contract rent − tenant share.</li>
-              <li><strong>Example:</strong> Gross monthly income $3,000 → adjusted $2,400 → tenant pays 30% = $720. If PHA payment standard for the unit = $1,800 and contract rent = $1,700, subsidy = $1,700 − $720 = $980. Tenant pays $720 to landlord; housing authority pays $980 to landlord.</li>
-            </ol>
-            <p className="text-sm">Important: Local rules vary widely. Contact your administering PHA for exact calculation rules, allowable deductions, utility responsibilities (tenant vs. PHA), and payment standards. Keep pay stubs, proof of deductions, and documentation ready when applying.</p>
+          <div className="text-sm space-y-4">
+            <p>Below are two simple estimators — one from the tenant perspective and one for landlords. These are estimates; contact your PHA for exact rules.</p>
+            <div>
+              <div className="bg-white p-4 border rounded">
+                <div className="mb-2 font-semibold">Tenant calculator</div>
+                <TenantCalculator />
+              </div>
+            </div>
+            <p className="text-sm">Important: Local rules vary widely. Contact your administering PHA for exact calculation rules, allowable deductions, utility responsibilities (tenant vs. PHA), and payment standards. Keep pay stubs and documentation ready.</p>
+            <div className="mt-2 p-3 bg-yellow-50 border-l-4 border-yellow-300 rounded text-sm">
+              <strong>Disclaimer (mixed families):</strong> When a mixed family is involved in Section 8 housing assistance, the Housing Assistance Payment (HAP) is adjusted based on the number of eligible family members. The HAP is prorated by dividing the number of eligible family members by the total number in the family to find the proration factor, and multiplying the HAP by this factor. For families with ineligible non-citizens, assistance is prorated by dividing the number of eligible family members by the total family size to determine the member maximum subsidy, and then multiplying by the number of eligible family members to determine the eligible subsidy amount. Contact your PHA for exact proration methods and required documentation.
+            </div>
           </div>
         )
       },
@@ -246,7 +245,7 @@ export default function Resources(){
 
         <section className="mt-6 grid gap-4 md:grid-cols-2">
           {filtered.map(it=> (
-            <Card key={it.id} title={it.title}>{it.body}</Card>
+            <Card key={it.id} title={it.title} defaultOpen={it.id === 'section8-calc'}>{it.body}</Card>
           ))}
         </section>
       </div>

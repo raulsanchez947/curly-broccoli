@@ -21,11 +21,11 @@ export default function SignIn(){
 
   async function handleRegister(e:any){
     e?.preventDefault()
-    const body: any = { password }
+    if(!username) { alert('Please choose a username'); return }
+    const body: any = { password, username }
     // detect if identifier is phone or email
     if(identifier.includes('@')) body.email = identifier
     else body.phone = identifier
-    if(username) body.username = username
     const r = await fetch('/api/auth/register', { method: 'POST', headers: { 'Content-Type':'application/json' }, body: JSON.stringify(body) })
     if(r.ok){
       // after registering, sign in
@@ -59,7 +59,6 @@ export default function SignIn(){
         <div className="flex gap-2">
           <button type="submit" className="px-4 py-2 bg-blue-600 text-white rounded">{mode==='signin'? 'Sign in' : 'Register'}</button>
           <button type="button" onClick={()=>signIn('google', { callbackUrl: (router.query?.callbackUrl as string) || window.location.origin })} className="px-4 py-2 bg-gray-100 rounded">Continue with Google</button>
-          <button type="button" onClick={()=>signIn('github', { callbackUrl: (router.query?.callbackUrl as string) || window.location.origin })} className="px-4 py-2 bg-gray-100 rounded">Continue with GitHub</button>
         </div>
       </form>
     </div>

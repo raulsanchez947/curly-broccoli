@@ -7,9 +7,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   const { email, phone, password, username } = req.body || {}
   if(!password) return res.status(400).json({ error: 'password required' })
   if(!email && !phone) return res.status(400).json({ error: 'email or phone required' })
+  if(!username) return res.status(400).json({ error: 'username required' })
 
   try{
     const exists = await prisma.user.findFirst({ where: { OR: [{ email }, { phone }] } })
+    // ensure username is not taken
+    const nameTaken = await prisma.user.findUnique({ where: { username } })
+    if(nameTaken) return res.status(409).json({ error: 'username taken' })
     const hash = await bcrypt.hash(password, 10)
     if (exists) {
       // If user exists but was created via OAuth (no passwordHash), allow completing account
@@ -20,7 +24,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       return res.status(409).json({ error: 'User already exists' })
     }
 
-    const user = await prisma.user.create({ data: { email: email || undefined, phone: phone || undefined, passwordHash: hash, username: username || undefined } })
+    const user = await prisma.user.create({ data: { email: email || undefined, phone: phone || undefined, passwordHash: hash, username } })
     return res.status(201).json({ id: user.id, email: user.email, phone: user.phone })
   }catch(e:any){
     console.error('register error', e)
