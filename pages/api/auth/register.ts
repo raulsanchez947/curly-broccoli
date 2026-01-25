@@ -28,6 +28,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(201).json({ id: user.id, email: user.email, phone: user.phone })
   }catch(e:any){
     console.error('register error', e)
+    // Prisma unique constraint error (e.g., username/email/phone already taken)
+    if(e?.code === 'P2002'){
+      const target = e?.meta?.target || 'unique field'
+      return res.status(409).json({ error: `Unique constraint failed: ${target}` })
+    }
     return res.status(500).json({ error: 'Failed to create user' })
   }
 }

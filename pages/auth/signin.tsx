@@ -50,7 +50,7 @@ export default function SignIn(){
         <input id="identifier" name="identifier" value={identifier} onChange={e=>setIdentifier(e.target.value)} className="border p-2 w-full mt-1 mb-3" />
         {mode==='register' && (
           <>
-            <label className="block text-sm" htmlFor="username">Choose a username (optional)</label>
+            <label className="block text-sm" htmlFor="username">Choose a username</label>
             <input id="username" name="username" value={username} onChange={e=>setUsername(e.target.value)} className="border p-2 w-full mt-1 mb-3" />
           </>
         )}
