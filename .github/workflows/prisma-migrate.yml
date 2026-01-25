@@ -18,9 +18,9 @@ jobs:
         run: npm ci
       - name: Run Prisma migrate
         env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DATABASE_URL: "${{ secrets.DATABASE_URL }}"
         run: npx prisma migrate deploy
       - name: 'notify vercel'
-        uses: 'vercel/repository-dispatch/actions/status@v1'
+        uses: vercel/repository-dispatch/actions/status@v1
         with:
-          name: "Vercel - curly-broccoli: lint"
+          name: "Vercel - curly-broccoli lint"
