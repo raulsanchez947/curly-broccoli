@@ -22,12 +22,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   // Try to use Firebase Admin if available
   try{
     // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const { firestoreAdmin } = require('../../../../lib/firebaseAdmin')
+    const { firestoreAdmin } = require('../../../lib/firebaseAdmin')
     const postsRef = firestoreAdmin.collection('community_posts')
 
     if(req.method === 'GET'){
       const snap = await postsRef.orderBy('createdAt', 'desc').get()
-      const items = snap.docs.map(d => ({ id: d.id, ...d.data() }))
+      const items = snap.docs.map((d: any) => ({ id: d.id, ...(d.data() as any) }))
       return res.status(200).json(items)
     }
 

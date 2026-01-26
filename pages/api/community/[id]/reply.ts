@@ -14,7 +14,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   if(!id) return res.status(400).json({ error: 'missing id' })
 
   try{
-    const { firestoreAdmin } = require('../../../../../lib/firebaseAdmin')
+    const { firestoreAdmin } = require('../../../../lib/firebaseAdmin')
     const postRef = firestoreAdmin.collection('community_posts').doc(String(id))
     if(req.method === 'POST'){
       const { author, content } = req.body
