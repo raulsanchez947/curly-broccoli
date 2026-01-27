@@ -1,0 +1,15 @@
+[
+  {
+    "id": "cmku41kjx0000108frjoumxs0",
+    "name": null,
+    "username": "test_neon_user",
+    "passwordHash": "$2a$10$JxXKruy6r3KqXfwjAaiJpOzUo3ztfwpwhlvUr7nPpC0dGYJD1gvzq",
+    "phone": null,
+    "email": "test-neon@example.com",
+    "isAdmin": false,
+    "emailVerified": null,
+    "image": null,
+    "mfaEnabled": false,
+    "mfaSecret": null
+  }
+]

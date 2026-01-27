@@ -5,3 +5,5 @@ dev.db
 service-account.json
 backup/
 *.bak
+.vercel
+.env*.local

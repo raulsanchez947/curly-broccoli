@@ -166,3 +166,15 @@
 [2026-01-25T17:41:41.826Z] authOptions.session={"strategy":"jwt"}
 [2026-01-25T17:48:28.381Z] authOptions.secret=dev_secret_change_me
 [2026-01-25T17:48:28.382Z] authOptions.session={"strategy":"jwt"}
+[2026-01-26T04:31:15.340Z] authOptions.secret=dev_secret_change_me
+[2026-01-26T04:31:15.338Z] authOptions.secret=dev_secret_change_me
+[2026-01-26T04:31:15.348Z] authOptions.session={"strategy":"jwt"}
+[2026-01-26T04:31:15.348Z] authOptions.session={"strategy":"jwt"}
+[2026-01-26T04:32:04.001Z] authOptions.secret=dev_secret_change_me
+[2026-01-26T04:32:04.003Z] authOptions.session={"strategy":"jwt"}
+[2026-01-26T04:32:04.008Z] authOptions.secret=dev_secret_change_me
+[2026-01-26T04:32:04.010Z] authOptions.session={"strategy":"jwt"}
+[2026-01-26T04:33:06.826Z] authOptions.secret=dev_secret_change_me
+[2026-01-26T04:33:06.828Z] authOptions.session={"strategy":"jwt"}
+[2026-01-26T04:33:06.854Z] authOptions.secret=dev_secret_change_me
+[2026-01-26T04:33:06.854Z] authOptions.session={"strategy":"jwt"}

@@ -1,0 +1,513 @@
+[
+  {
+    "table_name": "Account",
+    "column_name": "id",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Account",
+    "column_name": "userId",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Account",
+    "column_name": "type",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Account",
+    "column_name": "provider",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Account",
+    "column_name": "providerAccountId",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Account",
+    "column_name": "refresh_token",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "Account",
+    "column_name": "access_token",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "Account",
+    "column_name": "expires_at",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "Account",
+    "column_name": "token_type",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "Account",
+    "column_name": "scope",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "Account",
+    "column_name": "id_token",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "Account",
+    "column_name": "session_state",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "Contact",
+    "column_name": "id",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Contact",
+    "column_name": "ownerId",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Contact",
+    "column_name": "contactId",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Contact",
+    "column_name": "createdAt",
+    "data_type": "timestamp without time zone",
+    "is_nullable": "NO",
+    "column_default": "CURRENT_TIMESTAMP"
+  },
+  {
+    "table_name": "Conversation",
+    "column_name": "id",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Conversation",
+    "column_name": "createdAt",
+    "data_type": "timestamp without time zone",
+    "is_nullable": "NO",
+    "column_default": "CURRENT_TIMESTAMP"
+  },
+  {
+    "table_name": "ConversationParticipant",
+    "column_name": "id",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "ConversationParticipant",
+    "column_name": "conversationId",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "ConversationParticipant",
+    "column_name": "userId",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "ConversationParticipant",
+    "column_name": "joinedAt",
+    "data_type": "timestamp without time zone",
+    "is_nullable": "NO",
+    "column_default": "CURRENT_TIMESTAMP"
+  },
+  {
+    "table_name": "Message",
+    "column_name": "id",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Message",
+    "column_name": "content",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Message",
+    "column_name": "authorId",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "Message",
+    "column_name": "conversationId",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "Message",
+    "column_name": "createdAt",
+    "data_type": "timestamp without time zone",
+    "is_nullable": "NO",
+    "column_default": "CURRENT_TIMESTAMP"
+  },
+  {
+    "table_name": "MessageAttachment",
+    "column_name": "id",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "MessageAttachment",
+    "column_name": "messageId",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "MessageAttachment",
+    "column_name": "url",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "MessageAttachment",
+    "column_name": "filename",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "MessageAttachment",
+    "column_name": "mimeType",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "MessageReaction",
+    "column_name": "id",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "MessageReaction",
+    "column_name": "messageId",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "MessageReaction",
+    "column_name": "userId",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "MessageReaction",
+    "column_name": "type",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "MessageReaction",
+    "column_name": "createdAt",
+    "data_type": "timestamp without time zone",
+    "is_nullable": "NO",
+    "column_default": "CURRENT_TIMESTAMP"
+  },
+  {
+    "table_name": "MessageRead",
+    "column_name": "id",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "MessageRead",
+    "column_name": "messageId",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "MessageRead",
+    "column_name": "userId",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "MessageRead",
+    "column_name": "seenAt",
+    "data_type": "timestamp without time zone",
+    "is_nullable": "NO",
+    "column_default": "CURRENT_TIMESTAMP"
+  },
+  {
+    "table_name": "Post",
+    "column_name": "id",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Post",
+    "column_name": "title",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Post",
+    "column_name": "content",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Post",
+    "column_name": "reported",
+    "data_type": "boolean",
+    "is_nullable": "NO",
+    "column_default": "false"
+  },
+  {
+    "table_name": "Post",
+    "column_name": "authorId",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "Post",
+    "column_name": "createdAt",
+    "data_type": "timestamp without time zone",
+    "is_nullable": "NO",
+    "column_default": "CURRENT_TIMESTAMP"
+  },
+  {
+    "table_name": "Session",
+    "column_name": "id",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Session",
+    "column_name": "sessionToken",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Session",
+    "column_name": "userId",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "Session",
+    "column_name": "expires",
+    "data_type": "timestamp without time zone",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "User",
+    "column_name": "id",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "User",
+    "column_name": "name",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "User",
+    "column_name": "username",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "User",
+    "column_name": "passwordHash",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "User",
+    "column_name": "phone",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "User",
+    "column_name": "email",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "User",
+    "column_name": "isAdmin",
+    "data_type": "boolean",
+    "is_nullable": "NO",
+    "column_default": "false"
+  },
+  {
+    "table_name": "User",
+    "column_name": "emailVerified",
+    "data_type": "timestamp without time zone",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "User",
+    "column_name": "image",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "User",
+    "column_name": "mfaEnabled",
+    "data_type": "boolean",
+    "is_nullable": "NO",
+    "column_default": "false"
+  },
+  {
+    "table_name": "User",
+    "column_name": "mfaSecret",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "VerificationToken",
+    "column_name": "identifier",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "VerificationToken",
+    "column_name": "token",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "VerificationToken",
+    "column_name": "expires",
+    "data_type": "timestamp without time zone",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "_prisma_migrations",
+    "column_name": "id",
+    "data_type": "character varying",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "_prisma_migrations",
+    "column_name": "checksum",
+    "data_type": "character varying",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "_prisma_migrations",
+    "column_name": "finished_at",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "_prisma_migrations",
+    "column_name": "migration_name",
+    "data_type": "character varying",
+    "is_nullable": "NO",
+    "column_default": null
+  },
+  {
+    "table_name": "_prisma_migrations",
+    "column_name": "logs",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "_prisma_migrations",
+    "column_name": "rolled_back_at",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "YES",
+    "column_default": null
+  },
+  {
+    "table_name": "_prisma_migrations",
+    "column_name": "started_at",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "NO",
+    "column_default": "now()"
+  },
+  {
+    "table_name": "_prisma_migrations",
+    "column_name": "applied_steps_count",
+    "data_type": "integer",
+    "is_nullable": "NO",
+    "column_default": "0"
+  }
+]
