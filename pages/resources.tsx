@@ -20,7 +20,7 @@ function TenantCalculator(){
   return (
     <div className="space-y-2 text-sm">
       <div className="grid grid-cols-2 gap-2">
-        <input type="number" placeholder="Gross annual income" value={gross as any} onChange={e=>setGross(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
+        <input type="number" placeholder="Gross annual Household income" value={gross as any} onChange={e=>setGross(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
         <div className="p-2 text-sm text-gray-600">(annual)</div>
         <input type="number" placeholder="Payment standard (monthly)" value={paymentStandard as any} onChange={e=>setPaymentStandard(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
         <input type="number" placeholder="Utility allowance (monthly)" value={utilityAllowance as any} onChange={e=>setUtilityAllowance(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />

@@ -23,10 +23,10 @@ function LandlordCalculator(){
         <input type="number" placeholder="Contract rent (monthly)" value={contractRent as any} onChange={e=>setContractRent(e.target.value?Number(e.target.value):'')} className="p-2 border rounded col-span-2" />
       </div>
 
-        <div className="bg-gray-50 p-2 rounded">
-        <div><strong>Rent portion (contract rent − utility allowance):</strong> ${rentPortion.toFixed(0)}</div>
-        <div><strong>Payment standard:</strong> ${ps.toFixed(0)}</div>
-        <div><strong>Covered by voucher (max):</strong> ${coveredByVoucher.toFixed(0)}</div>
+      <div className="bg-gray-50 p-2 rounded">
+        <div><strong>Rent portion (contract rent − utility allowance):</strong> {"$" + rentPortion.toFixed(0)}</div>
+        <div><strong>Payment standard:</strong> {"$" + ps.toFixed(0)}</div>
+        <div><strong>Covered by voucher (max):</strong> {"$" + coveredByVoucher.toFixed(0)}</div>
         <div className="text-xs text-gray-600 mt-1">If rent portion &le; payment standard, the voucher can cover up to that amount (less tenant share). Utility allowance is subtracted from total rent for subsidy calculations in many PHAs.</div>
       </div>
     </div>
@@ -98,6 +98,9 @@ export default function Landlords() {
             <li>Proof of ownership or management agreement</li>
             <li>Unit description and photos</li>
             <li>Certificate of insurance (if requested)</li>
+            <li>Landlord packets are submitted by email to shelter staff if client is in shelter or by Homebase staff</li>
+            <li>For non-shelter clients, follow up with homebase</li>
+            <li>Inspections are conducted by shelter staff or a homebase worker</li>
           </ul>
           <p className="text-sm text-gray-600">Payments for CityFHEPS are routed via HRA — confirm vendor setup and ACH enrollment on the HRA site.</p>
         </article>
@@ -155,3 +158,4 @@ Thank you,
     </main>
   )
 }
+
