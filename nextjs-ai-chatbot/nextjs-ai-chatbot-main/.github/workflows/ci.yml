@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20]
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+
+      - name: Install pnpm
+        run: npm i -g pnpm@9
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build
+        env:
+          POSTGRES_URL: ${{ secrets.POSTGRES_URL }}
+        run: pnpm build
+
+      - name: Run tests
+        run: |
+          if [ -f playwright.config.ts ] || [ -d tests ] ; then pnpm test ; fi

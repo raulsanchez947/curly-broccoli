@@ -46,6 +46,11 @@ export default function Guides(){
 
   return (
     <div>
+      <div className="mb-6">
+          <div className="w-full rounded-lg shadow-md bg-white p-1 overflow-hidden">
+          <img src="/images/hero-guides-wikimedia.jpg" alt="Guides hero" className="w-full h-48 md:h-64 object-cover rounded" />
+        </div>
+      </div>
       <h1 className="text-2xl font-bold">Guides</h1>
       <p className="mt-3">Practical, interactive guides to find apartments, negotiate rent, and move in smoothly.</p>
 

@@ -1,4 +1,37 @@
 import Link from 'next/link'
+import { useState } from 'react'
+
+function LandlordCalculator(){
+  const [paymentStandard, setPaymentStandard] = useState<number | ''>('')
+  const [utilityAllowance, setUtilityAllowance] = useState<number | ''>('')
+  const [contractRent, setContractRent] = useState<number | ''>('')
+
+  const ps = Number(paymentStandard || 0)
+  const ua = Number(utilityAllowance || 0)
+  const cr = Number(contractRent || 0)
+  const rentPortion = Math.max(0, cr - ua)
+  // estimate tenant share as 30% of the rent portion when tenant income is not provided
+  const estimatedTenantShare = Math.round(rentPortion * 0.3)
+  const coveredByVoucher = Math.min(ps || rentPortion, rentPortion)
+  const subsidy = Math.max(0, coveredByVoucher - estimatedTenantShare)
+
+  return (
+    <div className="space-y-2 text-sm">
+      <div className="grid grid-cols-2 gap-2">
+        <input type="number" placeholder="Payment standard (monthly)" value={paymentStandard as any} onChange={e=>setPaymentStandard(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
+        <input type="number" placeholder="Utility allowance (monthly)" value={utilityAllowance as any} onChange={e=>setUtilityAllowance(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
+        <input type="number" placeholder="Contract rent (monthly)" value={contractRent as any} onChange={e=>setContractRent(e.target.value?Number(e.target.value):'')} className="p-2 border rounded col-span-2" />
+      </div>
+
+      <div className="bg-gray-50 p-2 rounded">
+        <div><strong>Rent portion (contract rent − utility allowance):</strong> {"$" + rentPortion.toFixed(0)}</div>
+        <div><strong>Payment standard:</strong> {"$" + ps.toFixed(0)}</div>
+        <div><strong>Covered by voucher (max):</strong> {"$" + coveredByVoucher.toFixed(0)}</div>
+        <div className="text-xs text-gray-600 mt-1">If rent portion &le; payment standard, the voucher can cover up to that amount (less tenant share). Utility allowance is subtracted from total rent for subsidy calculations in many PHAs.</div>
+      </div>
+    </div>
+  )
+}
 
 export default function Landlords() {
   return (
@@ -21,6 +54,22 @@ export default function Landlords() {
           <li>Bank details / ACH form for rent payments</li>
           <li>Contact and routing information (owner or property manager phone/email)</li>
         </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-2">Section 8: Estimate for Landlords</h2>
+        <p className="mb-2">This landlord-focused estimator helps you approximate the voucher payment portion that the housing authority may pay to landlords, given the payment standard, utility allowance, contract rent, and tenant share.</p>
+        <div className="max-w-3xl">
+          <div className="bg-white p-4 border rounded mb-3">
+            <LandlordCalculator />
+          </div>
+          <div className="mt-2 p-3 bg-yellow-50 border-l-4 border-yellow-300 rounded text-sm">
+            <strong>Disclaimer (mixed families):</strong> When a mixed family is involved in Section 8 housing assistance, the Housing Assistance Payment (HAP) is adjusted based on the number of eligible family members. The HAP is prorated by dividing the number of eligible family members by the total number in the family to find the proration factor, and multiplying the HAP by this factor. For families with ineligible non-citizens, assistance is prorated by dividing the number of eligible family members by the total family size to determine the member maximum subsidy, and then multiplying by the number of eligible family members to determine the eligible subsidy amount. Contact the administering PHA for exact proration methods and required documentation.
+          </div>
+          <div className="mt-3 p-3 bg-gray-50 rounded text-sm text-gray-700">
+            <strong>Landlord estimate notice:</strong> These tools provide only rough estimates. Final subsidy and payment calculations are performed by the administering PHA and may differ. Always rely on official PHA determinations for payment amounts.
+          </div>
+        </div>
       </section>
 
       <section className="mb-8">
@@ -49,6 +98,9 @@ export default function Landlords() {
             <li>Proof of ownership or management agreement</li>
             <li>Unit description and photos</li>
             <li>Certificate of insurance (if requested)</li>
+            <li>Landlord packets are submitted by email to shelter staff if client is in shelter or by Homebase staff</li>
+            <li>For non-shelter clients, follow up with homebase</li>
+            <li>Inspections are conducted by shelter staff or a homebase worker</li>
           </ul>
           <p className="text-sm text-gray-600">Payments for CityFHEPS are routed via HRA — confirm vendor setup and ACH enrollment on the HRA site.</p>
         </article>
@@ -106,3 +158,4 @@ Thank you,
     </main>
   )
 }
+

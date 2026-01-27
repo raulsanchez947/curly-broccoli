@@ -1,5 +1,9 @@
 import { useEffect, useState } from 'react'
 import { useSession } from 'next-auth/react'
+import type { GetServerSideProps } from 'next'
+import { getServerSession } from 'next-auth'
+import { authOptions } from './api/auth/[...nextauth]'
+import { prisma } from '../lib/prisma'
 
 type Post = { id: string; title: string; content: string; authorId?: string; createdAt: string }
 
@@ -48,4 +52,21 @@ export default function Admin(){
       </section>
     </div>
   )
+}
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  const session = await getServerSession(context.req, context.res, authOptions as any) as any
+  if(!session?.user?.email){
+    return { redirect: { destination: '/auth/signin', permanent: false } }
+  }
+
+  const user = await prisma.user.findUnique({ where: { email: session.user.email } })
+  const adminEmails = (process.env.ADMIN_EMAILS || '').split(',').map((s:string) => s.trim()).filter(Boolean)
+  const isAdmin = !!(user?.isAdmin || adminEmails.includes(session.user.email))
+
+  if(!isAdmin){
+    return { redirect: { destination: '/', permanent: false } }
+  }
+
+  return { props: {} }
 }
