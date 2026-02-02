@@ -14,8 +14,10 @@ if (isBuildTime) {
   console.log('[build-time] DATABASE_URL present:', !!dbUrl, 'masked:', maskedDbUrl)
 }
 
-if (isBuildTime && (!dbUrl || /USER:PASS|HOST|DBNAME/.test(dbUrl))) {
-  throw new Error('DATABASE_URL is missing or contains placeholders. Set DATABASE_URL (Neon) for build-time so Hub/Drizzle generate correct Postgres config.')
+// Only require DATABASE_URL at build-time when explicitly embedding it into
+// the generated Hub outputs. Embedding is opt-in via `HUB_EMBED_DB_URL=1`.
+if (isBuildTime && process.env.HUB_EMBED_DB_URL && (!dbUrl || /USER:PASS|HOST|DBNAME/.test(dbUrl))) {
+  throw new Error('DATABASE_URL is missing or contains placeholders. Set DATABASE_URL (Neon) for build-time or unset HUB_EMBED_DB_URL to avoid embedding DB credentials.')
 }
 
 export default defineNuxtConfig({
@@ -56,17 +58,50 @@ export default defineNuxtConfig({
     }
   },
 
+  // Vite build tuning to lower peak memory and split large vendor chunks.
+  // Manual chunks reduce single large bundles which can cause high memory usage.
+  vite: {
+    build: {
+      // Allow larger chunks but still warn for very large bundles.
+      chunkSizeWarningLimit: 2000,
+      // Disable build sourcemaps to avoid Tailwind plugin sourcemap warnings.
+      sourcemap: false,
+      rollupOptions: {
+        output: {
+          manualChunks(id: string) {
+            if (!id.includes('node_modules')) return
+            // prioritize splitting out very large or problematic packages first
+            if (id.includes('/node_modules/ai') || id.includes('/node_modules/@ai-sdk')) return 'vendor_ai'
+            if (id.includes('/node_modules/@nuxt/ui') || id.includes('/node_modules/nuxt-ui')) return 'vendor_nuxt_ui'
+            if (id.includes('/node_modules/vue') || id.includes('/node_modules/@vue')) return 'vendor_vue'
+            if (id.includes('/node_modules/@nuxt') || id.includes('/node_modules/nuxt')) return 'vendor_nuxt'
+            if (id.includes('/node_modules/shiki') || id.includes('/node_modules/@shikijs')) return 'vendor_shiki'
+            if (id.includes('/node_modules/@iconify') || id.includes('/node_modules/iconify')) return 'vendor_iconify'
+            if (id.includes('/node_modules/@vueuse') || id.includes('/node_modules/vueuse')) return 'vendor_vueuse'
+            if (id.includes('/node_modules/tailwindcss') || id.includes('/node_modules/@tailwind')) return 'vendor_tailwind'
+            if (id.includes('/node_modules/firebase') || id.includes('/node_modules/@firebase')) return 'vendor_firebase'
+            if (id.includes('/node_modules/@prisma') || id.includes('/node_modules/prisma')) return 'vendor_prisma'
+            if (id.includes('/node_modules/drizzle') || id.includes('/node_modules/@drizzle') ) return 'vendor_drizzle'
+            if (id.includes('/node_modules/lodash')) return 'vendor_lodash'
+            return 'vendor_misc'
+          }
+        }
+      }
+    }
+  },
+
   hub: {
-    // Force Postgres driver for Hub so builds use `DATABASE_URL` in all branches/environments.
-    // Use the driver name expected by @nuxthub/core (see createDrizzleClient).
-    db: {
-      // Drizzle expects a dialect name for migrations; make it explicit.
+    // Only configure Postgres when explicitly embedding DB URL at build time.
+    // Otherwise leave `db` undefined so @nuxthub/core doesn't initialize
+    // the postgres-js driver (which requires a DB env var).
+    db: process.env.HUB_EMBED_DB_URL ? {
       dialect: 'postgresql',
       driver: 'postgres-js',
       connection: {
         url: dbUrl
-      }
-    },
+      },
+      applyMigrationsDuringBuild: !!(process.env.HUB_APPLY_MIGRATIONS && /^(1|true)$/i.test(process.env.HUB_APPLY_MIGRATIONS))
+    } : undefined,
     blob: true
   },
 

@@ -1,6 +1,6 @@
 import { convertToModelMessages, createUIMessageStream, createUIMessageStreamResponse, generateText, smoothStream, stepCountIs, streamText } from 'ai'
 import { z } from 'zod'
-import { db, schema } from 'hub:db'
+import { db, schema } from '../../db/client'
 import { and, eq } from 'drizzle-orm'
 import type { UIMessage } from 'ai'
 

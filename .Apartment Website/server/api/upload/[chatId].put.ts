@@ -1,5 +1,5 @@
 import { blob } from 'hub:blob'
-import { db, schema } from 'hub:db'
+import { db, schema } from '../../db/client'
 import { eq } from 'drizzle-orm'
 import { z } from 'zod'
 

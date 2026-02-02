@@ -166,3 +166,14 @@ model Contact {
 
   @@unique([ownerId, contactId])
 }
+
+// Contact form submissions (public-facing contact form)
+model ContactRequest {
+  id String @id @default(cuid())
+  name String?
+  email String
+  message String
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("contact_requests")
+}

@@ -1,5 +1,5 @@
 import { blob } from 'hub:blob'
-import { db, schema } from 'hub:db'
+import { db, schema } from '../../db/client'
 import { and, eq } from 'drizzle-orm'
 
 export default defineEventHandler(async (event) => {

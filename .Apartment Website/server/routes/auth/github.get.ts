@@ -1,4 +1,4 @@
-import { db, schema } from 'hub:db'
+import { db, schema } from '../../db/client'
 import { and, eq } from 'drizzle-orm'
 
 export default defineOAuthGitHubEventHandler({
