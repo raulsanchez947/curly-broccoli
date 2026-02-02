@@ -4,6 +4,12 @@ import { execSync } from 'child_process';
 const pgUrl = process.env.POSTGRES_URL || '';
 const dbUrl = process.env.DATABASE_URL || '';
 
+// Allow skipping migrations during build (useful for local builds where DB is unreachable)
+if (process.env.SKIP_MIGRATIONS === '1' || process.env.SKIP_MIGRATIONS === 'true') {
+  console.log('SKIP_MIGRATIONS is set — skipping Prisma migrations during build.');
+  process.exit(0);
+}
+
 function looksLikePostgres(u) {
   return typeof u === 'string' && (u.startsWith('postgres://') || u.startsWith('postgresql://'));
 }

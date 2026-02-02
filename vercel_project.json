@@ -1,0 +1,516 @@
+﻿{
+    "accountId":  "team_bud9AE8DdTjOKRduWR8ufvtt",
+    "alias":  [
+                  {
+                      "configuredBy":  "A",
+                      "configuredChangedAt":  1769528510902,
+                      "createdAt":  1769528510902,
+                      "deployment":  {
+                                         "alias":  [
+                                                       "apartment-chat.vercel.app",
+                                                       "apartment-chat-rauls-projects-76a8ba4b.vercel.app",
+                                                       "apartment-chat-raulsanchez947-rauls-projects-76a8ba4b.vercel.app"
+                                                   ],
+                                         "aliasAssigned":  1769538505427,
+                                         "builds":  [
+
+                                                    ],
+                                         "createdAt":  1769538377816,
+                                         "createdIn":  "sfo1",
+                                         "creator":  {
+                                                         "uid":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                                                         "email":  "raulsanchez947@gmail.com",
+                                                         "username":  "raulsanchez947"
+                                                     },
+                                         "deploymentHostname":  "apartment-chat-qlduh2hcz-rauls-projects-76a8ba4b",
+                                         "forced":  false,
+                                         "id":  "dpl_7Ax93qmXZMYYWP62vyEKnm8D3MDV",
+                                         "meta":  {
+                                                      "lambdaRuntimeStats":  "{\"nodejs\":1}"
+                                                  },
+                                         "name":  "apartment-chat",
+                                         "plan":  "hobby",
+                                         "private":  true,
+                                         "readyState":  "READY",
+                                         "target":  "production",
+                                         "teamId":  "team_bud9AE8DdTjOKRduWR8ufvtt",
+                                         "type":  "LAMBDAS",
+                                         "url":  "apartment-chat-qlduh2hcz-rauls-projects-76a8ba4b.vercel.app",
+                                         "userId":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                                         "withCache":  false
+                                     },
+                      "domain":  "apartment-chat.vercel.app",
+                      "environment":  "production",
+                      "gitBranch":  null,
+                      "redirect":  null,
+                      "target":  "PRODUCTION"
+                  }
+              ],
+    "autoExposeSystemEnvs":  true,
+    "autoAssignCustomDomains":  true,
+    "autoAssignCustomDomainsUpdatedBy":  "system",
+    "buildCommand":  null,
+    "commandForIgnoringBuildStep":  null,
+    "createdAt":  1769528510903,
+    "deploymentExpiration":  {
+                                 "expirationDays":  180,
+                                 "expirationDaysProduction":  365,
+                                 "expirationDaysCanceled":  30,
+                                 "expirationDaysErrored":  90,
+                                 "deploymentsToKeep":  10
+                             },
+    "devCommand":  null,
+    "directoryListing":  false,
+    "env":  [
+                {
+                    "target":  [
+                                   "production"
+                               ],
+                    "configurationId":  null,
+                    "id":  "HfxK6ChsNjfP1kBm",
+                    "key":  "DATABASE_URL",
+                    "createdAt":  1769536756185,
+                    "updatedAt":  1769536756185,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "5as+QYHKgBZr4dd5vAzCPpinDXz3nRng6eb5/Xgh7LkKEoBlMd+rfOFqgQJCG+47b33WgtxLMltYuIQLP+dR54FIWIer2Q7dewfleXtW2niK4wFlccyr1+9m5e0OxWUNw55wyU+RQ265QXuSqcqpQ4Pl4nVZHSI85hjB07BrUaNTUIkAYnlbDjt06L74UY4K7BtkPibEPWDJgUAUAlTK8DortGD4NMnc8FvD6r4o4JY="
+                },
+                {
+                    "target":  [
+                                   "production"
+                               ],
+                    "configurationId":  null,
+                    "id":  "I9MehiDZfASLh7q4",
+                    "key":  "AI_GATEWAY_API_KEY",
+                    "createdAt":  1769537072228,
+                    "updatedAt":  1769537072228,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "VKhsEBSvf3I7YpwW6WqM/qYUw2fQYOW3P8j1fiUKKuMOQ3FIZ0siPnZ5AtUGl5Dana9IOLuTdzljHdklX8TSAlQiU9IMcWhA7Pl6BbAVfso="
+                },
+                {
+                    "target":  [
+                                   "production"
+                               ],
+                    "configurationId":  null,
+                    "id":  "XmabCyBWh3psm2TF",
+                    "key":  "NUXT_SESSION_PASSWORD",
+                    "createdAt":  1769537402374,
+                    "updatedAt":  1769537402374,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "nKAooS6eDKtJWr9GoA+LmRTuNsQB2NTOQenvptMkdqcLN0ANi9qHH06GXhK0PV5tBlfsNWLR++Rcu/FP+dxTfYknJWeswh776S/INkVskNcySu/GGEHuASauxaBS94lny85HSZwv8UJ+grJcHVNEwkZoCH8xvvjQQz/2n8VsW6Y="
+                },
+                {
+                    "target":  [
+                                   "preview"
+                               ],
+                    "configurationId":  null,
+                    "id":  "dqu3Q7W1zgcwPVwq",
+                    "key":  "NUXT_SESSION_PASSWORD",
+                    "createdAt":  1769537409050,
+                    "updatedAt":  1769537409050,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "2Asko75+rzw/LVUkjrhiI8yFLF2lbhrBsqo8qSgmjh0yYEvtZX4PildHoUd01xweT75H+vky9l/G7lSfs1NhSGptkG5iV5JiVRfwAoa811AG4jniO5mqdQEzSHxXBGJ/Q4K9YZ2wnIjgkDs02qJ2pHALfHS5oyScBEf9Z2QWu6o="
+                },
+                {
+                    "target":  [
+                                   "production"
+                               ],
+                    "configurationId":  null,
+                    "id":  "YL3TAOArMY8S9zeJ",
+                    "key":  "NUXT_OAUTH_GITHUB_CLIENT_ID",
+                    "createdAt":  1769537415606,
+                    "updatedAt":  1769537415606,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "MUDub6bHZc7P68t0xtiPWtwjpn7F7706O0LR546mNoU="
+                },
+                {
+                    "target":  [
+                                   "preview"
+                               ],
+                    "configurationId":  null,
+                    "id":  "iHu1Qk17K1OXgt5a",
+                    "key":  "NUXT_OAUTH_GITHUB_CLIENT_ID",
+                    "createdAt":  1769537430497,
+                    "updatedAt":  1769537430497,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "cblSPV+EYQH3xaxbtAtMM71gJ35FwnPBvyNs7G5Pd5Y="
+                },
+                {
+                    "target":  [
+                                   "production"
+                               ],
+                    "configurationId":  null,
+                    "id":  "pdFY6bVGSbCEqiMi",
+                    "key":  "NUXT_OAUTH_GITHUB_CLIENT_SECRET",
+                    "createdAt":  1769537437269,
+                    "updatedAt":  1769537437269,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "UKur8IMei0gmNV6C5AqAfX/o+Er0PqQI9dyFtgETHf/V/+iVaTCRPUB7K+i/gzko9zFU2Sojogy5jigbZp2Qpw=="
+                },
+                {
+                    "target":  [
+                                   "preview"
+                               ],
+                    "configurationId":  null,
+                    "id":  "dRGUBoDhdjTW8de1",
+                    "key":  "NUXT_OAUTH_GITHUB_CLIENT_SECRET",
+                    "createdAt":  1769537443864,
+                    "updatedAt":  1769537443864,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "vSUMTwVHtRdR3wevaelvjmy1gEDyOJ3HDjWiY4uHIjc1yI0WCD+E0BZ5JDTe848gtCz/q3FsjMtIU8D3GsaazA=="
+                },
+                {
+                    "target":  [
+                                   "preview"
+                               ],
+                    "configurationId":  null,
+                    "id":  "XerK4MFYzKpcFIr0",
+                    "key":  "DATABASE_URL",
+                    "createdAt":  1769539782977,
+                    "updatedAt":  1769539782977,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "v+S/CYI4k/KnTt3Ur2CF5l88ap99TdHoyhrhnAJb1j4jszeJVjlPX2XDbSxgxlWQs0qZLGV4yS2JbV95jG5CNJMysRuKz2y7dnM4jQ8CrmdCJwU4sJxkeAjPuEzRzu0kw7Chl3ZzHzoz5d1Ex7KX4B73k6vaiyl5KFbaZUT2zI59ezaH3WaFvGImhHNibKvXOs5NyasLItWHnQQWF/PcF1BidRFQj8Q6YMNqorz7Ljc="
+                },
+                {
+                    "target":  [
+                                   "development"
+                               ],
+                    "configurationId":  null,
+                    "id":  "wwRNjKtqUiEuUSUg",
+                    "key":  "DATABASE_URL",
+                    "createdAt":  1769539790055,
+                    "updatedAt":  1769539790055,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "u9DpD58XjYMhk4+rhVepuMHl8vb6JAD/yRAuXcYAVU6ffdfpPgvscnzK8CMc/frIBK+857r8HeeE+9MmIHu8uQXbFVBrbmWEZ6T8+DDpPnwQmB0uH6sjHqEsnyU4atQxT7jd9UgQ2oL+VC0GfqwdDH64qjXHMFcInFJqLWvtfYYIwqaH5r3PYCh5cM1CFHf1Hp4pdi9OlSoKOaveA6s9hCpcecmooFMdMTHu9/FoZTQ="
+                },
+                {
+                    "target":  [
+                                   "preview"
+                               ],
+                    "configurationId":  null,
+                    "gitBranch":  "feat/nuxt-chat",
+                    "comment":  "",
+                    "customEnvironmentIds":  [
+
+                                             ],
+                    "id":  "YsYyJXMsGg0WvjfP",
+                    "key":  "NODE_OPTIONS",
+                    "createdAt":  1769540349950,
+                    "updatedAt":  1769540349950,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "sensitive",
+                    "value":  ""
+                },
+                {
+                    "target":  [
+                                   "production"
+                               ],
+                    "configurationId":  null,
+                    "id":  "CJa1rUFOsFpfRrUn",
+                    "key":  "NODE_OPTIONS",
+                    "createdAt":  1769540413390,
+                    "updatedAt":  1769540413390,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "OOy1IGh/QQtlUjmb/jwlmrU7L1LH8DfXh+qpfTxVjEBGMAqHRCISAdVjjcMIFTmo"
+                },
+                {
+                    "target":  [
+                                   "preview"
+                               ],
+                    "configurationId":  null,
+                    "id":  "pOrId8W1s4vyi38R",
+                    "key":  "NODE_OPTIONS",
+                    "createdAt":  1769540420465,
+                    "updatedAt":  1769540420465,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "9L/3QeL9wXQomhW19MWHPxf9aGeW5IyMsEHcd+ARHSMsNdTnB1rArI+mdNuk6SWm"
+                },
+                {
+                    "target":  [
+                                   "preview"
+                               ],
+                    "configurationId":  null,
+                    "id":  "u7pWmTKtyGhen3TB",
+                    "key":  "AI_GATEWAY_API_KEY",
+                    "createdAt":  1769540451389,
+                    "updatedAt":  1769540451389,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "T3yuwZ5GsQII4/F1prlAAaFGlACV0hhw4HnFm+tFFD9olj5XKNn4WqfaFCw9I7t1g08jlQ7hMTFY0uXXER93ZAyDQlW7I5u3XoSeY62tmoc="
+                },
+                {
+                    "target":  [
+                                   "development"
+                               ],
+                    "configurationId":  null,
+                    "id":  "EDF8j4cw9cgYfzTk",
+                    "key":  "NUXT_SESSION_PASSWORD",
+                    "createdAt":  1769540468066,
+                    "updatedAt":  1769540468066,
+                    "createdBy":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                    "updatedBy":  null,
+                    "type":  "encrypted",
+                    "value":  "mOcxjKjMQ4AtGHvYq77tlC9D2DseR0y0QHMbee10pSjIRK3oZgU4zKlfYVZlb4H0cGQMn5Hb0s1d/286U0DJlzd4YrFEfHMtyttlRah/DNMeaDMr7JB7pEt8ueDt23P+UJGJLye39RB89xYoVjVuFN544lAuhQfIww7cdAqhZGo="
+                }
+            ],
+    "framework":  "nuxtjs",
+    "gitForkProtection":  true,
+    "id":  "prj_mT5dToAV5fAhiPt0yxcWzA7mYR4F",
+    "installCommand":  null,
+    "name":  "apartment-chat",
+    "nodeVersion":  "24.x",
+    "outputDirectory":  ".output/public",
+    "publicSource":  null,
+    "resourceConfig":  {
+                           "fluid":  true,
+                           "functionDefaultRegions":  [
+                                                          "iad1"
+                                                      ]
+                       },
+    "rootDirectory":  null,
+    "serverlessFunctionRegion":  "iad1",
+    "sourceFilesOutsideRootDirectory":  true,
+    "speedInsights":  {
+                          "id":  "DcHdOtayEQilfghfkwI7zW1AODk",
+                          "hasData":  false
+                      },
+    "ssoProtection":  {
+                          "deploymentType":  "all_except_custom_domains"
+                      },
+    "updatedAt":  1769543055878,
+    "live":  false,
+    "gitComments":  {
+                        "onCommit":  false,
+                        "onPullRequest":  true
+                    },
+    "gitProviderOptions":  {
+                               "createDeployments":  "enabled"
+                           },
+    "webAnalytics":  {
+                         "id":  "Jys8lZ5JMEDsGy8jZw2cIHqKC"
+                     },
+    "oidcTokenConfig":  {
+                            "enabled":  true,
+                            "issuerMode":  "team"
+                        },
+    "link":  {
+                 "type":  "github",
+                 "repo":  "curly-broccoli",
+                 "repoId":  1137867280,
+                 "org":  "raulsanchez947",
+                 "repoOwnerId":  173499761,
+                 "gitCredentialId":  "cred_ccc4ac836af8f6747183ca1d30af61941b90848b",
+                 "productionBranch":  "main",
+                 "createdAt":  1769540311040,
+                 "updatedAt":  1769540311040,
+                 "deployHooks":  [
+
+                                 ]
+             },
+    "latestDeployments":  [
+                              {
+                                  "alias":  [
+                                                "apartment-chat-git-feat-nuxt-chat-rauls-projects-76a8ba4b.vercel.app"
+                                            ],
+                                  "aliasAssigned":  null,
+                                  "builds":  [
+
+                                             ],
+                                  "createdAt":  1769543062862,
+                                  "createdIn":  "sfo1",
+                                  "creator":  {
+                                                  "uid":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                                                  "email":  "raulsanchez947@gmail.com",
+                                                  "username":  "raulsanchez947"
+                                              },
+                                  "deploymentHostname":  "apartment-chat-i9mpz542h-rauls-projects-76a8ba4b",
+                                  "forced":  false,
+                                  "id":  "dpl_9WMTT41zuib5UUeroVq719pyiEfE",
+                                  "meta":  {
+                                               "githubCommitAuthorName":  "assistant",
+                                               "githubCommitAuthorEmail":  "assistant@local",
+                                               "githubCommitMessage":  "chore: trigger redeploy after setting Vercel outputDirectory",
+                                               "githubCommitOrg":  "raulsanchez947",
+                                               "githubCommitRef":  "feat/nuxt-chat",
+                                               "githubCommitRepo":  "curly-broccoli",
+                                               "githubCommitSha":  "4269b21e3b88a98d50d33ef24b6c5dfb1d689c8a",
+                                               "githubDeployment":  "1",
+                                               "githubOrg":  "raulsanchez947",
+                                               "githubRepo":  "curly-broccoli",
+                                               "githubRepoOwnerType":  "User",
+                                               "githubCommitRepoId":  "1137867280",
+                                               "githubRepoId":  "1137867280",
+                                               "githubRepoVisibility":  "public",
+                                               "githubHost":  "github.com",
+                                               "repoPushedAt":  "1769543059000",
+                                               "branchAlias":  "apartment-chat-git-feat-nuxt-chat-rauls-projects-76a8ba4b.vercel.app"
+                                           },
+                                  "name":  "apartment-chat",
+                                  "plan":  "hobby",
+                                  "private":  true,
+                                  "readyState":  "ERROR",
+                                  "target":  null,
+                                  "teamId":  "team_bud9AE8DdTjOKRduWR8ufvtt",
+                                  "type":  "LAMBDAS",
+                                  "url":  "apartment-chat-i9mpz542h-rauls-projects-76a8ba4b.vercel.app",
+                                  "userId":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                                  "withCache":  false
+                              },
+                              {
+                                  "alias":  [
+                                                "apartment-chat-git-feat-nuxt-chat-rauls-projects-76a8ba4b.vercel.app"
+                                            ],
+                                  "aliasAssigned":  null,
+                                  "builds":  [
+
+                                             ],
+                                  "createdAt":  1769542934397,
+                                  "createdIn":  "sfo1",
+                                  "creator":  {
+                                                  "uid":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                                                  "email":  "raulsanchez947@gmail.com",
+                                                  "username":  "raulsanchez947"
+                                              },
+                                  "deploymentHostname":  "apartment-chat-5hz771jbc-rauls-projects-76a8ba4b",
+                                  "forced":  false,
+                                  "id":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                  "meta":  {
+                                               "githubCommitAuthorName":  "assistant",
+                                               "githubCommitAuthorEmail":  "assistant@local",
+                                               "githubCommitMessage":  "chore: trigger redeploy (user requested)",
+                                               "githubCommitOrg":  "raulsanchez947",
+                                               "githubCommitRef":  "feat/nuxt-chat",
+                                               "githubCommitRepo":  "curly-broccoli",
+                                               "githubCommitSha":  "ab68eb56055b337a524bd63712f035b88aee056e",
+                                               "githubDeployment":  "1",
+                                               "githubOrg":  "raulsanchez947",
+                                               "githubRepo":  "curly-broccoli",
+                                               "githubRepoOwnerType":  "User",
+                                               "githubCommitRepoId":  "1137867280",
+                                               "githubRepoId":  "1137867280",
+                                               "githubRepoVisibility":  "public",
+                                               "githubHost":  "github.com",
+                                               "repoPushedAt":  "1769542932000",
+                                               "branchAlias":  "apartment-chat-git-feat-nuxt-chat-rauls-projects-76a8ba4b.vercel.app"
+                                           },
+                                  "name":  "apartment-chat",
+                                  "plan":  "hobby",
+                                  "private":  true,
+                                  "readyState":  "ERROR",
+                                  "target":  null,
+                                  "teamId":  "team_bud9AE8DdTjOKRduWR8ufvtt",
+                                  "type":  "LAMBDAS",
+                                  "url":  "apartment-chat-5hz771jbc-rauls-projects-76a8ba4b.vercel.app",
+                                  "userId":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                                  "withCache":  false
+                              }
+                          ],
+    "targets":  {
+                    "production":  {
+                                       "alias":  [
+                                                     "apartment-chat-rauls-projects-76a8ba4b.vercel.app",
+                                                     "apartment-chat-raulsanchez947-rauls-projects-76a8ba4b.vercel.app"
+                                                 ],
+                                       "aliasAssigned":  null,
+                                       "builds":  [
+
+                                                  ],
+                                       "createdAt":  1769539814936,
+                                       "createdIn":  "sfo1",
+                                       "creator":  {
+                                                       "uid":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                                                       "email":  "raulsanchez947@gmail.com",
+                                                       "username":  "raulsanchez947"
+                                                   },
+                                       "deploymentHostname":  "apartment-chat-3vd2yzn7a-rauls-projects-76a8ba4b",
+                                       "forced":  false,
+                                       "id":  "dpl_TSmmEZJc5KknSF2YHtuphxxpgpHX",
+                                       "meta":  {
+
+                                                },
+                                       "name":  "apartment-chat",
+                                       "plan":  "hobby",
+                                       "private":  true,
+                                       "readyState":  "ERROR",
+                                       "target":  "production",
+                                       "teamId":  "team_bud9AE8DdTjOKRduWR8ufvtt",
+                                       "type":  "LAMBDAS",
+                                       "url":  "apartment-chat-3vd2yzn7a-rauls-projects-76a8ba4b.vercel.app",
+                                       "userId":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                                       "withCache":  false
+                                   },
+                    "preview":  {
+                                    "alias":  [
+                                                  "apartment-chat-git-feat-nuxt-chat-rauls-projects-76a8ba4b.vercel.app"
+                                              ],
+                                    "aliasAssigned":  null,
+                                    "builds":  [
+
+                                               ],
+                                    "createdAt":  1769543062862,
+                                    "createdIn":  "sfo1",
+                                    "creator":  {
+                                                    "uid":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                                                    "email":  "raulsanchez947@gmail.com",
+                                                    "username":  "raulsanchez947"
+                                                },
+                                    "deploymentHostname":  "apartment-chat-i9mpz542h-rauls-projects-76a8ba4b",
+                                    "forced":  false,
+                                    "id":  "dpl_9WMTT41zuib5UUeroVq719pyiEfE",
+                                    "meta":  {
+                                                 "githubCommitAuthorName":  "assistant",
+                                                 "githubCommitAuthorEmail":  "assistant@local",
+                                                 "githubCommitMessage":  "chore: trigger redeploy after setting Vercel outputDirectory",
+                                                 "githubCommitOrg":  "raulsanchez947",
+                                                 "githubCommitRef":  "feat/nuxt-chat",
+                                                 "githubCommitRepo":  "curly-broccoli",
+                                                 "githubCommitSha":  "4269b21e3b88a98d50d33ef24b6c5dfb1d689c8a",
+                                                 "githubDeployment":  "1",
+                                                 "githubOrg":  "raulsanchez947",
+                                                 "githubRepo":  "curly-broccoli",
+                                                 "githubRepoOwnerType":  "User",
+                                                 "githubCommitRepoId":  "1137867280",
+                                                 "githubRepoId":  "1137867280",
+                                                 "githubRepoVisibility":  "public",
+                                                 "githubHost":  "github.com",
+                                                 "repoPushedAt":  "1769543059000",
+                                                 "branchAlias":  "apartment-chat-git-feat-nuxt-chat-rauls-projects-76a8ba4b.vercel.app"
+                                             },
+                                    "name":  "apartment-chat",
+                                    "plan":  "hobby",
+                                    "private":  true,
+                                    "readyState":  "ERROR",
+                                    "target":  null,
+                                    "teamId":  "team_bud9AE8DdTjOKRduWR8ufvtt",
+                                    "type":  "LAMBDAS",
+                                    "url":  "apartment-chat-i9mpz542h-rauls-projects-76a8ba4b.vercel.app",
+                                    "userId":  "I0zQHpXjGgKpROsHp5rPZmLS",
+                                    "withCache":  false
+                                }
+                }
+}
