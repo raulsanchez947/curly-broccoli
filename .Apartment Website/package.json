@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
+    "build": "cross-env NODE_OPTIONS=\"--max-old-space-size=4096 --no-deprecation\" nuxt build",
     "dev": "nuxt dev",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -45,6 +45,7 @@
   "devDependencies": {
     "@nuxt/eslint": "^1.13.0",
     "@types/node": "^24.10.9",
+    "cross-env": "^7.0.3",
     "drizzle-kit": "^0.18.1",
     "eslint": "^9.39.2",
     "typescript": "^5.9.3",

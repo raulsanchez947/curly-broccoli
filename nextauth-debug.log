@@ -234,3 +234,7 @@
 [2026-02-02T18:32:49.045Z] authOptions.secret=dev_secret_change_me
 [2026-02-02T18:32:49.047Z] authOptions.session={"strategy":"jwt"}
 [2026-02-02T18:32:49.048Z] authOptions.session={"strategy":"jwt"}
+[2026-02-02T19:24:17.184Z] authOptions.secret=dev_secret_change_me
+[2026-02-02T19:24:17.187Z] authOptions.session={"strategy":"jwt"}
+[2026-02-02T19:24:17.193Z] authOptions.secret=dev_secret_change_me
+[2026-02-02T19:24:17.194Z] authOptions.session={"strategy":"jwt"}

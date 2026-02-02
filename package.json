@@ -13,8 +13,8 @@
     "prisma:migrate": "prisma migrate dev --name init",
     "make-admin": "node scripts/make-admin.js",
     "seed": "node scripts/seed.js",
-    "chat:dev": "cd rauls-chatbot && pnpm install && pnpm dev",
-    "chat:build": "cd rauls-chatbot && pnpm install && pnpm build"
+    "chat:dev": "pnpm --prefix ./rauls-chatbot install && pnpm --prefix ./rauls-chatbot dev",
+    "chat:build": "pnpm --prefix ./rauls-chatbot install && pnpm --prefix ./rauls-chatbot build"
   },
   "dependencies": {
     "@aws-sdk/rds-signer": "^3.893.0",
@@ -64,9 +64,9 @@
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@tailwindcss/typography": "^0.5.15",
-    "@types/bcryptjs": "^2.4.2",
-    "@types/node": "25.0.9",
-    "@types/react": "19.2.8",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^25.2.0",
+    "@types/react": "^19.2.10",
     "playwright": "^1.57.0",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.1.6"
