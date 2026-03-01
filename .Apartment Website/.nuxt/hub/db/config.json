@@ -1,0 +1,11 @@
+{
+  "dir": "C:/Users/rauls/Apartment website/.Apartment Website/.data",
+  "hosting": "",
+  "blob": {
+    "driver": "fs",
+    "dir": "C:/Users/rauls/Apartment website/.Apartment Website/.data/blob"
+  },
+  "cache": false,
+  "db": false,
+  "kv": false
+}
