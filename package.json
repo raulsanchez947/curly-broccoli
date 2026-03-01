@@ -6,7 +6,7 @@
     "dev": "next dev -H 0.0.0.0",
     "dev:server": "node server.js",
     "build": "prisma generate && node scripts/run_migrations_if_postgres.mjs && next build",
-    "vercel-build": "prisma generate && node scripts/run_migrations_if_postgres.mjs && next build",
+    "vercel-build": "prisma generate && node scripts/run_migrations_if_postgres.mjs && next build && mkdir -p .output/public && cp -r .next/* .output/public/",
     "postinstall": "prisma generate",
     "start": "next start",
     "prisma:generate": "prisma generate",
