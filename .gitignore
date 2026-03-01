@@ -5,3 +5,6 @@ dev.db
 service-account.json
 backup/
 *.bak
+.vercel
+.env*.local
+# ignore old hidden project folder\n.Apartment Website/

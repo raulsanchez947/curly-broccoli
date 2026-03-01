@@ -1,0 +1,149 @@
+﻿
+> build
+> nuxt build
+
+[90mΓöî[39m  [36mBuilding Nuxt for production...[39m
+[build-time] DATABASE_URL present: false masked: 
+[90mΓöé[39m
+[34mΓùÅ[39m  [32mNuxt [1m4.3.0[22m[39m[90m (with [39m[90mNitro [1m2.13.1[22m[39m[90m, Vite [1m7.3.1[22m[39m[90m and Vue [1m3.5.27[22m[39m[90m)[39m
+[build-time] DATABASE_URL present: false masked: 
+[90m[[90mnuxt:hub[90m][39m [36mΓä╣[39m [36mhub:blob[39m using [36mfs[39m driver
+[36mΓä╣[39m Nuxt Icon server bundle mode is set to [36mlocal[39m
+[32mΓ£ö[39m Nuxt Icon discovered local-installed 3 collections: logos, lucide, simple-icons
+[90mΓöé[39m
+[34mΓùÅ[39m  Nitro preset: [36mnode-server[39m
+[36mΓä╣[39m Building client...
+[36mΓä╣[39m [36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+[36mΓä╣[39m transforming...
+[36mΓä╣[39m [32mΓ£ô[39m 4190 modules transformed.
+node.exe : 
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Users\rauls\AppData\Roaming\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[43m[30m WARN [39m[49m [33mCircular chunk: vendor_misc -> vendor_vue -> 
+vendor_misc. Please adjust the manual chunk logic for these chunks.[39m
+
+
+[43m[30m WARN [39m[49m [33mCircular chunk: vendor_misc -> vendor_nuxt -> 
+vendor_misc. Please adjust the manual chunk logic for these chunks.[39m
+
+
+[43m[30m WARN [39m[49m [33mCircular chunk: vendor_misc -> vendor_nuxt -> 
+vendor_shiki -> vendor_misc. Please adjust the manual chunk logic for these 
+chunks.[39m
+
+
+[43m[30m WARN [39m[49m [33mCircular chunk: vendor_misc -> vendor_nuxt_ui 
+-> vendor_misc. Please adjust the manual chunk logic for these chunks.[39m
+
+
+[43m[30m WARN [39m[49m [33mGenerated an empty chunk: "vendor_lodash".[39m
+
+[36mΓä╣[39m rendering chunks...
+[36mΓä╣[39m computing gzip size...
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[32mmanifest.json                      [39m[1m[2m    4.92 kB[22m[1m[22m[2m Γöé gzip:     0.79 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[35m_nuxt/vendor_nuxt_ui.DmpPSE9a.css  [39m[1m[2m    0.27 kB[22m[1m[22m[2m Γöé gzip:     0.18 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[35m_nuxt/_id_.BTPzamGG.css            [39m[1m[2m    0.75 kB[22m[1m[22m[2m Γöé gzip:     0.30 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[35m_nuxt/vendor_misc.Mhbi3rEX.css     [39m[1m[2m  232.01 kB[22m[1m[22m[2m Γöé gzip:    32.24 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/l0sNRNKZ.js                  [39m[1m[2m    0.00 kB[22m[1m[22m[2m Γöé gzip:     0.02 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/DlAUqK2U.js                  [39m[1m[2m    0.09 kB[22m[1m[22m[2m Γöé gzip:     0.10 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/DtLkQxOZ.js                  [39m[1m[2m    0.75 kB[22m[1m[22m[2m Γöé gzip:     0.46 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/DVhw3STM.js                  [39m[1m[2m    2.93 kB[22m[1m[22m[2m Γöé gzip:     1.55 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/BZWbHbb9.js                  [39m[1m[2m    7.76 kB[22m[1m[22m[2m Γöé gzip:     3.26 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/Cay67bh1.js                  [39m[1m[2m    7.97 kB[22m[1m[22m[2m Γöé gzip:     2.43 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/BiQ1ez1g.js                  [39m[1m[2m    9.14 kB[22m[1m[22m[2m Γöé gzip:     4.16 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/B_GyfmLZ.js                  [39m[1m[2m   12.46 kB[22m[1m[22m[2m Γöé gzip:     4.92 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/CWdWK1zS.js                  [39m[1m[2m   23.72 kB[22m[1m[22m[2m Γöé gzip:     8.33 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/6j_tkkik.js                  [39m[1m[2m   56.22 kB[22m[1m[22m[2m Γöé gzip:    15.14 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/Cvo3Sglp.js                  [39m[1m[2m   87.35 kB[22m[1m[22m[2m Γöé gzip:    30.49 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/BpdoSCbZ.js                  [39m[1m[2m  147.47 kB[22m[1m[22m[2m Γöé gzip:    56.24 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/DUC_9WBj.js                  [39m[1m[2m  193.89 kB[22m[1m[22m[2m Γöé gzip:    43.37 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/UH3ni-9z.js                  [39m[1m[2m1,703.43 kB[22m[1m[22m[2m Γöé gzip:   485.60 kB[22m
+[36mΓä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/Bgo4o1qV.js                  [39m[1m[33m9,450.75 kB[39m[22m[2m Γöé gzip: 1,634.51 kB[22m
+
+[43m[30m WARN [39m[49m [33m
+(!) Some chunks are larger than 2000 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via 
+build.chunkSizeWarningLimit.[39m
+
+[36mΓä╣[39m [32mΓ£ô built in 45.71s[39m
+[32mΓ£ö[39m Client built in 45765ms
+[36mΓä╣[39m Building server...
+[36mΓä╣[39m [36mvite v7.3.1 [32mbuilding ssr environment for production...[36m[39m
+[36mΓä╣[39m transforming...
+[36mΓä╣[39m [32mΓ£ô[39m 431 modules transformed.
+[36mΓä╣[39m rendering chunks...
+[36mΓä╣[39m [32mΓ£ô built in 13.50s[39m
+[32mΓ£ö[39m Server built in 13607ms
+[90m[[90mnitro[90m][39m [32mΓ£ö[39m Generated public [36m.output/public[39m
+[90m[[90mnitro[90m][39m [36mΓä╣[39m Building Nuxt Nitro server (preset: [36mnode-server[39m, compatibility date: [36m2024-07-03[39m)
+(node:31396) [DEP0155] DeprecationWarning: Use of deprecated trailing slash 
+pattern mapping "./" in the "exports" field module resolution of the package 
+at C:\Users\rauls\Apartment website\.Apartment 
+Website\node_modules\@iconify\utils\package.json imported from 
+C:\Users\rauls\Apartment website\.Apartment 
+Website\node_modules\@nuxt\icon\dist\runtime\server\api.js. Mapping specifiers 
+ending in "/" is no longer supported.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:31396) [DEP0155] DeprecationWarning: Use of deprecated trailing slash 
+pattern mapping "./" in the "exports" field module resolution of the package 
+at C:\Users\rauls\Apartment website\.Apartment 
+Website\node_modules\@vue\shared\package.json imported from 
+C:\Users\rauls\Apartment website\.Apartment 
+Website\node_modules\@nuxt\nitro-server\dist\runtime\templates\error-500.mjs. 
+Mapping specifiers ending in "/" is no longer supported.
+(node:31396) [DEP0155] DeprecationWarning: Use of deprecated trailing slash 
+pattern mapping "./" in the "exports" field module resolution of the package 
+at C:\Users\rauls\Apartment website\.Apartment 
+Website\node_modules\@shikijs\core\package.json imported from 
+C:\Users\rauls\Apartment website\.Apartment 
+Website\node_modules\.cache\nuxt\.nuxt\mdc-highlighter.mjs. Mapping specifiers 
+ending in "/" is no longer supported.
+
+<--- Last few GCs --->
+
+[31396:00000266AA092000]   116158 ms: Scavenge (interleaved) 2017.4 (2033.7) 
+-> 2017.0 (2055.5) MB, pooled: 0 MB, 22.76 / 0.00 ms  (average mu = 0.268, 
+current mu = 0.239) allocation failure; 
+[31396:00000266AA092000]   117086 ms: Mark-Compact (reduce) 2023.8 (2055.5) -> 
+2022.5 (2032.0) MB, pooled: 0 MB, 365.16 / 0.00 ms  (+ 492.9 ms in 99 steps 
+since start of marking, biggest step 6.1 ms, walltime since start of marking 
+875 ms) (average mu = 0
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - 
+JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 00007FF759AAAE1F void __cdecl node::OnFatalError(char const * __ptr64,char 
+const * __ptr64)+1343
+ 2: 00007FF75A6F37B7 public: class v8::MaybeLocal<class v8::Object> __cdecl 
+v8::Function::NewInstance(class v8::Local<class v8::Context>,int,class 
+v8::Local<class v8::Value> * __ptr64 const)const __ptr64+423
+ 3: 00007FF75A4F3E77 private: __cdecl 
+v8::base::AddressSpaceReservation::AddressSpaceReservation(void * 
+__ptr64,unsigned __int64) __ptr64+322071
+ 4: 00007FF75A4F7B84 private: __cdecl 
+v8::base::AddressSpaceReservation::AddressSpaceReservation(void * 
+__ptr64,unsigned __int64) __ptr64+337700
+ 5: 00007FF75A506B1C protected: void __cdecl 
+v8::internal::StrongRootAllocatorBase::deallocate_impl(unsigned __int64 * 
+__ptr64,unsigned __int64) __ptr64+16604
+ 6: 00007FF75A50635B protected: void __cdecl 
+v8::internal::StrongRootAllocatorBase::deallocate_impl(unsigned __int64 * 
+__ptr64,unsigned __int64) __ptr64+14619
+ 7: 00007FF75B96EBED struct v8::base::MagicNumbersForDivision<unsigned 
+__int64> __cdecl v8::base::UnsignedDivisionByConstant<unsigned 
+__int64>(unsigned __int64,unsigned int)+2791309
+ 8: 00007FF75A4F1940 private: __cdecl 
+v8::base::AddressSpaceReservation::AddressSpaceReservation(void * 
+__ptr64,unsigned __int64) __ptr64+312544
+ 9: 00007FF75A575619 public: __cdecl v8::Unlocker::~Unlocker(void) __ptr64+9273
+10: 00007FF75A0EB1C2 public: __cdecl v8::String::Value::~Value(void) 
+__ptr64+142210
+11: 00000266E203733A 
+

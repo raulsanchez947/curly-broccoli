@@ -1,0 +1,12 @@
+[
+  {
+    "id": "99c8d29c-2608-42ff-bd7b-f68832e2b82e",
+    "checksum": "eee120aa4f24dacba0ae209111ff4f3c90776f8be29a0e2d6b4c25f4188bd966",
+    "finished_at": "2026-01-25T19:04:34.832Z",
+    "migration_name": "20260125190434_init",
+    "logs": null,
+    "rolled_back_at": null,
+    "started_at": "2026-01-25T19:04:34.666Z",
+    "applied_steps_count": 1
+  }
+]

@@ -1,0 +1,42 @@
+name: Run DB Migrations
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch: {}
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm ci
+
+      - name: Run Prisma migrations (if DATABASE_URL present)
+        if: env.DATABASE_URL != ''
+        run: |
+          npx prisma migrate deploy --schema=prisma/schema.prisma || true
+
+      - name: Run Nuxt/Drizzle migrations (if DATABASE_URL present)
+        if: env.DATABASE_URL != ''
+        run: |
+          # If your repo uses `nuxt db migrate` or drizzle-kit, run them here
+          if command -v npx >/dev/null 2>&1; then
+            npx --no-install nuxt db migrate || true
+            # drizzle-kit push (if used) - adjust as needed
+            npx --no-install drizzle-kit migrate || true
+          fi
+
+      - name: Finished
+        run: echo "Migrations step completed"

@@ -1,0 +1,54 @@
+{
+  "total": 3,
+  "unique": 3,
+  "entries": [
+    {
+      "type": "stderr",
+      "created": 1769556983382,
+      "payload": {
+        "deploymentId": "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+        "info": {
+          "type": "build",
+          "name": "bld_67af4ojh6",
+          "entrypoint": "."
+        },
+        "text": "Vercel CLI 50.5.2",
+        "id": "1769556983382270726595100000",
+        "date": 1769556983382,
+        "serial": "1769556983382270726595100000"
+      }
+    },
+    {
+      "type": "stderr",
+      "created": 1769557016255,
+      "payload": {
+        "deploymentId": "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+        "info": {
+          "type": "build",
+          "name": "bld_67af4ojh6",
+          "entrypoint": "."
+        },
+        "text": "[warn] [nuxt:hub] Files stored in Vercel Blob are public. Manually configure a different storage driver if storing sensitive files.",
+        "id": "1769557016255270726595100000",
+        "date": 1769557016255,
+        "serial": "1769557016255270726595100000"
+      }
+    },
+    {
+      "type": "stderr",
+      "created": 1769557023607,
+      "payload": {
+        "deploymentId": "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+        "info": {
+          "type": "build",
+          "name": "bld_67af4ojh6",
+          "entrypoint": "."
+        },
+        "text": "Could not fetch from `https://fonts.googleapis.com/css2`. Will retry in `1000ms`. `3` retries left.",
+        "id": "1769557023607270726595100000",
+        "date": 1769557023607,
+        "serial": "1769557023607270726595100000"
+      }
+    }
+  ]
+}

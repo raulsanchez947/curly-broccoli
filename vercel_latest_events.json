@@ -1,0 +1,3205 @@
+﻿{
+    "value":  [
+                  {
+                      "type":  "stdout",
+                      "created":  1769542935366,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Running build in Washington, D.C., USA (East) â iad1",
+                                      "id":  "1769542935366060080537700000",
+                                      "date":  1769542935366,
+                                      "serial":  "1769542935366060080537700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542935366,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Build machine configuration: 2 cores, 8 GB",
+                                      "id":  "1769542935366060080537700001",
+                                      "date":  1769542935366,
+                                      "serial":  "1769542935366060080537700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542935764,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Cloning github.com/raulsanchez947/curly-broccoli (Branch: feat/nuxt-chat, Commit: ab68eb5)",
+                                      "id":  "1769542935764060080537700000",
+                                      "date":  1769542935764,
+                                      "serial":  "1769542935764060080537700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542937129,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Warning: Failed to fetch one or more git submodules",
+                                      "id":  "1769542937129060080537700000",
+                                      "date":  1769542937129,
+                                      "serial":  "1769542937129060080537700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542937129,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Cloning completed: 1.365s",
+                                      "id":  "1769542937129060080537700001",
+                                      "date":  1769542937129,
+                                      "serial":  "1769542937129060080537700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542939121,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Restored build cache from previous deployment (7Ax93qmXZMYYWP62vyEKnm8D3MDV)",
+                                      "id":  "1769542939121060080537700000",
+                                      "date":  1769542939121,
+                                      "serial":  "1769542939121060080537700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542940279,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Running \"vercel build\"",
+                                      "id":  "1769542940279269041349700000",
+                                      "date":  1769542940279,
+                                      "serial":  "1769542940279269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542941487,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Vercel CLI 50.5.2",
+                                      "id":  "1769542941487269041349700000",
+                                      "date":  1769542941487,
+                                      "serial":  "1769542941487269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542941591,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Detected OpenTelemetry dependency: @vercel/otel@1.12.0, which meets the minimum version requirement of 1.11.0",
+                                      "id":  "1769542941591269041349700000",
+                                      "date":  1769542941591,
+                                      "serial":  "1769542941591269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542942137,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Detected `pnpm-lock.yaml` 9 which may be generated by pnpm@9.x or pnpm@10.x",
+                                      "id":  "1769542942137269041349700000",
+                                      "date":  1769542942137,
+                                      "serial":  "1769542942137269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542942138,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Using pnpm@10.x based on project creation date",
+                                      "id":  "1769542942138269041349700000",
+                                      "date":  1769542942138,
+                                      "serial":  "1769542942138269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542942138,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "To use pnpm@9.x, manually opt in using corepack (https://vercel.com/docs/deployments/configure-a-build#corepack)",
+                                      "id":  "1769542942138269041349700001",
+                                      "date":  1769542942138,
+                                      "serial":  "1769542942138269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542942163,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Installing dependencies...",
+                                      "id":  "1769542942163269041349700000",
+                                      "date":  1769542942163,
+                                      "serial":  "1769542942163269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542944566,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Lockfile is up to date, resolution step is skipped",
+                                      "id":  "1769542944566269041349700000",
+                                      "date":  1769542944566,
+                                      "serial":  "1769542944566269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542945667,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 1, reused 0, downloaded 0, added 0",
+                                      "id":  "1769542945667269041349700000",
+                                      "date":  1769542945667,
+                                      "serial":  "1769542945667269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542945788,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Packages: +442 -1317",
+                                      "id":  "1769542945788269041349700000",
+                                      "date":  1769542945788,
+                                      "serial":  "1769542945788269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542945789,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "++++++++++++++++++++------------------------------------------------------------",
+                                      "id":  "1769542945789269041349700000",
+                                      "date":  1769542945789,
+                                      "serial":  "1769542945789269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542946668,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 62, added 22",
+                                      "id":  "1769542946668269041349700000",
+                                      "date":  1769542946668,
+                                      "serial":  "1769542946668269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542947670,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 97, added 38",
+                                      "id":  "1769542947670269041349700000",
+                                      "date":  1769542947670,
+                                      "serial":  "1769542947670269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542948669,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 108, added 42",
+                                      "id":  "1769542948669269041349700000",
+                                      "date":  1769542948669,
+                                      "serial":  "1769542948669269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542949719,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 109, added 42",
+                                      "id":  "1769542949719269041349700000",
+                                      "date":  1769542949719,
+                                      "serial":  "1769542949719269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542950722,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 124, added 46",
+                                      "id":  "1769542950722269041349700000",
+                                      "date":  1769542950722,
+                                      "serial":  "1769542950722269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542951722,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 222, added 92",
+                                      "id":  "1769542951722269041349700000",
+                                      "date":  1769542951722,
+                                      "serial":  "1769542951722269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542952725,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 265, added 104",
+                                      "id":  "1769542952725269041349700000",
+                                      "date":  1769542952725,
+                                      "serial":  "1769542952725269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542953726,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 281, added 108",
+                                      "id":  "1769542953726269041349700000",
+                                      "date":  1769542953726,
+                                      "serial":  "1769542953726269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542954726,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 313, added 120",
+                                      "id":  "1769542954726269041349700000",
+                                      "date":  1769542954726,
+                                      "serial":  "1769542954726269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542955727,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 385, added 154",
+                                      "id":  "1769542955727269041349700000",
+                                      "date":  1769542955727,
+                                      "serial":  "1769542955727269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542956736,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 425, added 170",
+                                      "id":  "1769542956736269041349700000",
+                                      "date":  1769542956736,
+                                      "serial":  "1769542956736269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542957736,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 441, added 241",
+                                      "id":  "1769542957736269041349700000",
+                                      "date":  1769542957736,
+                                      "serial":  "1769542957736269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542958736,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 442, added 309",
+                                      "id":  "1769542958736269041349700000",
+                                      "date":  1769542958736,
+                                      "serial":  "1769542958736269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542959737,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 442, added 400",
+                                      "id":  "1769542959737269041349700000",
+                                      "date":  1769542959737,
+                                      "serial":  "1769542959737269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960124,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Progress: resolved 442, reused 0, downloaded 442, added 442, done",
+                                      "id":  "1769542960124269041349700000",
+                                      "date":  1769542960124,
+                                      "serial":  "1769542960124269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960879,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542960879269041349700000",
+                                      "date":  1769542960879,
+                                      "serial":  "1769542960879269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960880,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "dependencies:",
+                                      "id":  "1769542960880269041349700000",
+                                      "date":  1769542960880,
+                                      "serial":  "1769542960880269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960880,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @ai-sdk/gateway 3.0.23",
+                                      "id":  "1769542960880269041349700001",
+                                      "date":  1769542960880,
+                                      "serial":  "1769542960880269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960880,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @ai-sdk/vue 3.0.50",
+                                      "id":  "1769542960880269041349700002",
+                                      "date":  1769542960880,
+                                      "serial":  "1769542960880269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960880,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @aws-sdk/rds-signer 3.975.0",
+                                      "id":  "1769542960880269041349700003",
+                                      "date":  1769542960880,
+                                      "serial":  "1769542960880269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960880,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @iconify-json/logos 1.2.10",
+                                      "id":  "1769542960880269041349700004",
+                                      "date":  1769542960880,
+                                      "serial":  "1769542960880269041349700004"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960881,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @iconify-json/lucide 1.2.87",
+                                      "id":  "1769542960881269041349700000",
+                                      "date":  1769542960881,
+                                      "serial":  "1769542960881269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960881,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @iconify-json/simple-icons 1.2.68",
+                                      "id":  "1769542960881269041349700001",
+                                      "date":  1769542960881,
+                                      "serial":  "1769542960881269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960881,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @libsql/client 0.17.0",
+                                      "id":  "1769542960881269041349700002",
+                                      "date":  1769542960881,
+                                      "serial":  "1769542960881269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960882,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @neondatabase/serverless 1.0.2",
+                                      "id":  "1769542960882269041349700000",
+                                      "date":  1769542960882,
+                                      "serial":  "1769542960882269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960882,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @next-auth/prisma-adapter 1.0.7",
+                                      "id":  "1769542960882269041349700001",
+                                      "date":  1769542960882,
+                                      "serial":  "1769542960882269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960882,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @nuxt/ui 4.4.0",
+                                      "id":  "1769542960882269041349700002",
+                                      "date":  1769542960882,
+                                      "serial":  "1769542960882269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960882,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @nuxthub/core 0.10.4",
+                                      "id":  "1769542960882269041349700003",
+                                      "date":  1769542960882,
+                                      "serial":  "1769542960882269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960883,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @nuxtjs/mdc 0.20.0",
+                                      "id":  "1769542960883269041349700000",
+                                      "date":  1769542960883,
+                                      "serial":  "1769542960883269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960883,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @prisma/client 5.15.0",
+                                      "id":  "1769542960883269041349700001",
+                                      "date":  1769542960883,
+                                      "serial":  "1769542960883269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960883,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @radix-ui/react-dialog 1.1.15",
+                                      "id":  "1769542960883269041349700002",
+                                      "date":  1769542960883,
+                                      "serial":  "1769542960883269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960883,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @radix-ui/react-tooltip 1.2.8",
+                                      "id":  "1769542960883269041349700003",
+                                      "date":  1769542960883,
+                                      "serial":  "1769542960883269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960884,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @radix-ui/react-visually-hidden 1.2.4",
+                                      "id":  "1769542960884269041349700000",
+                                      "date":  1769542960884,
+                                      "serial":  "1769542960884269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960884,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @vercel/analytics 1.6.1",
+                                      "id":  "1769542960884269041349700001",
+                                      "date":  1769542960884,
+                                      "serial":  "1769542960884269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960884,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @vercel/blob 2.0.1",
+                                      "id":  "1769542960884269041349700002",
+                                      "date":  1769542960884,
+                                      "serial":  "1769542960884269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960884,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @vercel/blob 0.24.1",
+                                      "id":  "1769542960884269041349700003",
+                                      "date":  1769542960884,
+                                      "serial":  "1769542960884269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960885,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @vercel/functions 3.3.6",
+                                      "id":  "1769542960885269041349700000",
+                                      "date":  1769542960885,
+                                      "serial":  "1769542960885269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960885,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @vercel/otel 1.14.0",
+                                      "id":  "1769542960885269041349700001",
+                                      "date":  1769542960885,
+                                      "serial":  "1769542960885269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960885,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @vueuse/core 14.1.0",
+                                      "id":  "1769542960885269041349700002",
+                                      "date":  1769542960885,
+                                      "serial":  "1769542960885269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960886,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- ai 6.0.50",
+                                      "id":  "1769542960886269041349700000",
+                                      "date":  1769542960886,
+                                      "serial":  "1769542960886269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960886,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ autoprefixer 10.4.0",
+                                      "id":  "1769542960886269041349700001",
+                                      "date":  1769542960886,
+                                      "serial":  "1769542960886269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960886,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ bcrypt-ts 5.0.3",
+                                      "id":  "1769542960886269041349700002",
+                                      "date":  1769542960886,
+                                      "serial":  "1769542960886269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960886,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ bcryptjs 2.4.3",
+                                      "id":  "1769542960886269041349700003",
+                                      "date":  1769542960886,
+                                      "serial":  "1769542960886269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960887,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ class-variance-authority 0.7.1",
+                                      "id":  "1769542960887269041349700000",
+                                      "date":  1769542960887,
+                                      "serial":  "1769542960887269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960887,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ classnames 2.5.1",
+                                      "id":  "1769542960887269041349700001",
+                                      "date":  1769542960887,
+                                      "serial":  "1769542960887269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960887,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ clsx 2.1.1",
+                                      "id":  "1769542960887269041349700002",
+                                      "date":  1769542960887,
+                                      "serial":  "1769542960887269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960887,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ cmdk 1.1.1",
+                                      "id":  "1769542960887269041349700003",
+                                      "date":  1769542960887,
+                                      "serial":  "1769542960887269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960888,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ codemirror 6.0.2",
+                                      "id":  "1769542960888269041349700000",
+                                      "date":  1769542960888,
+                                      "serial":  "1769542960888269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960888,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- date-fns 4.1.0",
+                                      "id":  "1769542960888269041349700001",
+                                      "date":  1769542960888,
+                                      "serial":  "1769542960888269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960888,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- drizzle-orm 0.45.1",
+                                      "id":  "1769542960888269041349700002",
+                                      "date":  1769542960888,
+                                      "serial":  "1769542960888269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960888,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ express 5.2.1",
+                                      "id":  "1769542960888269041349700003",
+                                      "date":  1769542960888,
+                                      "serial":  "1769542960888269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960889,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ firebase 12.8.0",
+                                      "id":  "1769542960889269041349700000",
+                                      "date":  1769542960889,
+                                      "serial":  "1769542960889269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960889,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ firebase-admin 13.6.0",
+                                      "id":  "1769542960889269041349700001",
+                                      "date":  1769542960889,
+                                      "serial":  "1769542960889269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960889,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ framer-motion 11.18.2",
+                                      "id":  "1769542960889269041349700002",
+                                      "date":  1769542960889,
+                                      "serial":  "1769542960889269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960889,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ lucide-react 0.446.0",
+                                      "id":  "1769542960889269041349700003",
+                                      "date":  1769542960889,
+                                      "serial":  "1769542960889269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960890,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- motion-v 1.10.2",
+                                      "id":  "1769542960890269041349700000",
+                                      "date":  1769542960890,
+                                      "serial":  "1769542960890269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960890,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ nanoid 5.1.6",
+                                      "id":  "1769542960890269041349700001",
+                                      "date":  1769542960890,
+                                      "serial":  "1769542960890269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960890,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ next 16.1.4",
+                                      "id":  "1769542960890269041349700002",
+                                      "date":  1769542960890,
+                                      "serial":  "1769542960890269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960895,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ next-auth 4.24.13",
+                                      "id":  "1769542960895269041349700000",
+                                      "date":  1769542960895,
+                                      "serial":  "1769542960895269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960895,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ next-themes 0.3.0",
+                                      "id":  "1769542960895269041349700001",
+                                      "date":  1769542960895,
+                                      "serial":  "1769542960895269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960895,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ nodemailer 7.0.12",
+                                      "id":  "1769542960895269041349700002",
+                                      "date":  1769542960895,
+                                      "serial":  "1769542960895269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960896,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- nuxt 4.2.2",
+                                      "id":  "1769542960896269041349700000",
+                                      "date":  1769542960896,
+                                      "serial":  "1769542960896269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960896,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- nuxt-auth-utils 0.5.28",
+                                      "id":  "1769542960896269041349700001",
+                                      "date":  1769542960896,
+                                      "serial":  "1769542960896269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960896,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- nuxt-charts 0.2.4",
+                                      "id":  "1769542960896269041349700002",
+                                      "date":  1769542960896,
+                                      "serial":  "1769542960896269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960896,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ postcss 8.5.6",
+                                      "id":  "1769542960896269041349700003",
+                                      "date":  1769542960896,
+                                      "serial":  "1769542960896269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960896,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ postgres 3.4.8",
+                                      "id":  "1769542960896269041349700004",
+                                      "date":  1769542960896,
+                                      "serial":  "1769542960896269041349700004"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960897,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ prisma 5.15.0",
+                                      "id":  "1769542960897269041349700000",
+                                      "date":  1769542960897,
+                                      "serial":  "1769542960897269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960897,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ qrcode 1.5.4",
+                                      "id":  "1769542960897269041349700001",
+                                      "date":  1769542960897,
+                                      "serial":  "1769542960897269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960898,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ react 19.2.3",
+                                      "id":  "1769542960898269041349700000",
+                                      "date":  1769542960898,
+                                      "serial":  "1769542960898269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960898,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ react-dom 19.2.3",
+                                      "id":  "1769542960898269041349700001",
+                                      "date":  1769542960898,
+                                      "serial":  "1769542960898269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960899,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ react-resizable-panels 2.1.9",
+                                      "id":  "1769542960899269041349700000",
+                                      "date":  1769542960899,
+                                      "serial":  "1769542960899269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960899,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- shiki 3.21.0",
+                                      "id":  "1769542960899269041349700001",
+                                      "date":  1769542960899,
+                                      "serial":  "1769542960899269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960899,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- shiki-stream 0.1.4",
+                                      "id":  "1769542960899269041349700002",
+                                      "date":  1769542960899,
+                                      "serial":  "1769542960899269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960900,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ sonner 1.7.4",
+                                      "id":  "1769542960900269041349700000",
+                                      "date":  1769542960900,
+                                      "serial":  "1769542960900269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960900,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ speakeasy 2.0.0",
+                                      "id":  "1769542960900269041349700001",
+                                      "date":  1769542960900,
+                                      "serial":  "1769542960900269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960900,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ swr 2.3.8",
+                                      "id":  "1769542960900269041349700002",
+                                      "date":  1769542960900,
+                                      "serial":  "1769542960900269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960900,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- tailwindcss 4.1.18",
+                                      "id":  "1769542960900269041349700003",
+                                      "date":  1769542960900,
+                                      "serial":  "1769542960900269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960901,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ tailwindcss 3.4.0",
+                                      "id":  "1769542960901269041349700000",
+                                      "date":  1769542960901,
+                                      "serial":  "1769542960901269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960901,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- vercel 41.7.8",
+                                      "id":  "1769542960901269041349700001",
+                                      "date":  1769542960901,
+                                      "serial":  "1769542960901269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960901,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- zod 4.3.6",
+                                      "id":  "1769542960901269041349700002",
+                                      "date":  1769542960901,
+                                      "serial":  "1769542960901269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960901,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ zod 3.25.76",
+                                      "id":  "1769542960901269041349700003",
+                                      "date":  1769542960901,
+                                      "serial":  "1769542960901269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960902,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542960902269041349700000",
+                                      "date":  1769542960902,
+                                      "serial":  "1769542960902269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960902,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "devDependencies:",
+                                      "id":  "1769542960902269041349700001",
+                                      "date":  1769542960902,
+                                      "serial":  "1769542960902269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960902,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @nuxt/eslint 1.13.0",
+                                      "id":  "1769542960902269041349700002",
+                                      "date":  1769542960902,
+                                      "serial":  "1769542960902269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960903,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @playwright/test 1.58.0",
+                                      "id":  "1769542960903269041349700000",
+                                      "date":  1769542960903,
+                                      "serial":  "1769542960903269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960903,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @tailwindcss/typography 0.5.19",
+                                      "id":  "1769542960903269041349700001",
+                                      "date":  1769542960903,
+                                      "serial":  "1769542960903269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960903,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @types/bcryptjs 2.4.6",
+                                      "id":  "1769542960903269041349700002",
+                                      "date":  1769542960903,
+                                      "serial":  "1769542960903269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960903,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- @types/node 24.10.9",
+                                      "id":  "1769542960903269041349700003",
+                                      "date":  1769542960903,
+                                      "serial":  "1769542960903269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960904,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @types/node 25.0.9",
+                                      "id":  "1769542960904269041349700000",
+                                      "date":  1769542960904,
+                                      "serial":  "1769542960904269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960904,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ @types/react 19.2.8",
+                                      "id":  "1769542960904269041349700001",
+                                      "date":  1769542960904,
+                                      "serial":  "1769542960904269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960904,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- drizzle-kit 0.18.1",
+                                      "id":  "1769542960904269041349700002",
+                                      "date":  1769542960904,
+                                      "serial":  "1769542960904269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960904,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- eslint 9.39.2",
+                                      "id":  "1769542960904269041349700003",
+                                      "date":  1769542960904,
+                                      "serial":  "1769542960904269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960905,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ playwright 1.58.0",
+                                      "id":  "1769542960905269041349700000",
+                                      "date":  1769542960905,
+                                      "serial":  "1769542960905269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960905,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ tailwindcss-animate 1.0.7",
+                                      "id":  "1769542960905269041349700001",
+                                      "date":  1769542960905,
+                                      "serial":  "1769542960905269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960905,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- typescript 5.9.3",
+                                      "id":  "1769542960905269041349700002",
+                                      "date":  1769542960905,
+                                      "serial":  "1769542960905269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960906,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "+ typescript 5.1.6",
+                                      "id":  "1769542960906269041349700000",
+                                      "date":  1769542960906,
+                                      "serial":  "1769542960906269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960906,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "- vue-tsc 3.2.4",
+                                      "id":  "1769542960906269041349700001",
+                                      "date":  1769542960906,
+                                      "serial":  "1769542960906269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960911,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542960911269041349700000",
+                                      "date":  1769542960911,
+                                      "serial":  "1769542960911269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960916,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542960916269041349700000",
+                                      "date":  1769542960916,
+                                      "serial":  "1769542960916269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960916,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "\u003e apartment-advisor@0.1.0 postinstall /vercel/path0",
+                                      "id":  "1769542960916269041349700001",
+                                      "date":  1769542960916,
+                                      "serial":  "1769542960916269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960917,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "\u003e prisma generate",
+                                      "id":  "1769542960917269041349700000",
+                                      "date":  1769542960917,
+                                      "serial":  "1769542960917269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542960917,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542960917269041349700001",
+                                      "date":  1769542960917,
+                                      "serial":  "1769542960917269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542961891,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Environment variables loaded from .env",
+                                      "id":  "1769542961891269041349700000",
+                                      "date":  1769542961891,
+                                      "serial":  "1769542961891269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542961893,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Prisma schema loaded from prisma/schema.prisma",
+                                      "id":  "1769542961893269041349700000",
+                                      "date":  1769542961893,
+                                      "serial":  "1769542961893269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962448,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542962448269041349700000",
+                                      "date":  1769542962448,
+                                      "serial":  "1769542962448269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962448,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â Generated Prisma Client (v5.15.0) to ./node_modules/.pnpm/@prisma+client@5.15.0_prisma@5.15.0/node_modules/@prisma/client in 195ms",
+                                      "id":  "1769542962448269041349700001",
+                                      "date":  1769542962448,
+                                      "serial":  "1769542962448269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962449,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542962449269041349700000",
+                                      "date":  1769542962449,
+                                      "serial":  "1769542962449269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962449,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Start using Prisma Client in Node.js (See: https://pris.ly/d/client)",
+                                      "id":  "1769542962449269041349700001",
+                                      "date":  1769542962449,
+                                      "serial":  "1769542962449269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962449,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "```",
+                                      "id":  "1769542962449269041349700002",
+                                      "date":  1769542962449,
+                                      "serial":  "1769542962449269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962450,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "import { PrismaClient } from \u0027@prisma/client\u0027",
+                                      "id":  "1769542962450269041349700000",
+                                      "date":  1769542962450,
+                                      "serial":  "1769542962450269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962450,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "const prisma = new PrismaClient()",
+                                      "id":  "1769542962450269041349700001",
+                                      "date":  1769542962450,
+                                      "serial":  "1769542962450269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962451,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "```",
+                                      "id":  "1769542962451269041349700000",
+                                      "date":  1769542962451,
+                                      "serial":  "1769542962451269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962451,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "or start using Prisma Client at the edge (See: https://pris.ly/d/accelerate)",
+                                      "id":  "1769542962451269041349700001",
+                                      "date":  1769542962451,
+                                      "serial":  "1769542962451269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962451,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "```",
+                                      "id":  "1769542962451269041349700002",
+                                      "date":  1769542962451,
+                                      "serial":  "1769542962451269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962451,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "import { PrismaClient } from \u0027@prisma/client/edge\u0027",
+                                      "id":  "1769542962451269041349700003",
+                                      "date":  1769542962451,
+                                      "serial":  "1769542962451269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962451,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "const prisma = new PrismaClient()",
+                                      "id":  "1769542962451269041349700004",
+                                      "date":  1769542962451,
+                                      "serial":  "1769542962451269041349700004"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962451,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "```",
+                                      "id":  "1769542962451269041349700005",
+                                      "date":  1769542962451,
+                                      "serial":  "1769542962451269041349700005"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962452,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542962452269041349700000",
+                                      "date":  1769542962452,
+                                      "serial":  "1769542962452269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962452,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "See other ways of importing Prisma Client: http://pris.ly/d/importing-client",
+                                      "id":  "1769542962452269041349700001",
+                                      "date":  1769542962452,
+                                      "serial":  "1769542962452269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962452,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542962452269041349700002",
+                                      "date":  1769542962452,
+                                      "serial":  "1769542962452269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962452,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ",
+                                      "id":  "1769542962452269041349700003",
+                                      "date":  1769542962452,
+                                      "serial":  "1769542962452269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962452,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â  Deploying your app to serverless or edge functions?        â",
+                                      "id":  "1769542962452269041349700004",
+                                      "date":  1769542962452,
+                                      "serial":  "1769542962452269041349700004"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962452,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â  Try Prisma Accelerate for connection pooling and caching.  â",
+                                      "id":  "1769542962452269041349700005",
+                                      "date":  1769542962452,
+                                      "serial":  "1769542962452269041349700005"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962453,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â  https://pris.ly/cli/--accelerate                           â",
+                                      "id":  "1769542962453269041349700000",
+                                      "date":  1769542962453,
+                                      "serial":  "1769542962453269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962453,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ",
+                                      "id":  "1769542962453269041349700001",
+                                      "date":  1769542962453,
+                                      "serial":  "1769542962453269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962453,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542962453269041349700002",
+                                      "date":  1769542962453,
+                                      "serial":  "1769542962453269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962662,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â­ Warning ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ®",
+                                      "id":  "1769542962662269041349700000",
+                                      "date":  1769542962662,
+                                      "serial":  "1769542962662269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962662,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â                                                                              â",
+                                      "id":  "1769542962662269041349700001",
+                                      "date":  1769542962662,
+                                      "serial":  "1769542962662269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962662,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â   Ignored build scripts: @firebase/util@1.13.0, @prisma/client@5.15.0,       â",
+                                      "id":  "1769542962662269041349700002",
+                                      "date":  1769542962662,
+                                      "serial":  "1769542962662269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962662,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â   @prisma/engines@5.15.0, prisma@5.15.0, protobufjs@7.5.4, sharp@0.34.5.     â",
+                                      "id":  "1769542962662269041349700003",
+                                      "date":  1769542962662,
+                                      "serial":  "1769542962662269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962662,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â   Run \"pnpm approve-builds\" to pick which dependencies should be allowed     â",
+                                      "id":  "1769542962662269041349700004",
+                                      "date":  1769542962662,
+                                      "serial":  "1769542962662269041349700004"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962662,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â   to run scripts.                                                            â",
+                                      "id":  "1769542962662269041349700005",
+                                      "date":  1769542962662,
+                                      "serial":  "1769542962662269041349700005"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962662,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â                                                                              â",
+                                      "id":  "1769542962662269041349700006",
+                                      "date":  1769542962662,
+                                      "serial":  "1769542962662269041349700006"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962662,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â°âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ¯",
+                                      "id":  "1769542962662269041349700007",
+                                      "date":  1769542962662,
+                                      "serial":  "1769542962662269041349700007"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962674,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Done in 18.8s using pnpm v10.28.0",
+                                      "id":  "1769542962674269041349700000",
+                                      "date":  1769542962674,
+                                      "serial":  "1769542962674269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542962729,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Running \"pnpm run vercel-build\"",
+                                      "id":  "1769542962729269041349700000",
+                                      "date":  1769542962729,
+                                      "serial":  "1769542962729269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963014,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542963014269041349700000",
+                                      "date":  1769542963014,
+                                      "serial":  "1769542963014269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963015,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "\u003e apartment-advisor@0.1.0 vercel-build /vercel/path0",
+                                      "id":  "1769542963015269041349700000",
+                                      "date":  1769542963015,
+                                      "serial":  "1769542963015269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963015,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "\u003e prisma generate \u0026\u0026 node scripts/run_migrations_if_postgres.mjs \u0026\u0026 next build",
+                                      "id":  "1769542963015269041349700001",
+                                      "date":  1769542963015,
+                                      "serial":  "1769542963015269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963015,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542963015269041349700002",
+                                      "date":  1769542963015,
+                                      "serial":  "1769542963015269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963463,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Environment variables loaded from .env",
+                                      "id":  "1769542963463269041349700000",
+                                      "date":  1769542963463,
+                                      "serial":  "1769542963463269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963466,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Prisma schema loaded from prisma/schema.prisma",
+                                      "id":  "1769542963466269041349700000",
+                                      "date":  1769542963466,
+                                      "serial":  "1769542963466269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963938,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542963938269041349700000",
+                                      "date":  1769542963938,
+                                      "serial":  "1769542963938269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963939,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â Generated Prisma Client (v5.15.0) to ./node_modules/.pnpm/@prisma+client@5.15.0_prisma@5.15.0/node_modules/@prisma/client in 159ms",
+                                      "id":  "1769542963939269041349700000",
+                                      "date":  1769542963939,
+                                      "serial":  "1769542963939269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963939,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542963939269041349700001",
+                                      "date":  1769542963939,
+                                      "serial":  "1769542963939269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963939,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Start using Prisma Client in Node.js (See: https://pris.ly/d/client)",
+                                      "id":  "1769542963939269041349700002",
+                                      "date":  1769542963939,
+                                      "serial":  "1769542963939269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963939,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "```",
+                                      "id":  "1769542963939269041349700003",
+                                      "date":  1769542963939,
+                                      "serial":  "1769542963939269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963939,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "import { PrismaClient } from \u0027@prisma/client\u0027",
+                                      "id":  "1769542963939269041349700004",
+                                      "date":  1769542963939,
+                                      "serial":  "1769542963939269041349700004"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963940,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "const prisma = new PrismaClient()",
+                                      "id":  "1769542963940269041349700000",
+                                      "date":  1769542963940,
+                                      "serial":  "1769542963940269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963940,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "```",
+                                      "id":  "1769542963940269041349700001",
+                                      "date":  1769542963940,
+                                      "serial":  "1769542963940269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963940,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "or start using Prisma Client at the edge (See: https://pris.ly/d/accelerate)",
+                                      "id":  "1769542963940269041349700002",
+                                      "date":  1769542963940,
+                                      "serial":  "1769542963940269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963940,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "```",
+                                      "id":  "1769542963940269041349700003",
+                                      "date":  1769542963940,
+                                      "serial":  "1769542963940269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963940,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "import { PrismaClient } from \u0027@prisma/client/edge\u0027",
+                                      "id":  "1769542963940269041349700004",
+                                      "date":  1769542963940,
+                                      "serial":  "1769542963940269041349700004"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963940,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "const prisma = new PrismaClient()",
+                                      "id":  "1769542963940269041349700005",
+                                      "date":  1769542963940,
+                                      "serial":  "1769542963940269041349700005"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963941,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "```",
+                                      "id":  "1769542963941269041349700000",
+                                      "date":  1769542963941,
+                                      "serial":  "1769542963941269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963941,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542963941269041349700001",
+                                      "date":  1769542963941,
+                                      "serial":  "1769542963941269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963941,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "See other ways of importing Prisma Client: http://pris.ly/d/importing-client",
+                                      "id":  "1769542963941269041349700002",
+                                      "date":  1769542963941,
+                                      "serial":  "1769542963941269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963941,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542963941269041349700003",
+                                      "date":  1769542963941,
+                                      "serial":  "1769542963941269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963942,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ",
+                                      "id":  "1769542963942269041349700000",
+                                      "date":  1769542963942,
+                                      "serial":  "1769542963942269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963942,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â  Deploying your app to serverless or edge functions?        â",
+                                      "id":  "1769542963942269041349700001",
+                                      "date":  1769542963942,
+                                      "serial":  "1769542963942269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963942,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â  Try Prisma Accelerate for connection pooling and caching.  â",
+                                      "id":  "1769542963942269041349700002",
+                                      "date":  1769542963942,
+                                      "serial":  "1769542963942269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963942,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â  https://pris.ly/cli/--accelerate                           â",
+                                      "id":  "1769542963942269041349700003",
+                                      "date":  1769542963942,
+                                      "serial":  "1769542963942269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963943,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ",
+                                      "id":  "1769542963943269041349700000",
+                                      "date":  1769542963943,
+                                      "serial":  "1769542963943269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542963944,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542963944269041349700000",
+                                      "date":  1769542963944,
+                                      "serial":  "1769542963944269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542963972,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ",
+                                      "id":  "1769542963972269041349700000",
+                                      "date":  1769542963972,
+                                      "serial":  "1769542963972269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542963973,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â  Update available 5.15.0 -\u003e 7.3.0                       â",
+                                      "id":  "1769542963973269041349700000",
+                                      "date":  1769542963973,
+                                      "serial":  "1769542963973269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542963973,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â                                                         â",
+                                      "id":  "1769542963973269041349700001",
+                                      "date":  1769542963973,
+                                      "serial":  "1769542963973269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542963973,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â  This is a major update - please follow the guide at    â",
+                                      "id":  "1769542963973269041349700002",
+                                      "date":  1769542963973,
+                                      "serial":  "1769542963973269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542963974,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â  https://pris.ly/d/major-version-upgrade                â",
+                                      "id":  "1769542963974269041349700000",
+                                      "date":  1769542963974,
+                                      "serial":  "1769542963974269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542963974,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â                                                         â",
+                                      "id":  "1769542963974269041349700001",
+                                      "date":  1769542963974,
+                                      "serial":  "1769542963974269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542963974,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â  Run the following to update                            â",
+                                      "id":  "1769542963974269041349700002",
+                                      "date":  1769542963974,
+                                      "serial":  "1769542963974269041349700002"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542963974,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â    npm i --save-dev prisma@latest                       â",
+                                      "id":  "1769542963974269041349700003",
+                                      "date":  1769542963974,
+                                      "serial":  "1769542963974269041349700003"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542963974,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "â    npm i @prisma/client@latest                          â",
+                                      "id":  "1769542963974269041349700004",
+                                      "date":  1769542963974,
+                                      "serial":  "1769542963974269041349700004"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542963975,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ",
+                                      "id":  "1769542963975269041349700000",
+                                      "date":  1769542963975,
+                                      "serial":  "1769542963975269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542964171,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Postgres URL detected; running `prisma migrate deploy`...",
+                                      "id":  "1769542964171269041349700000",
+                                      "date":  1769542964171,
+                                      "serial":  "1769542964171269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542964771,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "npm warn Unknown env config \"npm-globalconfig\". This will stop working in the next major version of npm.",
+                                      "id":  "1769542964771269041349700000",
+                                      "date":  1769542964771,
+                                      "serial":  "1769542964771269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542964771,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "npm warn Unknown env config \"verify-deps-before-run\". This will stop working in the next major version of npm.",
+                                      "id":  "1769542964771269041349700001",
+                                      "date":  1769542964771,
+                                      "serial":  "1769542964771269041349700001"
+                                  }
+                  },
+                  {
+                      "type":  "stderr",
+                      "created":  1769542964772,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "npm warn Unknown env config \"_jsr-registry\". This will stop working in the next major version of npm.",
+                                      "id":  "1769542964772269041349700000",
+                                      "date":  1769542964772,
+                                      "serial":  "1769542964772269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542965716,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Environment variables loaded from .env",
+                                      "id":  "1769542965716269041349700000",
+                                      "date":  1769542965716,
+                                      "serial":  "1769542965716269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542965717,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Prisma schema loaded from prisma/schema.prisma",
+                                      "id":  "1769542965717269041349700000",
+                                      "date":  1769542965717,
+                                      "serial":  "1769542965717269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542965721,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "Datasource \"db\": PostgreSQL database \"neondb\", schema \"public\" at \"ep-solitary-meadow-ahp13xtx-pooler.c-3.us-east-1.aws.neon.tech\"",
+                                      "id":  "1769542965721269041349700000",
+                                      "date":  1769542965721,
+                                      "serial":  "1769542965721269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542966229,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "",
+                                      "id":  "1769542966229269041349700000",
+                                      "date":  1769542966229,
+                                      "serial":  "1769542966229269041349700000"
+                                  }
+                  },
+                  {
+                      "type":  "stdout",
+                      "created":  1769542966230,
+                      "payload":  {
+                                      "deploymentId":  "dpl_45iQ5hTL2noPXcEWAJ25q1Lay1NZ",
+                                      "info":  {
+                                                   "type":  "build",
+                                                   "name":  "bld_eqwchlx6c",
+                                                   "entrypoint":  "."
+                                               },
+                                      "text":  "1 migration found in prisma/migrations",
+                                      "id":  "1769542966230269041349700000",
+                                      "date":  1769542966230,
+                                      "serial":  "1769542966230269041349700000"
+                                  }
+                  }
+              ],
+    "Count":  200
+}

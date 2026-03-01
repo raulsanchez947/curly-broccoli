@@ -1,0 +1,3202 @@
+﻿[
+    {
+        "type":  "stdout",
+        "created":  1769556979461,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Running build in Washington, D.C., USA (East) â iad1",
+                        "id":  "1769556979461061087690500000",
+                        "date":  1769556979461,
+                        "serial":  "1769556979461061087690500000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556979462,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Build machine configuration: 2 cores, 8 GB",
+                        "id":  "1769556979462061087690500000",
+                        "date":  1769556979462,
+                        "serial":  "1769556979462061087690500000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556979605,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Cloning github.com/raulsanchez947/curly-broccoli (Branch: feat/nuxt-chat, Commit: 552331d)",
+                        "id":  "1769556979605061087690500001",
+                        "date":  1769556979605,
+                        "serial":  "1769556979605061087690500001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556979606,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Previous build caches not available.",
+                        "id":  "1769556979606061087690500001",
+                        "date":  1769556979606,
+                        "serial":  "1769556979606061087690500001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556980799,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Warning: Failed to fetch one or more git submodules",
+                        "id":  "1769556980799061087690500000",
+                        "date":  1769556980799,
+                        "serial":  "1769556980799061087690500000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556980799,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Cloning completed: 1.194s",
+                        "id":  "1769556980799061087690500001",
+                        "date":  1769556980799,
+                        "serial":  "1769556980799061087690500001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556982339,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Running \"vercel build\"",
+                        "id":  "1769556982339270726595100000",
+                        "date":  1769556982339,
+                        "serial":  "1769556982339270726595100000"
+                    }
+    },
+    {
+        "type":  "stderr",
+        "created":  1769556983382,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Vercel CLI 50.5.2",
+                        "id":  "1769556983382270726595100000",
+                        "date":  1769556983382,
+                        "serial":  "1769556983382270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556984073,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Detected `pnpm-lock.yaml` version 9 generated by pnpm@10.x with package.json#packageManager pnpm@10.28.2",
+                        "id":  "1769556984073270726595100000",
+                        "date":  1769556984073,
+                        "serial":  "1769556984073270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556984132,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Installing dependencies...",
+                        "id":  "1769556984132270726595100000",
+                        "date":  1769556984132,
+                        "serial":  "1769556984132270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556986464,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Lockfile is up to date, resolution step is skipped",
+                        "id":  "1769556986464270726595100000",
+                        "date":  1769556986464,
+                        "serial":  "1769556986464270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556986620,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1, reused 0, downloaded 0, added 0",
+                        "id":  "1769556986620270726595100000",
+                        "date":  1769556986620,
+                        "serial":  "1769556986620270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556986726,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Packages: +1466",
+                        "id":  "1769556986726270726595100000",
+                        "date":  1769556986726,
+                        "serial":  "1769556986726270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556986727,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++",
+                        "id":  "1769556986727270726595100000",
+                        "date":  1769556986727,
+                        "serial":  "1769556986727270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556987621,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 12, added 0",
+                        "id":  "1769556987621270726595100000",
+                        "date":  1769556987621,
+                        "serial":  "1769556987621270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556988624,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 56, added 14",
+                        "id":  "1769556988624270726595100000",
+                        "date":  1769556988624,
+                        "serial":  "1769556988624270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556989624,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 146, added 42",
+                        "id":  "1769556989624270726595100000",
+                        "date":  1769556989624,
+                        "serial":  "1769556989624270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556990627,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 219, added 66",
+                        "id":  "1769556990627270726595100000",
+                        "date":  1769556990627,
+                        "serial":  "1769556990627270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556991629,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 329, added 119",
+                        "id":  "1769556991629270726595100000",
+                        "date":  1769556991629,
+                        "serial":  "1769556991629270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556992631,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 407, added 149",
+                        "id":  "1769556992631270726595100000",
+                        "date":  1769556992631,
+                        "serial":  "1769556992631270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556993633,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 496, added 188",
+                        "id":  "1769556993633270726595100000",
+                        "date":  1769556993633,
+                        "serial":  "1769556993633270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556994634,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 557, added 219",
+                        "id":  "1769556994634270726595100000",
+                        "date":  1769556994634,
+                        "serial":  "1769556994634270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556995634,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 698, added 281",
+                        "id":  "1769556995634270726595100000",
+                        "date":  1769556995634,
+                        "serial":  "1769556995634270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556996636,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 824, added 342",
+                        "id":  "1769556996636270726595100000",
+                        "date":  1769556996636,
+                        "serial":  "1769556996636270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556997638,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 952, added 399",
+                        "id":  "1769556997638270726595100000",
+                        "date":  1769556997638,
+                        "serial":  "1769556997638270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556998640,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 1068, added 475",
+                        "id":  "1769556998640270726595100000",
+                        "date":  1769556998640,
+                        "serial":  "1769556998640270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769556999641,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 1151, added 507",
+                        "id":  "1769556999641270726595100000",
+                        "date":  1769556999641,
+                        "serial":  "1769556999641270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557000641,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 1232, added 551",
+                        "id":  "1769557000641270726595100000",
+                        "date":  1769557000641,
+                        "serial":  "1769557000641270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557001641,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 1254, added 559",
+                        "id":  "1769557001641270726595100000",
+                        "date":  1769557001641,
+                        "serial":  "1769557001641270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557002641,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 1358, added 600",
+                        "id":  "1769557002641270726595100000",
+                        "date":  1769557002641,
+                        "serial":  "1769557002641270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557003642,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 1423, added 625",
+                        "id":  "1769557003642270726595100000",
+                        "date":  1769557003642,
+                        "serial":  "1769557003642270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557004643,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 1466, added 822",
+                        "id":  "1769557004643270726595100000",
+                        "date":  1769557004643,
+                        "serial":  "1769557004643270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557005644,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 1466, added 1066",
+                        "id":  "1769557005644270726595100000",
+                        "date":  1769557005644,
+                        "serial":  "1769557005644270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557006644,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 1466, added 1258",
+                        "id":  "1769557006644270726595100000",
+                        "date":  1769557006644,
+                        "serial":  "1769557006644270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557007644,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 1466, added 1384",
+                        "id":  "1769557007644270726595100000",
+                        "date":  1769557007644,
+                        "serial":  "1769557007644270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557008110,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Progress: resolved 1466, reused 0, downloaded 1466, added 1466, done",
+                        "id":  "1769557008110270726595100000",
+                        "date":  1769557008110,
+                        "serial":  "1769557008110270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009002,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "",
+                        "id":  "1769557009002270726595100000",
+                        "date":  1769557009002,
+                        "serial":  "1769557009002270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009003,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "dependencies:",
+                        "id":  "1769557009003270726595100000",
+                        "date":  1769557009003,
+                        "serial":  "1769557009003270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009003,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @ai-sdk/gateway 3.0.23",
+                        "id":  "1769557009003270726595100001",
+                        "date":  1769557009003,
+                        "serial":  "1769557009003270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009003,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @ai-sdk/vue 3.0.50",
+                        "id":  "1769557009003270726595100002",
+                        "date":  1769557009003,
+                        "serial":  "1769557009003270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009004,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @iconify-json/logos 1.2.10",
+                        "id":  "1769557009004270726595100000",
+                        "date":  1769557009004,
+                        "serial":  "1769557009004270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009004,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @iconify-json/lucide 1.2.87",
+                        "id":  "1769557009004270726595100001",
+                        "date":  1769557009004,
+                        "serial":  "1769557009004270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009004,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @iconify-json/simple-icons 1.2.68",
+                        "id":  "1769557009004270726595100002",
+                        "date":  1769557009004,
+                        "serial":  "1769557009004270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009005,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @libsql/client 0.17.0",
+                        "id":  "1769557009005270726595100000",
+                        "date":  1769557009005,
+                        "serial":  "1769557009005270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009005,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @nuxt/ui 4.4.0",
+                        "id":  "1769557009005270726595100001",
+                        "date":  1769557009005,
+                        "serial":  "1769557009005270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009005,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @nuxthub/core 0.10.4",
+                        "id":  "1769557009005270726595100002",
+                        "date":  1769557009005,
+                        "serial":  "1769557009005270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009005,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @nuxtjs/mdc 0.20.0",
+                        "id":  "1769557009005270726595100003",
+                        "date":  1769557009005,
+                        "serial":  "1769557009005270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009005,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @vercel/blob 2.0.1",
+                        "id":  "1769557009005270726595100004",
+                        "date":  1769557009005,
+                        "serial":  "1769557009005270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009005,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @vueuse/core 14.1.0",
+                        "id":  "1769557009005270726595100005",
+                        "date":  1769557009005,
+                        "serial":  "1769557009005270726595100005"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009006,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ ai 6.0.50",
+                        "id":  "1769557009006270726595100000",
+                        "date":  1769557009006,
+                        "serial":  "1769557009006270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009006,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ date-fns 4.1.0",
+                        "id":  "1769557009006270726595100001",
+                        "date":  1769557009006,
+                        "serial":  "1769557009006270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009006,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ drizzle-orm 0.45.1",
+                        "id":  "1769557009006270726595100002",
+                        "date":  1769557009006,
+                        "serial":  "1769557009006270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009006,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ motion-v 1.10.2",
+                        "id":  "1769557009006270726595100003",
+                        "date":  1769557009006,
+                        "serial":  "1769557009006270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009006,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ nuxt 4.2.2",
+                        "id":  "1769557009006270726595100004",
+                        "date":  1769557009006,
+                        "serial":  "1769557009006270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009007,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ nuxt-auth-utils 0.5.28",
+                        "id":  "1769557009007270726595100000",
+                        "date":  1769557009007,
+                        "serial":  "1769557009007270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009007,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ nuxt-charts 0.2.4",
+                        "id":  "1769557009007270726595100001",
+                        "date":  1769557009007,
+                        "serial":  "1769557009007270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009007,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ pg 8.17.2",
+                        "id":  "1769557009007270726595100002",
+                        "date":  1769557009007,
+                        "serial":  "1769557009007270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009008,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ shiki 3.21.0",
+                        "id":  "1769557009008270726595100000",
+                        "date":  1769557009008,
+                        "serial":  "1769557009008270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009008,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ shiki-stream 0.1.4",
+                        "id":  "1769557009008270726595100001",
+                        "date":  1769557009008,
+                        "serial":  "1769557009008270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009008,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ tailwindcss 4.1.18",
+                        "id":  "1769557009008270726595100002",
+                        "date":  1769557009008,
+                        "serial":  "1769557009008270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009008,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ vercel 41.7.8",
+                        "id":  "1769557009008270726595100003",
+                        "date":  1769557009008,
+                        "serial":  "1769557009008270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009008,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ zod 4.3.6",
+                        "id":  "1769557009008270726595100004",
+                        "date":  1769557009008,
+                        "serial":  "1769557009008270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009008,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "",
+                        "id":  "1769557009008270726595100005",
+                        "date":  1769557009008,
+                        "serial":  "1769557009008270726595100005"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009008,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "devDependencies:",
+                        "id":  "1769557009008270726595100006",
+                        "date":  1769557009008,
+                        "serial":  "1769557009008270726595100006"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009009,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @nuxt/eslint 1.13.0",
+                        "id":  "1769557009009270726595100000",
+                        "date":  1769557009009,
+                        "serial":  "1769557009009270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009009,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ @types/node 24.10.9",
+                        "id":  "1769557009009270726595100001",
+                        "date":  1769557009009,
+                        "serial":  "1769557009009270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009009,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ drizzle-kit 0.18.1",
+                        "id":  "1769557009009270726595100002",
+                        "date":  1769557009009,
+                        "serial":  "1769557009009270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009009,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ eslint 9.39.2",
+                        "id":  "1769557009009270726595100003",
+                        "date":  1769557009009,
+                        "serial":  "1769557009009270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009009,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ typescript 5.9.3",
+                        "id":  "1769557009009270726595100004",
+                        "date":  1769557009009,
+                        "serial":  "1769557009009270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009010,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "+ vue-tsc 3.2.4",
+                        "id":  "1769557009010270726595100000",
+                        "date":  1769557009010,
+                        "serial":  "1769557009010270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009011,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "",
+                        "id":  "1769557009011270726595100000",
+                        "date":  1769557009011,
+                        "serial":  "1769557009011270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557009039,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  ". postinstall$ nuxt prepare",
+                        "id":  "1769557009039270726595100000",
+                        "date":  1769557009039,
+                        "serial":  "1769557009039270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557012256,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  ". postinstall: [info] Nuxt Icon server bundle mode is set to `local`",
+                        "id":  "1769557012256270726595100000",
+                        "date":  1769557012256,
+                        "serial":  "1769557012256270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557013541,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  ". postinstall: [success] Nuxt Icon discovered local-installed 3 collections: logos, lucide, simple-icons",
+                        "id":  "1769557013541270726595100000",
+                        "date":  1769557013541,
+                        "serial":  "1769557013541270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557014246,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  ". postinstall: \u001b[90mâ\u001b[39m",
+                        "id":  "1769557014246270726595100000",
+                        "date":  1769557014246,
+                        "serial":  "1769557014246270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557014246,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  ". postinstall: \u001b[32mâ\u001b[39m  Types generated in .nuxt.",
+                        "id":  "1769557014246270726595100001",
+                        "date":  1769557014246,
+                        "serial":  "1769557014246270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557014341,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  ". postinstall: Done",
+                        "id":  "1769557014341270726595100000",
+                        "date":  1769557014341,
+                        "serial":  "1769557014341270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557014346,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "â­ Warning ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ®",
+                        "id":  "1769557014346270726595100000",
+                        "date":  1769557014346,
+                        "serial":  "1769557014346270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557014347,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "â                                                                              â",
+                        "id":  "1769557014347270726595100000",
+                        "date":  1769557014347,
+                        "serial":  "1769557014347270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557014347,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "â   Ignored build scripts: es5-ext@0.10.64, maplibre-gl@2.4.0.                 â",
+                        "id":  "1769557014347270726595100001",
+                        "date":  1769557014347,
+                        "serial":  "1769557014347270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557014347,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "â   Run \"pnpm approve-builds\" to pick which dependencies should be allowed     â",
+                        "id":  "1769557014347270726595100002",
+                        "date":  1769557014347,
+                        "serial":  "1769557014347270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557014347,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "â   to run scripts.                                                            â",
+                        "id":  "1769557014347270726595100003",
+                        "date":  1769557014347,
+                        "serial":  "1769557014347270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557014347,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "â                                                                              â",
+                        "id":  "1769557014347270726595100004",
+                        "date":  1769557014347,
+                        "serial":  "1769557014347270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557014348,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "â°âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ¯",
+                        "id":  "1769557014348270726595100000",
+                        "date":  1769557014348,
+                        "serial":  "1769557014348270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557014354,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Done in 28.3s using pnpm v10.28.2",
+                        "id":  "1769557014354270726595100000",
+                        "date":  1769557014354,
+                        "serial":  "1769557014354270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557014480,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Running \"pnpm run build\"",
+                        "id":  "1769557014480270726595100000",
+                        "date":  1769557014480,
+                        "serial":  "1769557014480270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557015047,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "",
+                        "id":  "1769557015047270726595100000",
+                        "date":  1769557015047,
+                        "serial":  "1769557015047270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557015047,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "\u003e Apartment-Website@ build /vercel/path0/.Apartment Website",
+                        "id":  "1769557015047270726595100001",
+                        "date":  1769557015047,
+                        "serial":  "1769557015047270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557015047,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "\u003e nuxt build",
+                        "id":  "1769557015047270726595100002",
+                        "date":  1769557015047,
+                        "serial":  "1769557015047270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557015048,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "",
+                        "id":  "1769557015048270726595100000",
+                        "date":  1769557015048,
+                        "serial":  "1769557015048270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557015397,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "\u001b[90mâ\u001b[39m  Building Nuxt for production...",
+                        "id":  "1769557015397270726595100000",
+                        "date":  1769557015397,
+                        "serial":  "1769557015397270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557015464,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "\u001b[90mâ\u001b[39m",
+                        "id":  "1769557015464270726595100000",
+                        "date":  1769557015464,
+                        "serial":  "1769557015464270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557015465,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "\u001b[34mâ\u001b[39m  Nuxt 4.2.2 (with Nitro 2.13.1, Vite 7.3.1 and Vue 3.5.27)",
+                        "id":  "1769557015465270726595100000",
+                        "date":  1769557015465,
+                        "serial":  "1769557015465270726595100000"
+                    }
+    },
+    {
+        "type":  "stderr",
+        "created":  1769557016255,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[warn] [nuxt:hub] Files stored in Vercel Blob are public. Manually configure a different storage driver if storing sensitive files.",
+                        "id":  "1769557016255270726595100000",
+                        "date":  1769557016255,
+                        "serial":  "1769557016255270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557016256,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] [nuxt:hub] `hub:blob` using `vercel-blob` driver",
+                        "id":  "1769557016256270726595100000",
+                        "date":  1769557016256,
+                        "serial":  "1769557016256270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557016257,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] [nuxt:hub] `hub:db` using `postgres` database with `undefined` driver",
+                        "id":  "1769557016257270726595100000",
+                        "date":  1769557016257,
+                        "serial":  "1769557016257270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557017097,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] Nuxt Icon server bundle mode is set to `local`",
+                        "id":  "1769557017097270726595100000",
+                        "date":  1769557017097,
+                        "serial":  "1769557017097270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557018154,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[success] Nuxt Icon discovered local-installed 3 collections: logos, lucide, simple-icons",
+                        "id":  "1769557018154270726595100000",
+                        "date":  1769557018154,
+                        "serial":  "1769557018154270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557018376,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "\u001b[90mâ\u001b[39m",
+                        "id":  "1769557018376270726595100000",
+                        "date":  1769557018376,
+                        "serial":  "1769557018376270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557018376,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "\u001b[34mâ\u001b[39m  Nitro preset: vercel",
+                        "id":  "1769557018376270726595100001",
+                        "date":  1769557018376,
+                        "serial":  "1769557018376270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557020188,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] Building client...",
+                        "id":  "1769557020188270726595100000",
+                        "date":  1769557020188,
+                        "serial":  "1769557020188270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557020207,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[36mvite v7.3.1 \u001b[32mbuilding client environment for production...\u001b[36m\u001b[39m",
+                        "id":  "1769557020207270726595100000",
+                        "date":  1769557020207,
+                        "serial":  "1769557020207270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557020267,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] transforming...",
+                        "id":  "1769557020267270726595100000",
+                        "date":  1769557020267,
+                        "serial":  "1769557020267270726595100000"
+                    }
+    },
+    {
+        "type":  "stderr",
+        "created":  1769557023607,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "Could not fetch from `https://fonts.googleapis.com/css2`. Will retry in `1000ms`. `3` retries left.",
+                        "id":  "1769557023607270726595100000",
+                        "date":  1769557023607,
+                        "serial":  "1769557023607270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557042448,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[32mâ\u001b[39m 4122 modules transformed.",
+                        "id":  "1769557042448270726595100000",
+                        "date":  1769557042448,
+                        "serial":  "1769557042448270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557043328,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] rendering chunks...",
+                        "id":  "1769557043328270726595100000",
+                        "date":  1769557043328,
+                        "serial":  "1769557043328270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557045017,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] computing gzip size...",
+                        "id":  "1769557045017270726595100000",
+                        "date":  1769557045017,
+                        "serial":  "1769557045017270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046376,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[32mmanifest.json             \u001b[39m\u001b[1m\u001b[2m206.09 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:  12.94 kB\u001b[22m",
+                        "id":  "1769557046376270726595100000",
+                        "date":  1769557046376,
+                        "serial":  "1769557046376270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046377,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[35mPre.DmpPSE9a.css    \u001b[39m\u001b[1m\u001b[2m  0.27 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.18 kB\u001b[22m",
+                        "id":  "1769557046377270726595100000",
+                        "date":  1769557046377,
+                        "serial":  "1769557046377270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046378,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[35m_id_.BTPzamGG.css   \u001b[39m\u001b[1m\u001b[2m  0.75 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.30 kB\u001b[22m",
+                        "id":  "1769557046378270726595100000",
+                        "date":  1769557046378,
+                        "serial":  "1769557046378270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046379,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[35mentry.Mhbi3rEX.css  \u001b[39m\u001b[1m\u001b[2m232.01 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:  32.24 kB\u001b[22m",
+                        "id":  "1769557046379270726595100000",
+                        "date":  1769557046379,
+                        "serial":  "1769557046379270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046379,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mbNaE6FFb.js         \u001b[39m\u001b[1m\u001b[2m  0.08 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.10 kB\u001b[22m",
+                        "id":  "1769557046379270726595100001",
+                        "date":  1769557046379,
+                        "serial":  "1769557046379270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046380,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDAo0pmzI.js         \u001b[39m\u001b[1m\u001b[2m  0.10 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.11 kB\u001b[22m",
+                        "id":  "1769557046380270726595100000",
+                        "date":  1769557046380,
+                        "serial":  "1769557046380270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046380,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBO-ANdrx.js         \u001b[39m\u001b[1m\u001b[2m  0.15 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.15 kB\u001b[22m",
+                        "id":  "1769557046380270726595100001",
+                        "date":  1769557046380,
+                        "serial":  "1769557046380270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046381,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mMUFnqpTU.js         \u001b[39m\u001b[1m\u001b[2m  0.19 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.16 kB\u001b[22m",
+                        "id":  "1769557046381270726595100000",
+                        "date":  1769557046381,
+                        "serial":  "1769557046381270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046381,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36m2rhtb1Sf.js         \u001b[39m\u001b[1m\u001b[2m  0.34 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.27 kB\u001b[22m",
+                        "id":  "1769557046381270726595100001",
+                        "date":  1769557046381,
+                        "serial":  "1769557046381270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046382,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBer3p99R.js         \u001b[39m\u001b[1m\u001b[2m  0.34 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.27 kB\u001b[22m",
+                        "id":  "1769557046382270726595100000",
+                        "date":  1769557046382,
+                        "serial":  "1769557046382270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046382,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDquEKyx1.js         \u001b[39m\u001b[1m\u001b[2m  0.35 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.27 kB\u001b[22m",
+                        "id":  "1769557046382270726595100001",
+                        "date":  1769557046382,
+                        "serial":  "1769557046382270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046383,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDO3u6KCW.js         \u001b[39m\u001b[1m\u001b[2m  0.35 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.27 kB\u001b[22m",
+                        "id":  "1769557046383270726595100000",
+                        "date":  1769557046383,
+                        "serial":  "1769557046383270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046383,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCxPUYooE.js         \u001b[39m\u001b[1m\u001b[2m  0.36 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.27 kB\u001b[22m",
+                        "id":  "1769557046383270726595100001",
+                        "date":  1769557046383,
+                        "serial":  "1769557046383270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046383,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mC1yaoVfx.js         \u001b[39m\u001b[1m\u001b[2m  0.36 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.28 kB\u001b[22m",
+                        "id":  "1769557046383270726595100002",
+                        "date":  1769557046383,
+                        "serial":  "1769557046383270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046384,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mD7wfOgID.js         \u001b[39m\u001b[1m\u001b[2m  0.36 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.27 kB\u001b[22m",
+                        "id":  "1769557046384270726595100000",
+                        "date":  1769557046384,
+                        "serial":  "1769557046384270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046384,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mpm6SHpg8.js         \u001b[39m\u001b[1m\u001b[2m  0.36 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.28 kB\u001b[22m",
+                        "id":  "1769557046384270726595100001",
+                        "date":  1769557046384,
+                        "serial":  "1769557046384270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046385,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDh2fPNL6.js         \u001b[39m\u001b[1m\u001b[2m  0.36 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.27 kB\u001b[22m",
+                        "id":  "1769557046385270726595100000",
+                        "date":  1769557046385,
+                        "serial":  "1769557046385270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046385,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mYYaqdNpk.js         \u001b[39m\u001b[1m\u001b[2m  0.36 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.27 kB\u001b[22m",
+                        "id":  "1769557046385270726595100001",
+                        "date":  1769557046385,
+                        "serial":  "1769557046385270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046385,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCQq7OgTh.js         \u001b[39m\u001b[1m\u001b[2m  0.37 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.29 kB\u001b[22m",
+                        "id":  "1769557046385270726595100002",
+                        "date":  1769557046385,
+                        "serial":  "1769557046385270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046386,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mxgmm7kpP.js         \u001b[39m\u001b[1m\u001b[2m  0.37 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.30 kB\u001b[22m",
+                        "id":  "1769557046386270726595100000",
+                        "date":  1769557046386,
+                        "serial":  "1769557046386270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046386,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mB-PMtuDq.js         \u001b[39m\u001b[1m\u001b[2m  0.39 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.31 kB\u001b[22m",
+                        "id":  "1769557046386270726595100001",
+                        "date":  1769557046386,
+                        "serial":  "1769557046386270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046394,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDYUfmknt.js         \u001b[39m\u001b[1m\u001b[2m  0.40 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.30 kB\u001b[22m",
+                        "id":  "1769557046394270726595100000",
+                        "date":  1769557046394,
+                        "serial":  "1769557046394270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046394,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDC9D3zE0.js         \u001b[39m\u001b[1m\u001b[2m  0.40 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.31 kB\u001b[22m",
+                        "id":  "1769557046394270726595100001",
+                        "date":  1769557046394,
+                        "serial":  "1769557046394270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046394,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDosxf7mY.js         \u001b[39m\u001b[1m\u001b[2m  0.41 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.30 kB\u001b[22m",
+                        "id":  "1769557046394270726595100002",
+                        "date":  1769557046394,
+                        "serial":  "1769557046394270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046395,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mAkYzAAoZ.js         \u001b[39m\u001b[1m\u001b[2m  0.42 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.31 kB\u001b[22m",
+                        "id":  "1769557046395270726595100000",
+                        "date":  1769557046395,
+                        "serial":  "1769557046395270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046395,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDvhG3c3W.js         \u001b[39m\u001b[1m\u001b[2m  0.48 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.33 kB\u001b[22m",
+                        "id":  "1769557046395270726595100001",
+                        "date":  1769557046395,
+                        "serial":  "1769557046395270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046395,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDHTtNdy7.js         \u001b[39m\u001b[1m\u001b[2m  0.49 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.34 kB\u001b[22m",
+                        "id":  "1769557046395270726595100002",
+                        "date":  1769557046395,
+                        "serial":  "1769557046395270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046395,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCw9ZH4As.js         \u001b[39m\u001b[1m\u001b[2m  0.50 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.34 kB\u001b[22m",
+                        "id":  "1769557046395270726595100003",
+                        "date":  1769557046395,
+                        "serial":  "1769557046395270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046395,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mD0GC1YoN.js         \u001b[39m\u001b[1m\u001b[2m  0.50 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.34 kB\u001b[22m",
+                        "id":  "1769557046395270726595100004",
+                        "date":  1769557046395,
+                        "serial":  "1769557046395270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046396,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36m3SR-h5jO.js         \u001b[39m\u001b[1m\u001b[2m  0.50 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.35 kB\u001b[22m",
+                        "id":  "1769557046396270726595100000",
+                        "date":  1769557046396,
+                        "serial":  "1769557046396270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046396,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBSeJGACz.js         \u001b[39m\u001b[1m\u001b[2m  0.51 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.32 kB\u001b[22m",
+                        "id":  "1769557046396270726595100001",
+                        "date":  1769557046396,
+                        "serial":  "1769557046396270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046396,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBhevWxtE.js         \u001b[39m\u001b[1m\u001b[2m  0.52 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.38 kB\u001b[22m",
+                        "id":  "1769557046396270726595100002",
+                        "date":  1769557046396,
+                        "serial":  "1769557046396270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046396,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mV39y_KJd.js         \u001b[39m\u001b[1m\u001b[2m  0.53 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.37 kB\u001b[22m",
+                        "id":  "1769557046396270726595100003",
+                        "date":  1769557046396,
+                        "serial":  "1769557046396270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046396,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBp6g37R7.js         \u001b[39m\u001b[1m\u001b[2m  0.55 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.32 kB\u001b[22m",
+                        "id":  "1769557046396270726595100004",
+                        "date":  1769557046396,
+                        "serial":  "1769557046396270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046397,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBZsaH1v2.js         \u001b[39m\u001b[1m\u001b[2m  0.55 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.38 kB\u001b[22m",
+                        "id":  "1769557046397270726595100000",
+                        "date":  1769557046397,
+                        "serial":  "1769557046397270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046397,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDh7Sw-Xt.js         \u001b[39m\u001b[1m\u001b[2m  0.58 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.38 kB\u001b[22m",
+                        "id":  "1769557046397270726595100001",
+                        "date":  1769557046397,
+                        "serial":  "1769557046397270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046397,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBYz2LwoY.js         \u001b[39m\u001b[1m\u001b[2m  0.69 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.43 kB\u001b[22m",
+                        "id":  "1769557046397270726595100002",
+                        "date":  1769557046397,
+                        "serial":  "1769557046397270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046397,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCq5zzVJU.js         \u001b[39m\u001b[1m\u001b[2m  0.70 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.42 kB\u001b[22m",
+                        "id":  "1769557046397270726595100003",
+                        "date":  1769557046397,
+                        "serial":  "1769557046397270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046397,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36muFReK4py.js         \u001b[39m\u001b[1m\u001b[2m  0.70 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.42 kB\u001b[22m",
+                        "id":  "1769557046397270726595100004",
+                        "date":  1769557046397,
+                        "serial":  "1769557046397270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046397,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mB_m7g4N7.js         \u001b[39m\u001b[1m\u001b[2m  0.74 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.34 kB\u001b[22m",
+                        "id":  "1769557046397270726595100005",
+                        "date":  1769557046397,
+                        "serial":  "1769557046397270726595100005"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046398,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDsWVLrEy.js         \u001b[39m\u001b[1m\u001b[2m  0.81 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.47 kB\u001b[22m",
+                        "id":  "1769557046398270726595100000",
+                        "date":  1769557046398,
+                        "serial":  "1769557046398270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046398,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDu0ILRF9.js         \u001b[39m\u001b[1m\u001b[2m  0.84 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.46 kB\u001b[22m",
+                        "id":  "1769557046398270726595100001",
+                        "date":  1769557046398,
+                        "serial":  "1769557046398270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046398,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mSRO_-4cu.js         \u001b[39m\u001b[1m\u001b[2m  0.84 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.53 kB\u001b[22m",
+                        "id":  "1769557046398270726595100002",
+                        "date":  1769557046398,
+                        "serial":  "1769557046398270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046398,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBLRD4I-I.js         \u001b[39m\u001b[1m\u001b[2m  0.87 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.54 kB\u001b[22m",
+                        "id":  "1769557046398270726595100003",
+                        "date":  1769557046398,
+                        "serial":  "1769557046398270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046398,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDGP4VlC8.js         \u001b[39m\u001b[1m\u001b[2m  0.88 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.48 kB\u001b[22m",
+                        "id":  "1769557046398270726595100004",
+                        "date":  1769557046398,
+                        "serial":  "1769557046398270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046398,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDCxU_Oyf.js         \u001b[39m\u001b[1m\u001b[2m  0.90 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.53 kB\u001b[22m",
+                        "id":  "1769557046398270726595100005",
+                        "date":  1769557046398,
+                        "serial":  "1769557046398270726595100005"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046399,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mB33Itjk7.js         \u001b[39m\u001b[1m\u001b[2m  0.92 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.53 kB\u001b[22m",
+                        "id":  "1769557046399270726595100000",
+                        "date":  1769557046399,
+                        "serial":  "1769557046399270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046399,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCSXwinHm.js         \u001b[39m\u001b[1m\u001b[2m  0.97 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.43 kB\u001b[22m",
+                        "id":  "1769557046399270726595100001",
+                        "date":  1769557046399,
+                        "serial":  "1769557046399270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046399,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDJj2A_0L.js         \u001b[39m\u001b[1m\u001b[2m  0.98 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.52 kB\u001b[22m",
+                        "id":  "1769557046399270726595100002",
+                        "date":  1769557046399,
+                        "serial":  "1769557046399270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046399,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mC8lEn-DE.js         \u001b[39m\u001b[1m\u001b[2m  1.00 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.45 kB\u001b[22m",
+                        "id":  "1769557046399270726595100003",
+                        "date":  1769557046399,
+                        "serial":  "1769557046399270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046399,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36miik6CYzq.js         \u001b[39m\u001b[1m\u001b[2m  1.12 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.53 kB\u001b[22m",
+                        "id":  "1769557046399270726595100004",
+                        "date":  1769557046399,
+                        "serial":  "1769557046399270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046399,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mfuZLfV_i.js         \u001b[39m\u001b[1m\u001b[2m  1.14 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.37 kB\u001b[22m",
+                        "id":  "1769557046399270726595100005",
+                        "date":  1769557046399,
+                        "serial":  "1769557046399270726595100005"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046400,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCxGSJlkm.js         \u001b[39m\u001b[1m\u001b[2m  1.23 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.52 kB\u001b[22m",
+                        "id":  "1769557046400270726595100000",
+                        "date":  1769557046400,
+                        "serial":  "1769557046400270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046405,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDtcfXAZk.js         \u001b[39m\u001b[1m\u001b[2m  1.23 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.63 kB\u001b[22m",
+                        "id":  "1769557046405270726595100000",
+                        "date":  1769557046405,
+                        "serial":  "1769557046405270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046406,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36myv6CvBhz.js         \u001b[39m\u001b[1m\u001b[2m  1.38 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.52 kB\u001b[22m",
+                        "id":  "1769557046406270726595100000",
+                        "date":  1769557046406,
+                        "serial":  "1769557046406270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046406,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDa5cRb03.js         \u001b[39m\u001b[1m\u001b[2m  1.42 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.53 kB\u001b[22m",
+                        "id":  "1769557046406270726595100001",
+                        "date":  1769557046406,
+                        "serial":  "1769557046406270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046406,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mD6-lNfiM.js         \u001b[39m\u001b[1m\u001b[2m  1.47 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.79 kB\u001b[22m",
+                        "id":  "1769557046406270726595100002",
+                        "date":  1769557046406,
+                        "serial":  "1769557046406270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046407,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCFgMf4vx.js         \u001b[39m\u001b[1m\u001b[2m  1.47 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.79 kB\u001b[22m",
+                        "id":  "1769557046407270726595100000",
+                        "date":  1769557046407,
+                        "serial":  "1769557046407270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046407,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBRZ36xJF.js         \u001b[39m\u001b[1m\u001b[2m  1.47 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.81 kB\u001b[22m",
+                        "id":  "1769557046407270726595100001",
+                        "date":  1769557046407,
+                        "serial":  "1769557046407270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046407,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBEwlwnbL.js         \u001b[39m\u001b[1m\u001b[2m  1.53 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.50 kB\u001b[22m",
+                        "id":  "1769557046407270726595100002",
+                        "date":  1769557046407,
+                        "serial":  "1769557046407270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046407,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDMXQ10s_.js         \u001b[39m\u001b[1m\u001b[2m  1.54 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.81 kB\u001b[22m",
+                        "id":  "1769557046407270726595100003",
+                        "date":  1769557046407,
+                        "serial":  "1769557046407270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046408,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCvqV6M-J.js         \u001b[39m\u001b[1m\u001b[2m  1.64 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.83 kB\u001b[22m",
+                        "id":  "1769557046408270726595100000",
+                        "date":  1769557046408,
+                        "serial":  "1769557046408270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046409,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mB7c-h3xW.js         \u001b[39m\u001b[1m\u001b[2m  1.65 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.69 kB\u001b[22m",
+                        "id":  "1769557046409270726595100000",
+                        "date":  1769557046409,
+                        "serial":  "1769557046409270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046409,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36miUS6XgSE.js         \u001b[39m\u001b[1m\u001b[2m  1.67 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.75 kB\u001b[22m",
+                        "id":  "1769557046409270726595100001",
+                        "date":  1769557046409,
+                        "serial":  "1769557046409270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046409,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDWrx1Km3.js         \u001b[39m\u001b[1m\u001b[2m  1.74 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.88 kB\u001b[22m",
+                        "id":  "1769557046409270726595100002",
+                        "date":  1769557046409,
+                        "serial":  "1769557046409270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046409,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBcOcwvcX.js         \u001b[39m\u001b[1m\u001b[2m  1.74 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.60 kB\u001b[22m",
+                        "id":  "1769557046409270726595100003",
+                        "date":  1769557046409,
+                        "serial":  "1769557046409270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046410,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDnW0Ua7l.js         \u001b[39m\u001b[1m\u001b[2m  1.75 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.87 kB\u001b[22m",
+                        "id":  "1769557046410270726595100000",
+                        "date":  1769557046410,
+                        "serial":  "1769557046410270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046410,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCms21cMU.js         \u001b[39m\u001b[1m\u001b[2m  1.77 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.82 kB\u001b[22m",
+                        "id":  "1769557046410270726595100001",
+                        "date":  1769557046410,
+                        "serial":  "1769557046410270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046413,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBmXAJ9_W.js         \u001b[39m\u001b[1m\u001b[2m  1.83 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.76 kB\u001b[22m",
+                        "id":  "1769557046413270726595100000",
+                        "date":  1769557046413,
+                        "serial":  "1769557046413270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046414,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDOu4nyxC.js         \u001b[39m\u001b[1m\u001b[2m  1.90 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.63 kB\u001b[22m",
+                        "id":  "1769557046414270726595100000",
+                        "date":  1769557046414,
+                        "serial":  "1769557046414270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046414,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mB6MTpWh5.js         \u001b[39m\u001b[1m\u001b[2m  1.95 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.97 kB\u001b[22m",
+                        "id":  "1769557046414270726595100001",
+                        "date":  1769557046414,
+                        "serial":  "1769557046414270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046417,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDp2gbqrG.js         \u001b[39m\u001b[1m\u001b[2m  2.05 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.99 kB\u001b[22m",
+                        "id":  "1769557046417270726595100000",
+                        "date":  1769557046417,
+                        "serial":  "1769557046417270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046418,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBV7otONQ.js         \u001b[39m\u001b[1m\u001b[2m  2.16 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   1.09 kB\u001b[22m",
+                        "id":  "1769557046418270726595100000",
+                        "date":  1769557046418,
+                        "serial":  "1769557046418270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046418,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mC2t-YnRu.js         \u001b[39m\u001b[1m\u001b[2m  2.24 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.62 kB\u001b[22m",
+                        "id":  "1769557046418270726595100001",
+                        "date":  1769557046418,
+                        "serial":  "1769557046418270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046418,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDZu-aV2c.js         \u001b[39m\u001b[1m\u001b[2m  2.32 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.68 kB\u001b[22m",
+                        "id":  "1769557046418270726595100002",
+                        "date":  1769557046418,
+                        "serial":  "1769557046418270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046418,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mC-SQnVFl.js         \u001b[39m\u001b[1m\u001b[2m  2.35 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.70 kB\u001b[22m",
+                        "id":  "1769557046418270726595100003",
+                        "date":  1769557046418,
+                        "serial":  "1769557046418270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046418,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDXx00hUE.js         \u001b[39m\u001b[1m\u001b[2m  2.50 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.77 kB\u001b[22m",
+                        "id":  "1769557046418270726595100004",
+                        "date":  1769557046418,
+                        "serial":  "1769557046418270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046419,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mD97Zzqfu.js         \u001b[39m\u001b[1m\u001b[2m  2.57 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.70 kB\u001b[22m",
+                        "id":  "1769557046419270726595100000",
+                        "date":  1769557046419,
+                        "serial":  "1769557046419270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046419,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBspZqrRM.js         \u001b[39m\u001b[1m\u001b[2m  2.58 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.82 kB\u001b[22m",
+                        "id":  "1769557046419270726595100001",
+                        "date":  1769557046419,
+                        "serial":  "1769557046419270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046419,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDFXneXwc.js         \u001b[39m\u001b[1m\u001b[2m  2.65 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   1.18 kB\u001b[22m",
+                        "id":  "1769557046419270726595100002",
+                        "date":  1769557046419,
+                        "serial":  "1769557046419270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046419,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCp-IABpG.js         \u001b[39m\u001b[1m\u001b[2m  2.82 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.78 kB\u001b[22m",
+                        "id":  "1769557046419270726595100003",
+                        "date":  1769557046419,
+                        "serial":  "1769557046419270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046419,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mC4EeE6gA.js         \u001b[39m\u001b[1m\u001b[2m  2.82 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   1.01 kB\u001b[22m",
+                        "id":  "1769557046419270726595100004",
+                        "date":  1769557046419,
+                        "serial":  "1769557046419270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046419,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36m2UxHyX5q.js         \u001b[39m\u001b[1m\u001b[2m  2.85 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.90 kB\u001b[22m",
+                        "id":  "1769557046419270726595100005",
+                        "date":  1769557046419,
+                        "serial":  "1769557046419270726595100005"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046420,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCO1LY3CK.js         \u001b[39m\u001b[1m\u001b[2m  2.93 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.80 kB\u001b[22m",
+                        "id":  "1769557046420270726595100000",
+                        "date":  1769557046420,
+                        "serial":  "1769557046420270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046420,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCaxDtEHX.js         \u001b[39m\u001b[1m\u001b[2m  2.94 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   1.55 kB\u001b[22m",
+                        "id":  "1769557046420270726595100001",
+                        "date":  1769557046420,
+                        "serial":  "1769557046420270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046420,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBkV2qep-.js         \u001b[39m\u001b[1m\u001b[2m  2.97 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   1.40 kB\u001b[22m",
+                        "id":  "1769557046420270726595100002",
+                        "date":  1769557046420,
+                        "serial":  "1769557046420270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046420,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36muYugtg8r.js         \u001b[39m\u001b[1m\u001b[2m  3.01 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.81 kB\u001b[22m",
+                        "id":  "1769557046420270726595100003",
+                        "date":  1769557046420,
+                        "serial":  "1769557046420270726595100003"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046420,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDcaNXYhu.js         \u001b[39m\u001b[1m\u001b[2m  3.01 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.79 kB\u001b[22m",
+                        "id":  "1769557046420270726595100004",
+                        "date":  1769557046420,
+                        "serial":  "1769557046420270726595100004"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046420,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mDes-eS-w.js         \u001b[39m\u001b[1m\u001b[2m  3.11 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.80 kB\u001b[22m",
+                        "id":  "1769557046420270726595100005",
+                        "date":  1769557046420,
+                        "serial":  "1769557046420270726595100005"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046421,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBtOb2qkB.js         \u001b[39m\u001b[1m\u001b[2m  3.13 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   1.47 kB\u001b[22m",
+                        "id":  "1769557046421270726595100000",
+                        "date":  1769557046421,
+                        "serial":  "1769557046421270726595100000"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046421,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mBTJTHyun.js         \u001b[39m\u001b[1m\u001b[2m  3.24 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.91 kB\u001b[22m",
+                        "id":  "1769557046421270726595100001",
+                        "date":  1769557046421,
+                        "serial":  "1769557046421270726595100001"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046421,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mC9tS-k6U.js         \u001b[39m\u001b[1m\u001b[2m  3.25 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   0.83 kB\u001b[22m",
+                        "id":  "1769557046421270726595100002",
+                        "date":  1769557046421,
+                        "serial":  "1769557046421270726595100002"
+                    }
+    },
+    {
+        "type":  "stdout",
+        "created":  1769557046421,
+        "payload":  {
+                        "deploymentId":  "dpl_5GybZZbmCERoSguMU8Y54Rw7y7Mk",
+                        "info":  {
+                                     "type":  "build",
+                                     "name":  "bld_67af4ojh6",
+                                     "entrypoint":  "."
+                                 },
+                        "text":  "[info] \u001b[2m../node_modules/.cache/nuxt/.nuxt/dist/client/\u001b[22m\u001b[2m_nuxt/\u001b[22m\u001b[36mCKIfxQSi.js         \u001b[39m\u001b[1m\u001b[2m  3.26 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m â gzip:   1.18 kB\u001b[22m",
+                        "id":  "1769557046421270726595100003",
+                        "date":  1769557046421,
+                        "serial":  "1769557046421270726595100003"
+                    }
+    }
+]

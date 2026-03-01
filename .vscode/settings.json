@@ -1,0 +1,14 @@
+{
+  // Use the workspace TypeScript version to match project dependencies
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+
+  // Keep tsserver logging off by default (turn on for debugging)
+  "typescript.tsserver.log": "off",
+
+  // Ensure editor uses workspace node modules for ESLint/TS
+  "eslint.nodePath": "node_modules",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}
