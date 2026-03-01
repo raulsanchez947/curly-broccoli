@@ -9,6 +9,6 @@
   // Ensure editor uses workspace node modules for ESLint/TS
   "eslint.nodePath": "node_modules",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   }
 }
