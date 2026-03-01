@@ -1,0 +1,5 @@
+# placeholder to satisfy Vercel root directory configuration
+
+This directory is empty on purpose. It exists only so that the Vercel project setting
+for "Root Directory" (currently set to ".Apartment Website") stops throwing an error.
+Remove this folder once the setting is updated to the repo root.
