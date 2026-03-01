@@ -5,6 +5,10 @@ function TenantCalculator(){
   const [paymentStandard, setPaymentStandard] = useState<number | ''>('')
   const [contractRent, setContractRent] = useState<number | ''>('')
   const [utilityAllowance, setUtilityAllowance] = useState<number | ''>('')
+  const [allCitizens, setAllCitizens] = useState<'yes' | 'no' | null>(null)
+  const [totalHousehold, setTotalHousehold] = useState<number | ''>('')
+  const [eligibleMembers, setEligibleMembers] = useState<number | ''>('')
+  const [showModal, setShowModal] = useState(false)
 
   // gross is treated as ANNUAL gross income for this calculator
   const g = Number(gross || 0)
@@ -15,10 +19,60 @@ function TenantCalculator(){
   const ua = Number(utilityAllowance || 0)
   const applicableRent = cr > 0 ? cr : ps
   const rentPortion = Math.max(0, applicableRent - ua)
-  const subsidy = Math.max(0, Math.min(ps || applicableRent, rentPortion) - tenantShare)
+  
+  // Pro-ration calculations
+  const totalHH = Number(totalHousehold || 0)
+  const eligible = Number(eligibleMembers || 0)
+  const hasProration = allCitizens === 'no' && totalHH > 0 && eligible > 0
+  const prorationType = hasProration && eligible > 0 ? 'member-max' : 'full'
+  
+  let baseMemberMax = Math.max(0, Math.min(ps || applicableRent, rentPortion) - tenantShare)
+  let proratedSubsidy = baseMemberMax
+  
+  if (hasProration) {
+    // Proration factor = eligible members / total household
+    const prorFactor = eligible / totalHH
+    proratedSubsidy = Math.max(0, baseMemberMax * prorFactor)
+  }
+
+  const subsidy = proratedSubsidy
+  
+  // Reset modal when allCitizens changes to 'yes'
+  const handleCitizenYes = () => {
+    setAllCitizens('yes')
+    setShowModal(false)
+    setTotalHousehold('')
+    setEligibleMembers('')
+  }
+
+  const handleCitizenNo = () => {
+    setAllCitizens('no')
+    setShowModal(true)
+  }
 
   return (
     <div className="space-y-2 text-sm">
+      {/* Citizenship Question */}
+      <div className="bg-blue-50 p-3 border border-blue-200 rounded">
+        <p className="font-semibold mb-2">Are all household members U.S. citizens or have eligible immigration status?</p>
+        <div className="flex gap-2">
+          <button onClick={handleCitizenYes} className={`px-4 py-2 rounded ${allCitizens === 'yes' ? 'bg-blue-600 text-white' : 'bg-white border'}`}>Yes</button>
+          <button onClick={handleCitizenNo} className={`px-4 py-2 rounded ${allCitizens === 'no' ? 'bg-red-600 text-white' : 'bg-white border'}`}>No</button>
+        </div>
+      </div>
+
+      {/* Pro-ration Modal */}
+      {showModal && (
+        <div className="border-l-4 border-orange-400 bg-orange-50 p-3 rounded">
+          <p className="font-semibold mb-2">Household Composition (for pro-ration)</p>
+          <div className="grid grid-cols-2 gap-2">
+            <input type="number" placeholder="Total household members" value={totalHousehold as any} onChange={e=>setTotalHousehold(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" min="1" />
+            <input type="number" placeholder="Eligible members (citizens)" value={eligibleMembers as any} onChange={e=>setEligibleMembers(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" min="0" />
+          </div>
+          <p className="text-xs text-gray-600 mt-2">The Housing Assistance Payment (HAP) will be pro-rated based on the ratio of eligible family members to total household size.</p>
+        </div>
+      )}
+
       <div className="grid grid-cols-2 gap-2">
         <input type="number" placeholder="Gross annual Household income" value={gross as any} onChange={e=>setGross(e.target.value?Number(e.target.value):'')} className="p-2 border rounded" />
         <div className="p-2 text-sm text-gray-600">(annual)</div>
@@ -31,8 +85,17 @@ function TenantCalculator(){
         <div><strong>Adjusted monthly income:</strong> ${adjMonthly.toFixed(0)}</div>
         <div><strong>Estimated tenant share (30% monthly):</strong> ${tenantShare}</div>
         <div><strong>Rent portion (rent minus utilities):</strong> ${rentPortion.toFixed(0)}</div>
-        <div><strong>Estimated subsidy (approx):</strong> ${subsidy.toFixed(0)}</div>
-        <div className="text-xs text-gray-600 mt-1">Notes: This is an estimate. PHAs apply local deductions and rules. If contract rent &lt; payment standard, subsidy uses contract rent.</div>
+        {hasProration && (
+          <>
+            <div><strong>Proration factor:</strong> {eligible}/{totalHH} = {(eligible/totalHH).toFixed(3)}</div>
+            <div><strong>Member maximum subsidy:</strong> ${baseMemberMax.toFixed(0)}</div>
+            <div><strong>Estimated subsidy (pro-rated):</strong> ${proratedSubsidy.toFixed(0)}</div>
+          </>
+        )}
+        {allCitizens === 'yes' && (
+          <div><strong>Estimated subsidy (approx):</strong> ${subsidy.toFixed(0)}</div>
+        )}
+        <div className="text-xs text-gray-600 mt-1">Notes: This is an estimate. PHAs apply local deductions and rules. If contract rent &lt; payment standard, subsidy uses contract rent. For mixed families with non-citizens, the subsidy is pro-rated by the eligible member ratio.</div>
       </div>
     </div>
   )
@@ -199,6 +262,10 @@ export default function Resources(){
               </div>
             </div>
             <p className="text-sm">Important: Local rules vary widely. Contact your administering PHA for exact calculation rules, allowable deductions, utility responsibilities (tenant vs. PHA), and payment standards. Keep pay stubs and documentation ready.</p>
+            <div className="mt-2 p-3 bg-blue-50 border border-blue-200 rounded text-sm">
+              <strong>💡 Resource: Exception Payment Standards (NYC)</strong>
+              <p className="mt-1">If your rent is higher than the standard payment amount, your PHA may use an Exception Payment Standard (EPS). View <a className="text-blue-600 underline" href="https://www.nyc.gov/assets/hpd/downloads/pdfs/services/ps-and-eps-values.pdf" target="_blank" rel="noreferrer">NYC's Payment Standard and Exception Payment Standard values</a> to see if your unit qualifies for a higher subsidy under EPS rules.</p>
+            </div>
             <div className="mt-2 p-3 bg-yellow-50 border-l-4 border-yellow-300 rounded text-sm">
               <strong>Disclaimer (mixed families):</strong> When a mixed family is involved in Section 8 housing assistance, the Housing Assistance Payment (HAP) is adjusted based on the number of eligible family members. The HAP is prorated by dividing the number of eligible family members by the total number in the family to find the proration factor, and multiplying the HAP by this factor. For families with ineligible non-citizens, assistance is prorated by dividing the number of eligible family members by the total family size to determine the member maximum subsidy, and then multiplying by the number of eligible family members to determine the eligible subsidy amount. Contact your PHA for exact proration methods and required documentation.
             </div>
